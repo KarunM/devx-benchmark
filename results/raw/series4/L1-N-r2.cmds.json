@@ -1,0 +1,7 @@
+[
+ [
+  "/bin/zsh -lc \"grep -R -n --exclude-dir=.git -E '\"'^[[:space:]]*def[[:space:]]+factorint'\"\\\\b|\"'^[[:space:]]*function[[:space:]]+factorint'\"\\\\b' .\"",
+  105,
+  0
+ ]
+]

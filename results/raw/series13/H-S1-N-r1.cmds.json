@@ -1,0 +1,9 @@
+[
+ {
+  "tool": "Bash",
+  "kind": "shell",
+  "command": "awk '/^class SubsSet/{f=1;next} /^class /{f=0} f && /^    def /{print NR\": \"$0}' sympy/series/gruntz.py",
+  "bytes": 221,
+  "is_error": false
+ }
+]

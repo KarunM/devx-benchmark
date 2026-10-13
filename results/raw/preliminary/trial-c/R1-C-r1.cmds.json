@@ -1,0 +1,12 @@
+[
+ [
+  "/bin/zsh -lc 'devx read method \"sympy.core.symbol.Dummy.__new__\" --session <SESSION-F2> --format agent'",
+  2700,
+  134
+ ],
+ [
+  "/bin/zsh -lc 'devx search text \"dummy_index\" --session <SESSION-F2> --format agent'",
+  2660,
+  134
+ ]
+]

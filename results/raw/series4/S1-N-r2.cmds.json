@@ -1,0 +1,12 @@
+[
+ [
+  "/bin/zsh -lc \"grep -n '\"'^class Symbol'\"\\\\|\"'^    def '\"' sympy/core/symbol.py\"",
+  1490,
+  0
+ ],
+ [
+  "/bin/zsh -lc \"sed -n '200,478p' sympy/core/symbol.py\"",
+  8577,
+  0
+ ]
+]

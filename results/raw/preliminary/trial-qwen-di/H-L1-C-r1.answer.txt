@@ -1,0 +1,3 @@
+
+
+The function `limitinf` is defined in **`sympy/series/gruntz.py:428`**.

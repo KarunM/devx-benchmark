@@ -1,0 +1,25 @@
+task,arm,verdict,reason
+H-L1,C,correct,matches expected
+H-L1,N,correct,matches expected
+H-L2,C,correct,matches expected
+H-L2,N,correct,matches expected
+H-R1,C,correct,matches expected
+H-R1,N,correct,matches expected
+H-S1,C,correct,matches expected
+H-S1,N,correct,matches expected
+H-X1,C,correct,matches expected
+H-X1,N,correct,matches expected
+H-M1,C,correct,matches expected
+H-M1,N,correct,matches expected
+H-L3,C,correct,matches expected
+H-L3,N,correct,matches expected
+H-R2,C,correct,matches expected
+H-R2,N,correct,matches expected
+H-R3,C,correct,matches expected
+H-R3,N,correct,matches expected
+H-S2,C,correct,matches expected
+H-S2,N,correct,matches expected
+H-X2,C,correct,matches expected
+H-X2,N,correct,matches expected
+H-M2,C,correct,matches expected
+H-M2,N,correct,matches expected

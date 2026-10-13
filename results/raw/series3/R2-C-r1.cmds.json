@@ -1,0 +1,7 @@
+[
+ [
+  "/bin/zsh -lc 'devx search symbol \"Symbol._sanitize\" --session \"<SESSION-F2>\" --agent codex'",
+  867,
+  0
+ ]
+]

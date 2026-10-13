@@ -1,0 +1,32 @@
+[
+ [
+  "/bin/zsh -lc 'devx search text \"_symbol(\" --session <SESSION-F2> --format agent'",
+  1301,
+  0
+ ],
+ [
+  "/bin/zsh -lc 'devx search text \"_symbol(\" \"return _symbol\" --session <SESSION-F2> --format agent'",
+  134,
+  0
+ ],
+ [
+  "/bin/zsh -lc 'devx read type \"sympy.core.symbol.Symbol\" --session <SESSION-F2> --format agent'",
+  1216,
+  0
+ ],
+ [
+  "/bin/zsh -lc 'devx search text \"_symbol\" --session <SESSION-F2> --format agent'",
+  2303,
+  0
+ ],
+ [
+  "/bin/zsh -lc 'devx read method \"sympy.core.symbol.<module>._symbol\" --session <SESSION-F2> --format agent'",
+  1701,
+  0
+ ],
+ [
+  "/bin/zsh -lc 'devx search symbol \"sympy.core.symbol.symbols\" --session <SESSION-F2> --format agent'",
+  48,
+  0
+ ]
+]

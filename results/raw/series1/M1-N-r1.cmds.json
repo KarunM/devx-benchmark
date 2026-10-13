@@ -1,0 +1,12 @@
+[
+ [
+  "/bin/zsh -lc \"grep -n -E '\"'^class Symbol|to_nnf'\"' sympy/core/symbol.py sympy/logic/*.py\"",
+  2379,
+  0
+ ],
+ [
+  "/bin/zsh -lc \"sed -n '110,140p' sympy/logic/boolalg.py; sed -n '460,500p' sympy/logic/boolalg.py\"",
+  2136,
+  0
+ ]
+]

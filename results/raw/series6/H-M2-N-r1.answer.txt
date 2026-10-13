@@ -1,0 +1,2 @@
+- `SqliteSessionStore.MarkSymbolExpandedAsync` — `src/DevX.Infrastructure/Storage/SQLite/SqliteSessionStore.cs:101`
+- `SqliteSessionStore.MarkFileExpandedAsync` — `src/DevX.Infrastructure/Storage/SQLite/SqliteSessionStore.cs:107`

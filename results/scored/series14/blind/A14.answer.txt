@@ -1,0 +1,6 @@
+
+
+The callers of `RequireSessionAsync` with names starting with `Mark` are:
+
+- `DevX.Infrastructure.Storage.SQLite.SqliteSessionStore.MarkFileExpandedAsync` — [SqliteSessionStore.cs](src/DevX.Infrastructure/Storage/SQLite/SqliteSessionStore.cs)
+- `DevX.Infrastructure.Storage.SQLite.SqliteSessionStore.MarkSymbolExpandedAsync` — [SqliteSessionStore.cs](src/DevX.Infrastructure/Storage/SQLite/SqliteSessionStore.cs)

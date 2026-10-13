@@ -1,0 +1,6 @@
+Two functions call `mrv_leadterm`, defined at `sympy/series/gruntz.py:530`:
+
+- **`sign`** (`sympy/series/gruntz.py:368`) calls it once at `sympy/series/gruntz.py:421`.
+- **`limitinf`** (`sympy/series/gruntz.py:428`) calls it four times, at lines 449 (twice), 451 and 453.
+
+`mrv_leadterm` doesn't call itself, and the matches at lines 78–111 are in the module docstring.

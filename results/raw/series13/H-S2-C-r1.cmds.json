@@ -1,0 +1,9 @@
+[
+ {
+  "tool": "Bash",
+  "kind": "devx",
+  "command": "devx read type \"SandboxManager\" --session <SESSION-F3> --agent claude",
+  "bytes": 863,
+  "is_error": false
+ }
+]

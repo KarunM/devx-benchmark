@@ -1,0 +1,2 @@
+- `DevX.Infrastructure.Storage.SQLite.RipgrepContentSearcher.TrySearch(string, string, out List<Hit>, out bool, CancellationToken)` — `src/DevX.Infrastructure/Storage/SQLite/RipgrepContentSearcher.cs:42`
+- `DoctorAsync(string, string[], string)` — `src/DevX.Cli/Program.cs:1272`

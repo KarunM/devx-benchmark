@@ -1,0 +1,5 @@
+In `DevX.Cli.SearchReplaceBlockParser.Parse` (`src/DevX.Cli/SearchReplaceBlockParser.cs:12`):
+- **Empty or whitespace response:** returns `"zero_blocks"` at line 16, from the `string.IsNullOrWhiteSpace(response)` check. The same message is also returned at the end of the method if no blocks were parsed.
+- **Markdown code fence (```):** returns `"markdown_fence_outside_blocks"` at line 22. This check runs after line endings are normalized and before any block is parsed.
+
+Both cases return `new SearchReplaceParseResult(false, <message>, [])`.

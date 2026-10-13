@@ -1,0 +1,5 @@
+`SandboxManager` defines five public methods directly. I left out the constructor (line 14) and the properties `SandboxRoot` and `OriginalRoot` (lines 11–12):
+- `src/DevX.Cli/SandboxManager.cs:24` `SandboxManager.CopySourceTree()`
+- `src/DevX.Cli/SandboxManager.cs:32` `SandboxManager.ApplyChanges()`
+- `src/DevX.Cli/SandboxManager.cs:47` `SandboxManager.GetChangedFiles()`, returns `IReadOnlyList<string>`
+- `src/DevX.Cli/SandboxManager.cs:72` `SandboxManager.GetUnifiedDiff(int contextLines = 3)`, returns `string`; `:117` `SandboxManager.Dispose()`, from `IDisposable`

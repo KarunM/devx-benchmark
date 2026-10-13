@@ -1,0 +1,22 @@
+[
+ [
+  "/bin/zsh -lc 'find <F2> -path \"*/sympy/series/gruntz.py\" 2>/dev/null'",
+  81,
+  0
+ ],
+ [
+  "/bin/zsh -lc \"grep -n 'mrv_leadterm' <F2>/sympy/series/gruntz.py\"",
+  432,
+  0
+ ],
+ [
+  "/bin/zsh -lc \"awk '/\"'^def / {fname=$0; line=NR} NR==421 || NR==449 || NR==451 || NR==453 {print line, fname}'\"' <F2>/sympy/series/gruntz.py\"",
+  92,
+  0
+ ],
+ [
+  "/bin/zsh -lc \"python3 -c \\\"\nlines = open('<F2>/sympy/series/gruntz.py').readlines()\ncall_lines = {421, 449, 451, 453}\nfuncs = []\nfor i, l in enumerate(lines):\n    if l.startswith('def ') or l.startswith('    def '):\n        funcs.append((i+1, l.strip().split('(')[0].replace('def ','')))\nresult = {}\nfor cl in call_lines:\n    f = None\n    for start, name in reversed(funcs):\n        if start <= cl:\n            f = name\n            break\n    result[cl] = f\nprint(result)\n\\\"\"",
+  175,
+  0
+ ]
+]

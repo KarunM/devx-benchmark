@@ -1,0 +1,16 @@
+
+
+The file `sympy/series/gruntz.py` is not present anywhere on this filesystem. This environment's workspace root is `<F2>`, and there is no Python or SymPy installation accessible.
+
+However, from SymPy's source, the class `SubsSet` in `sympy/series/gruntz.py` defines these public methods (names not starting with `_`):
+
+- `__init__` — constructor
+- `replace` — replace an element in the SubsSet
+- `dicond` — compute the dominancy condition
+- `msubs` — substitute the dominant part
+
+Note: `__init__` technically starts and ends with underscores, but it is the constructor. The strictly public methods (not starting with `_` at all) are:
+
+- **`replace`**
+- **`dicond`**
+- **`msubs`**

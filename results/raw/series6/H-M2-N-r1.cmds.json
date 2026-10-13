@@ -1,0 +1,12 @@
+[
+ [
+  "/bin/zsh -lc \"grep -RIn --include='*.cs' 'Session not found\\\\.' .\"",
+  1287,
+  0
+ ],
+ [
+  "/bin/zsh -lc \"sed -n '1,260p' src/DevX.Infrastructure/Storage/SQLite/SqliteSessionStore.cs\"",
+  12844,
+  0
+ ]
+]

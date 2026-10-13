@@ -1,0 +1,12 @@
+[
+ [
+  "/bin/zsh -lc 'cd <F2> && grep -n \"class C99CodePrinter\" sympy/printing/c.py && grep -rn \"class CodePrinter\" sympy/printing/codeprinter.py'",
+  106,
+  0
+ ],
+ [
+  "/bin/zsh -lc 'cd <F2> && grep -n \"''^class C89CodePrinter\" sympy/printing/c.py'",
+  39,
+  0
+ ]
+]

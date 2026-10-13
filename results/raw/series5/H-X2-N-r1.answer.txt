@@ -1,0 +1,2 @@
+- [src/DevX.Cli/Program.cs:1272](<F3>/src/DevX.Cli/Program.cs:1272) — top-level program code
+- [src/DevX.Infrastructure/Storage/SQLite/RipgrepContentSearcher.cs:42](<F3>/src/DevX.Infrastructure/Storage/SQLite/RipgrepContentSearcher.cs:42) — `RipgrepContentSearcher.TrySearch(string, string, out List<Hit>, out bool, CancellationToken)`

@@ -1,0 +1,6 @@
+
+
+Two functions in `sympy/series/gruntz.py` call `mrv_leadterm`:
+
+- **`sign`** — line 421
+- **`limitinf`** — lines 449, 451, 453

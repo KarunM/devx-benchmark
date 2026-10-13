@@ -1,0 +1,1 @@
+`uniquely_named_symbol` in `sympy/core/symbol.py` calls `_symbol` at lines 193 and 203.

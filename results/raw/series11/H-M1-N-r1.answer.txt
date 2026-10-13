@@ -1,0 +1,1 @@
+`C89CodePrinter` — `sympy/printing/c.py:147`. It inherits from `CodePrinter`, defined at `sympy/printing/codeprinter.py:53`.

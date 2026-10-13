@@ -1,0 +1,7 @@
+[
+ [
+  "/bin/zsh -lc \"grep -nE '\"'^class (C99CodePrinter|C89CodePrinter|CodePrinter|Printer)'\"\\\\b' sympy/printing/c.py sympy/printing/codeprinter.py\"",
+  185,
+  0
+ ]
+]

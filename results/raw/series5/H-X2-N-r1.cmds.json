@@ -1,0 +1,7 @@
+[
+ [
+  "/bin/zsh -lc \"rg -n -C 3 'RipgrepLocator\\\\.Locate|Locate\\\\(' src\"",
+  2555,
+  0
+ ]
+]

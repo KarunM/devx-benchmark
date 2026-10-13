@@ -1,0 +1,1 @@
+`ValueError` is raised at [sympy/core/symbol.py:297](<F2>/sympy/core/symbol.py:297). Its message is `commutativity must be True or False.`; if `obj` is provided, its name is prefixed.

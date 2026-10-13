@@ -1,0 +1,2 @@
+`_perfect_power` — `sympy/ntheory/factor_.py:330`  
+`factorint` — `sympy/ntheory/factor_.py:1318`

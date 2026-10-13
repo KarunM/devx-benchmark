@@ -1,0 +1,4 @@
+- `sympy.series.gruntz.SubsSet.copy`
+- `sympy.series.gruntz.SubsSet.do_subs`
+- `sympy.series.gruntz.SubsSet.meets`
+- `sympy.series.gruntz.SubsSet.union`

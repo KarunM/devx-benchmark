@@ -1,0 +1,8 @@
+Public methods defined directly in `class SubsSet` (sympy/series/gruntz.py):
+
+- `do_subs` — gruntz.py:213
+- `meets` — gruntz.py:219
+- `union` — gruntz.py:223
+- `copy` — gruntz.py:238
+
+(`__init__`, `__repr__`, `__getitem__` are dunder/private, so excluded.)

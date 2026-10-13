@@ -1,0 +1,1 @@
+`class C99CodePrinter` is defined at sympy/printing/c.py:637 (qualified: `sympy.printing.c.C99CodePrinter`).

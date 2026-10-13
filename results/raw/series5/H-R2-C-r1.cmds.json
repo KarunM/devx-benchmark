@@ -1,0 +1,12 @@
+[
+ [
+  "/bin/zsh -lc 'devx search symbol \"Parse\" --session \"<SESSION-F3>\" --agent codex'",
+  969,
+  0
+ ],
+ [
+  "/bin/zsh -lc 'devx read method \"DevX.Cli.SearchReplaceBlockParser.Parse\" --session \"<SESSION-F3>\" --agent codex'",
+  3581,
+  0
+ ]
+]

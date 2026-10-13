@@ -1,0 +1,83 @@
+| task | kind | arm | correct | calls (devx/shell) | in tok | out tok | bytes | wall s |
+|--|--|--|--|--|--|--|--|--|
+| L1 | locate | C | 1 | 1 (1/0) | 28279 | 130 | 383 | 8.3 |
+| L1 | locate | N | 1 | 1 (0/1) | 27164 | 111 | 105 | 8.5 |
+| L2 | locate | C | 1 | 1 (1/0) | 28232 | 129 | 287 | 4.7 |
+| L2 | locate | N | 1 | 1 (0/1) | 28436 | 133 | 4617 | 5.8 |
+| L3 | locate | C | 1 | 1 (1/0) | 28421 | 128 | 1023 | 5.4 |
+| L3 | locate | N | 1 | 1 (0/1) | 26106 | 84 | 53 | 5.2 |
+| M1 | multihop | C | 1 | 2 (2/0) | 43445 | 211 | 1955 | 11.9 |
+| M1 | multihop | N | 1 | 2 (0/2) | 42792 | 227 | 5178 | 6.8 |
+| M2 | multihop | C | 1 | 5 (5/0) | 94821 | 466 | 8588 | 17.4 |
+| M2 | multihop | N | 0 | 1 (0/1) | 26674 | 156 | 1810 | 6.3 |
+| R1 | read | C | 1 | 1 (1/0) | 28334 | 138 | 628 | 6.7 |
+| R1 | read | N | 0 | 0 (0/0) | 13015 | 38 | 0 | 4.3 |
+| R2 | read | C | 1 | 1 (1/0) | 28376 | 171 | 796 | 5.5 |
+| R2 | read | N | 1 | 1 (0/1) | 27552 | 114 | 1396 | 5.4 |
+| R3 | read | C | 1 | 1 (1/0) | 28331 | 177 | 416 | 12.3 |
+| R3 | read | N | 1 | 1 (0/1) | 27995 | 137 | 6618 | 9.8 |
+| S1 | structure | C | 1 | 1 (1/0) | 28549 | 218 | 1216 | 9.3 |
+| S1 | structure | N | 1 | 1 (0/1) | 26572 | 235 | 1490 | 7.4 |
+| S2 | structure | C | 1 | 1 (1/0) | 31131 | 327 | 10564 | 7.0 |
+| S2 | structure | N | 1 | 1 (0/1) | 26304 | 298 | 502 | 13.6 |
+| X1 | crossref | C | 1 | 4 (4/0) | 71961 | 496 | 958 | 28.6 |
+| X1 | crossref | N | 1 | 3 (0/3) | 54667 | 279 | 3741 | 7.8 |
+| X2 | crossref | C | 1 | 4 (4/0) | 74079 | 472 | 6639 | 23.9 |
+| X2 | crossref | N | 1 | 1 (0/1) | 26485 | 104 | 1332 | 5.4 |
+
+| kind | arm | n | correct | calls | in tok | bytes | C/N calls | C/N in tok | C/N bytes | S1 C/N calls | S1 C/N in | S1 C/N bytes |
+|--|--|--|--|--|--|--|--|--|--|--|--|--|
+| locate | N | 3 | 1.00 | 1.0 | 27235 | 1592 | | | | | | |
+| locate | C | 3 | 1.00 | 1.0 | 28311 | 564 | 100% | 104% | 35% | 100% | 103% | 35% |
+| read | N | 3 | 0.67 | 0.7 | 22854 | 2671 | | | | | | |
+| read | C | 3 | 1.00 | 1.0 | 28347 | 613 | 150% | 124% | 23% | 60% | 76% | 17% |
+| structure | N | 2 | 1.00 | 1.0 | 26438 | 996 | | | | | | |
+| structure | C | 2 | 1.00 | 1.0 | 29840 | 5890 | 100% | 113% | 591% | 133% | 126% | 253% |
+| crossref | N | 2 | 1.00 | 2.0 | 40576 | 2536 | | | | | | |
+| crossref | C | 2 | 1.00 | 4.0 | 73020 | 3798 | 200% | 180% | 150% | 175% | 159% | 129% |
+| multihop | N | 2 | 0.50 | 1.5 | 34733 | 3494 | | | | | | |
+| multihop | C | 2 | 1.00 | 3.5 | 69133 | 5272 | 233% | 199% | 151% | 225% | 200% | 227% |
+
+series2 overall N: correct 10/12 calls 1.17 in 29480 out 160 bytes 2237 wall 7.2
+series2 overall C: correct 12/12 calls 1.92 in 42830 out 255 bytes 2788 wall 11.8
+series2 C as % of N: calls 164% in 145% bytes 125%
+series1 overall N: correct 11/12 calls 1.58 in 34783 out 181 bytes 2340 wall 7.4
+series1 overall C: correct 11/12 calls 2.17 in 45066 out 310 bytes 2308 wall 9.5
+series1 C as % of N: calls 137% in 130% bytes 99%
+
+commands arm C
+## L1
+- 'devx search symbol "factorint" ' | 383 B | rc=0
+## L2
+- 'devx search symbol "uniquely_named_symbol" ' | 287 B | rc=0
+## L3
+- 'devx search symbol "Rational" ' | 1023 B | rc=0
+## M1
+- 'devx read type "Symbol" ' | 1216 B | rc=0
+- 'devx read type "Boolean" ' | 739 B | rc=0
+## M2
+- 'devx search symbol "Integer" ' | 1031 B | rc=0
+- 'devx read type "sympy.core.numbers.Integer" ' | 2410 B | rc=0
+- 'devx read type "sympy.core.numbers.Rational" ' | 2424 B | rc=0
+- 'devx read type "sympy.core.numbers.Number" ' | 1985 B | rc=0
+- 'devx read type "sympy.core.expr.AtomicExpr" ' | 738 B | rc=0
+## R1
+- "devx read method 'Dummy.__new__' --session <SESSION-F2> " | 628 B | rc=0
+## R2
+- 'devx read method "Symbol._sanitize" --session <SESSION-F2> ' | 796 B | rc=0
+## R3
+- 'devx search symbol "Wild.__new__" ' | 416 B | rc=0
+## S1
+- 'devx read type "Symbol" ' | 1216 B | rc=0
+## S2
+- 'devx read type "Sieve" --full ' | 10564 B | rc=0
+## X1
+- 'devx callers "_factorint_small" ' | 82 B | rc=1
+- 'devx search symbol "_factorint_small" ' | 263 B | rc=0
+- 'devx references "sympy.ntheory.factor_._factorint_small" ' | 70 B | rc=1
+- 'devx search text "_factorint_small(" ' | 543 B | rc=0
+## X2
+- 'devx references "_symbol" ' | 0 B | rc=1
+- 'devx search symbol "_symbol" ' | 1156 B | rc=0
+- 'devx search text "_symbol(" ' | 1301 B | rc=0
+- 'devx read file sympy/core/symbol.py --range 120:260 ' | 4182 B | rc=0

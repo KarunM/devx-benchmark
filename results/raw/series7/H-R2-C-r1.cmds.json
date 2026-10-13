@@ -1,0 +1,12 @@
+[
+ [
+  "/bin/zsh -lc 'cd <F3> && devx read method \"SearchReplaceBlockParser.Parse\" --session <SESSION-F3> --agent codex'",
+  3581,
+  0
+ ],
+ [
+  "/bin/zsh -lc 'cd <F3> && devx search text \"zero_blocks\" --session <SESSION-F3> --agent codex'",
+  691,
+  0
+ ]
+]

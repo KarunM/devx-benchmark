@@ -1,0 +1,7 @@
+[
+ [
+  "/bin/zsh -lc \"rg -n --glob '\"'!**/*test*'\"' '(\"'^|'\"\\\\s)(def|function)\\\\s+limitinf\\\\b|limitinf\\\\s*=' .\"",
+  49,
+  0
+ ]
+]

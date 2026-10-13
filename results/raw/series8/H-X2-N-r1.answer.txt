@@ -1,0 +1,6 @@
+Two methods in `src` (outside `RipgrepLocator` and the tests) call `RipgrepLocator.Locate`:
+
+- `RipgrepContentSearcher.TrySearch(string rootPath, string query, out List<Hit> hits, out bool scanCapped, CancellationToken)`, at `src/DevX.Infrastructure/Storage/SQLite/RipgrepContentSearcher.cs:42`. It calls `RipgrepLocator.Locate(rootPath)`.
+- `DoctorAsync(string connectionString, string[] args, string format)`, a top-level static in `src/DevX.Cli/Program.cs:1272`. It calls `DevX.Infrastructure.Storage.SQLite.RipgrepLocator.Locate(repositoryRoot)`.
+
+I found no other callers in `src`. The `Locate` overloads are defined in `src/DevX.Infrastructure/Storage/SQLite/RipgrepLocator.cs:71` and `:74`.

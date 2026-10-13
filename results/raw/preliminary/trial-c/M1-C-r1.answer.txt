@@ -1,0 +1,1 @@
+I couldn’t complete the lookup: `devx` search and read both failed because the session database is read-only. I can’t verify the class or its `to_nnf` file and line under that constraint.

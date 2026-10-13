@@ -1,0 +1,5 @@
+- `src/DevX.Cli/SandboxManager.cs:24` — `CopySourceTree`
+- `src/DevX.Cli/SandboxManager.cs:32` — `ApplyChanges`
+- `src/DevX.Cli/SandboxManager.cs:47` — `GetChangedFiles`
+- `src/DevX.Cli/SandboxManager.cs:72` — `GetUnifiedDiff`
+- `src/DevX.Cli/SandboxManager.cs:117` — `Dispose`

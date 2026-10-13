@@ -1,0 +1,25 @@
+blind_id,task,verdict,reason
+A01,H-L1,correct,matches
+A02,H-M2,correct,matches
+A03,H-R1,correct,matches
+A04,H-L3,correct,matches
+A05,H-R3,correct,matches
+A06,H-M1,incorrect,wrong line 33 instead of 53 and invented base
+A07,H-R2,correct,matches
+A08,H-L1,correct,matches
+A09,H-X2,incorrect,named SearchInRoot and RunSearch not TrySearch and DoctorAsync
+A10,H-S1,correct,matches
+A11,H-R2,correct,matches
+A12,H-L3,correct,matches
+A13,H-R1,correct,matches
+A14,H-M2,correct,matches
+A15,H-M1,correct,matches
+A16,H-L2,correct,matches
+A17,H-X1,correct,matches
+A18,H-S2,correct,matches
+A19,H-X1,incorrect,extra wrong caller limit
+A20,H-S1,incorrect,from memory with wrong methods
+A21,H-R3,correct,matches
+A22,H-X2,correct,matches
+A23,H-S2,correct,matches
+A24,H-L2,correct,matches

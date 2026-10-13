@@ -1,0 +1,9 @@
+[
+ {
+  "tool": "Bash",
+  "kind": "devx",
+  "command": "devx search symbol \"limitinf\" --session <SESSION-F2> --agent claude",
+  "bytes": 1683,
+  "is_error": false
+ }
+]

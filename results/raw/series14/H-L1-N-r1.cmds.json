@@ -1,0 +1,7 @@
+[
+ [
+  "/bin/zsh -lc \"grep -rn 'def limitinf\\\\|function limitinf\\\\|limitinf(' <F2> --include='*.py' | head -20\"",
+  1323,
+  0
+ ]
+]

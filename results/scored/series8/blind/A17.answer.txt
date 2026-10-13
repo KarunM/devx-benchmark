@@ -1,0 +1,5 @@
+Two methods in `src` call `RipgrepLocator.Locate` from outside `RipgrepLocator`:
+- `Program.DoctorAsync` at `src/DevX.Cli/Program.cs:1272`, which uses the fully qualified `DevX.Infrastructure.Storage.SQLite.RipgrepLocator.Locate(repositoryRoot)`.
+- `DevX.Infrastructure.Storage.SQLite.RipgrepContentSearcher.TrySearch` at `src/DevX.Infrastructure/Storage/SQLite/RipgrepContentSearcher.cs:42`, which calls `RipgrepLocator.Locate(rootPath).Executable`.
+
+`devx callers` failed on this method (not found, then ambiguous across the two `Locate` overloads), so I got these from `devx search text "RipgrepLocator.Locate"`. A call that doesn't spell out `RipgrepLocator.Locate` would not appear in that search. All other hits were in `tests/`.

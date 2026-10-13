@@ -1,0 +1,125 @@
+[
+ {
+  "id": "H-L1",
+  "kind": "locate",
+  "prompt": "Which file and line defines the function `limitinf` (not the tests)?",
+  "expected": [
+   "series/gruntz.py:428"
+  ],
+  "fixture": "f2"
+ },
+ {
+  "id": "H-L2",
+  "kind": "locate",
+  "prompt": "Which file and line defines the class `C99CodePrinter` (not the tests)?",
+  "expected": [
+   "printing/c.py:637"
+  ],
+  "fixture": "f2"
+ },
+ {
+  "id": "H-R1",
+  "kind": "read",
+  "prompt": "In sympy.series.limits.Limit.__new__, what exception type is raised when `dir` is a string or Symbol that is not one of the allowed directions, and how does its message begin?",
+  "expected": [
+   "ValueError",
+   "direction must be one of"
+  ],
+  "fixture": "f2"
+ },
+ {
+  "id": "H-S1",
+  "kind": "structure",
+  "prompt": "List the public methods (names not starting with an underscore) defined directly in class SubsSet in sympy/series/gruntz.py.",
+  "expected": [
+   "do_subs",
+   "meets",
+   "union",
+   "copy"
+  ],
+  "fixture": "f2"
+ },
+ {
+  "id": "H-X1",
+  "kind": "crossref",
+  "prompt": "Which functions in sympy/series/gruntz.py call `mrv_leadterm` (ignore docstrings and tests)?",
+  "expected": [
+   "sign",
+   "limitinf"
+  ],
+  "fixture": "f2"
+ },
+ {
+  "id": "H-M1",
+  "kind": "multihop",
+  "prompt": "Class C99CodePrinter (sympy/printing/c.py) has a base class whose own base is defined in sympy/printing/codeprinter.py. Name that class and give its definition file:line.",
+  "expected": [
+   "CodePrinter",
+   "sympy/printing/codeprinter.py:53"
+  ],
+  "fixture": "f2"
+ },
+ {
+  "id": "H-L3",
+  "kind": "locate",
+  "prompt": "Which file and line defines the method `LooksLikeShellCommandLine` (not the tests)?",
+  "expected": [
+   "DevXCommandConfig.cs:153"
+  ],
+  "fixture": "f3"
+ },
+ {
+  "id": "H-R2",
+  "kind": "read",
+  "prompt": "In DevX.Cli.SearchReplaceBlockParser.Parse, what error message is returned when the response contains a markdown code fence (```), and what message is returned when the response is empty or whitespace?",
+  "expected": [
+   "markdown_fence_outside_blocks",
+   "zero_blocks"
+  ],
+  "fixture": "f3"
+ },
+ {
+  "id": "H-R3",
+  "kind": "read",
+  "prompt": "In DevX.Infrastructure.Storage.SQLite.RipgrepLocator.ConfiguredPath, which exception types are caught (each making the method return null)?",
+  "expected": [
+   "JsonException",
+   "IOException",
+   "UnauthorizedAccessException"
+  ],
+  "fixture": "f3"
+ },
+ {
+  "id": "H-S2",
+  "kind": "structure",
+  "prompt": "List the public methods (excluding the constructor) defined directly in class SandboxManager (src/DevX.Cli/SandboxManager.cs).",
+  "expected": [
+   "CopySourceTree",
+   "ApplyChanges",
+   "GetChangedFiles",
+   "GetUnifiedDiff",
+   "Dispose"
+  ],
+  "fixture": "f3"
+ },
+ {
+  "id": "H-X2",
+  "kind": "crossref",
+  "prompt": "Which methods in src (not tests, and not inside RipgrepLocator itself) call `RipgrepLocator.Locate`?",
+  "expected": [
+   "TrySearch",
+   "DoctorAsync"
+  ],
+  "fixture": "f3"
+ },
+ {
+  "id": "H-M2",
+  "kind": "multihop",
+  "prompt": "SqliteSessionStore has a private helper that throws InvalidOperationException(\"Session not found.\"). Which of that helper's callers have a name starting with `Mark`?",
+  "expected": [
+   "MarkSymbolExpandedAsync",
+   "MarkFileExpandedAsync"
+  ],
+  "fixture": "f3"
+ }
+]

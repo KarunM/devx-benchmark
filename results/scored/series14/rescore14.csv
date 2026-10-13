@@ -1,0 +1,25 @@
+task,arm,verdict,reason
+H-L1,C,correct,matches
+H-L1,N,correct,matches
+H-L2,C,correct,matches
+H-L2,N,correct,matches
+H-R1,C,correct,matches
+H-R1,N,correct,matches
+H-S1,C,correct,matches
+H-S1,N,incorrect,from memory with wrong methods
+H-X1,C,incorrect,extra wrong caller limit
+H-X1,N,correct,matches
+H-M1,C,correct,matches
+H-M1,N,incorrect,wrong line 33 instead of 53 and invented base
+H-L3,C,correct,matches
+H-L3,N,correct,matches
+H-R2,C,correct,matches
+H-R2,N,correct,matches
+H-R3,C,correct,matches
+H-R3,N,correct,matches
+H-S2,C,correct,matches
+H-S2,N,correct,matches
+H-X2,C,correct,matches
+H-X2,N,incorrect,named SearchInRoot and RunSearch not TrySearch and DoctorAsync
+H-M2,C,correct,matches
+H-M2,N,correct,matches

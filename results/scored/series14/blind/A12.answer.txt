@@ -1,0 +1,3 @@
+
+
+`src/DevX.Indexer/DevXCommandConfig.cs:153` — defines the method `LooksLikeShellCommandLine`.

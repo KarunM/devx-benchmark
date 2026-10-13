@@ -1,0 +1,13 @@
+Defined directly in `sympy.ntheory.generate.Sieve`:
+
+- `sympy/ntheory/generate.py:35` `__init__`
+- `sympy/ntheory/generate.py:54` `__repr__`
+- `sympy/ntheory/generate.py:82` `extend`
+- `sympy/ntheory/generate.py:133` `extend_to_no`
+- `sympy/ntheory/generate.py:154` `primerange`
+- `sympy/ntheory/generate.py:191` `totientrange`
+- `sympy/ntheory/generate.py:227` `mobiusrange`
+- `sympy/ntheory/generate.py:265` `search`
+- `sympy/ntheory/generate.py:286` `__contains__`
+- `sympy/ntheory/generate.py:296` `__iter__`
+- `sympy/ntheory/generate.py:300` `__getitem__`

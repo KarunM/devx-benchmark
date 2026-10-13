@@ -1,0 +1,1 @@
+`C99CodePrinter` is defined at `sympy/printing/c.py:637`, as `class C99CodePrinter(C89CodePrinter):`. I searched with a grep for `^class C99CodePrinter`, excluding test directories. That was the only match.

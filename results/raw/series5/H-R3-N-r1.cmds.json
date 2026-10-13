@@ -1,0 +1,12 @@
+[
+ [
+  "/bin/zsh -lc 'grep -R -n \"ConfiguredPath\" .'",
+  1206,
+  0
+ ],
+ [
+  "/bin/zsh -lc \"sed -n '90,140p' src/DevX.Infrastructure/Storage/SQLite/RipgrepLocator.cs\"",
+  2366,
+  0
+ ]
+]

@@ -1,0 +1,25 @@
+blind_id,task,verdict,reason
+A01,H-R1,CORRECT,ValueError, correct message start
+A02,H-S2,CORRECT,All five public methods, no extras
+A03,H-M2,CORRECT,Both Mark callers named
+A04,H-R2,CORRECT,Both messages correct; line numbers slightly off, immaterial
+A05,H-S1,CORRECT,Exactly four public methods
+A06,H-R2,CORRECT,Both messages correct
+A07,H-M2,CORRECT,Both Mark callers named
+A08,H-X2,CORRECT,TrySearch and DoctorAsync, no extras
+A09,H-S1,CORRECT,Exactly four public methods
+A10,H-S2,CORRECT,All five methods, no extras
+A11,H-L3,CORRECT,DevXCommandConfig.cs:153 correct
+A12,H-R3,CORRECT,All three exception types; line numbers unverified, immaterial
+A13,H-X1,CORRECT,sign and limitinf only
+A14,H-L1,CORRECT,gruntz.py:428 correct
+A15,H-X1,CORRECT,sign and limitinf, docstrings excluded
+A16,H-M1,CORRECT,CodePrinter at codeprinter.py:53
+A17,H-L2,CORRECT,c.py:637 correct
+A18,H-R3,CORRECT,Three exception types correct
+A19,H-L2,CORRECT,c.py:637 correct
+A20,H-L1,CORRECT,gruntz.py:428 correct
+A21,H-X2,CORRECT,DoctorAsync and TrySearch, no extras
+A22,H-L3,CORRECT,DevXCommandConfig.cs:153 correct
+A23,H-R1,CORRECT,ValueError, correct message start
+A24,H-M1,CORRECT,Names CodePrinter at :53; intermediate C89 context fine

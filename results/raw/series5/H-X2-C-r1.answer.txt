@@ -1,0 +1,2 @@
+`src/DevX.Cli/Program.cs:1272` — `Program.DoctorAsync`
+`src/DevX.Infrastructure/Storage/SQLite/RipgrepContentSearcher.cs:42` — `DevX.Infrastructure.Storage.SQLite.RipgrepContentSearcher.TrySearch`

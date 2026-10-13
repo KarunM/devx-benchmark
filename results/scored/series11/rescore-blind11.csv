@@ -1,0 +1,25 @@
+blind_id,task,verdict,reason
+A01,H-L3,correct,Commits to answer matching reference on all asked elements
+A02,H-S2,correct,Commits to answer matching reference on all asked elements
+A03,H-X2,correct,Commits to answer matching reference on all asked elements
+A04,H-L2,correct,Commits to answer matching reference on all asked elements
+A05,H-M2,correct,Commits to answer matching reference on all asked elements
+A06,H-X1,correct,Commits to answer matching reference on all asked elements
+A07,H-L1,correct,Commits to answer matching reference on all asked elements
+A08,H-M1,incorrect,Names C89CodePrinter as the class; reference is CodePrinter
+A09,H-R1,correct,Commits to answer matching reference on all asked elements
+A10,H-S1,correct,Commits to answer matching reference on all asked elements
+A11,H-L1,correct,Commits to answer matching reference on all asked elements
+A12,H-L2,correct,Commits to answer matching reference on all asked elements
+A13,H-L3,correct,Commits to answer matching reference on all asked elements
+A14,H-X1,correct,Commits to answer matching reference on all asked elements
+A15,H-M1,correct,Commits to answer matching reference on all asked elements
+A16,H-R2,correct,Commits to answer matching reference on all asked elements
+A17,H-R1,correct,Commits to answer matching reference on all asked elements
+A18,H-S1,correct,Commits to answer matching reference on all asked elements
+A19,H-S2,correct,Commits to answer matching reference on all asked elements
+A20,H-R3,correct,Commits to answer matching reference on all asked elements
+A21,H-X2,correct,Commits to answer matching reference on all asked elements
+A22,H-M2,correct,Commits to answer matching reference on all asked elements
+A23,H-R3,correct,Commits to answer matching reference on all asked elements
+A24,H-R2,correct,Commits to answer matching reference on all asked elements

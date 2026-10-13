@@ -1,0 +1,7 @@
+[
+ [
+  "/bin/zsh -lc \"rg -n -A120 -B5 '\"'^class SubsSet'\"' sympy/series/gruntz.py\"",
+  4542,
+  0
+ ]
+]

@@ -1,0 +1,1 @@
+`sympy/series/limits.py:164` in `Limit.__new__` raises `ValueError`, message beginning `"direction must be one of '+', '-' "` (full: `direction must be one of '+', '-' or '+-', not <dir>`); non-str/Symbol inputs instead hit `TypeError` at line 161.

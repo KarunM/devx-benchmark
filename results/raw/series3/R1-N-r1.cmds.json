@@ -1,0 +1,12 @@
+[
+ [
+  "/bin/zsh -lc \"grep -R -n -A35 -B5 'class Dummy' .\"",
+  16195,
+  0
+ ],
+ [
+  "/bin/zsh -lc \"sed -n '480,520p' sympy/core/symbol.py\"",
+  1127,
+  0
+ ]
+]

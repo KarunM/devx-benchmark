@@ -1,0 +1,1 @@
+In `sympy/core/symbol.py:604`, `sympify` is applied to each element of `exclude`. The object is built by `Wild.__xnew__` in `sympy.core.symbol.Wild.__new__`.

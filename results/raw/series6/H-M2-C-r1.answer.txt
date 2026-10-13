@@ -1,0 +1,2 @@
+DevX.Infrastructure.Storage.SQLite.SqliteSessionStore.MarkFileExpandedAsync  
+DevX.Infrastructure.Storage.SQLite.SqliteSessionStore.MarkSymbolExpandedAsync

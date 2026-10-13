@@ -1,0 +1,1 @@
+`limitinf` is defined at `sympy/series/gruntz.py:428` (qualified name `sympy.series.gruntz.limitinf`, body spans lines 428-470).

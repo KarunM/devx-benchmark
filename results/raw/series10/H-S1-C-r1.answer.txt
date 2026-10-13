@@ -1,0 +1,4 @@
+`SubsSet` (sympy/series/gruntz.py:155-244) defines four public methods directly:
+- `do_subs` (213-217), `meets` (219-221), `union` (223-236), `copy` (238-244).
+
+Its other methods, `__init__`, `__repr__` and `__getitem__`, start with underscores, so they're left out.

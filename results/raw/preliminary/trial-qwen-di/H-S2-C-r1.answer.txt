@@ -1,0 +1,9 @@
+
+
+Public methods defined directly in `SandboxManager` (`src/DevX.Cli/SandboxManager.cs`), excluding the constructor:
+
+- `CopySourceTree()` — :30
+- `ApplyChanges()` — :38
+- `GetChangedFiles()` — :52
+- `GetUnifiedDiff(int contextLines)` — :76
+- `Dispose()` — :118

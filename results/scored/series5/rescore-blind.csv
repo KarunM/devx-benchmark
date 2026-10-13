@@ -1,0 +1,25 @@
+task,blind,verdict,reason
+H-L1,a,correct,gruntz.py:428 matches fixture
+H-L1,b,correct,gruntz.py:428 matches fixture
+H-L2,a,correct,printing/c.py:637 matches fixture
+H-L2,b,correct,printing/c.py:637 matches fixture
+H-L3,a,correct,DevXCommandConfig.cs:153 matches fixture
+H-L3,b,correct,DevXCommandConfig.cs:153 matches fixture
+H-M1,a,correct,C89CodePrinter then CodePrinter at codeprinter.py:53 verified
+H-M1,b,incorrect,names CCodePrinter at codeprinter.py:24; real class is CodePrinter at :53
+H-M2,a,correct,Both Mark names right; link lines 96/102 are off (real 101/107) but lines not asked
+H-M2,b,correct,MarkFileExpandedAsync and MarkSymbolExpandedAsync both callers of RequireSessionAsync
+H-R1,a,correct,ValueError; direction must be one of '+'; '-' or '+-'
+H-R1,b,correct,ValueError; direction must be one of '+'; '-' or '+-'; not
+H-R2,a,correct,markdown_fence_outside_blocks and zero_blocks mapped correctly
+H-R2,b,correct,markdown_fence_outside_blocks and zero_blocks mapped correctly
+H-R3,a,correct,JsonException; IOException; UnauthorizedAccessException all null
+H-R3,b,correct,JsonException; IOException; UnauthorizedAccessException lines 115-117 region
+H-S1,a,incorrect,refusal; no committed answer
+H-S1,b,incorrect,lists __init__; __repr__; __getitem__ violating underscore constraint
+H-S2,a,correct,all five public methods with right lines
+H-S2,b,correct,all five public methods with right lines
+H-X1,a,correct,sign and limitinf
+H-X1,b,correct,sign (421) and limitinf (449-453) call sites verified
+H-X2,a,incorrect,Program.cs:1272 labelled top-level code; it is inside DoctorAsync which is not named
+H-X2,b,correct,DoctorAsync and TrySearch

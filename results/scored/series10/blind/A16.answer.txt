@@ -1,0 +1,6 @@
+Two methods in src call `RipgrepLocator.Locate`, found with text searches for `RipgrepLocator.Locate` and plain `Locate(`:
+
+1. `Program.DoctorAsync` at `src/DevX.Cli/Program.cs:1272`, using the fully qualified call `RipgrepLocator.Locate(repositoryRoot)`.
+2. `DevX.Infrastructure.Storage.SQLite.RipgrepContentSearcher.TrySearch` at `src/DevX.Infrastructure/Storage/SQLite/RipgrepContentSearcher.cs:42`, as `RipgrepLocator.Locate(rootPath).Executable`.
+
+`devx callers` couldn't answer this because `Locate` has two overloads.

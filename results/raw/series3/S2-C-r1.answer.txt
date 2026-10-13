@@ -1,0 +1,6 @@
+sympy/ntheory/generate.py:95 — `extend`
+sympy/ntheory/generate.py:161 — `extend_to_no`
+sympy/ntheory/generate.py:188 — `primerange`
+sympy/ntheory/generate.py:224 — `totientrange`
+sympy/ntheory/generate.py:261 — `mobiusrange`
+sympy/ntheory/generate.py:305 — `search`

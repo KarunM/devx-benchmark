@@ -1,0 +1,17 @@
+[
+ [
+  "/bin/zsh -lc 'devx callers \"mrv_leadterm\" --session <SESSION-F2> --agent codex'",
+  769,
+  0
+ ],
+ [
+  "/bin/zsh -lc 'devx read method \"sign\" \"limitinf\" --session <SESSION-F2> --agent codex'",
+  1879,
+  2
+ ],
+ [
+  "/bin/zsh -lc 'devx read method \"sympy.series.gruntz.sign\" --session <SESSION-F2> --agent codex'",
+  1615,
+  0
+ ]
+]

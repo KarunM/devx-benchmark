@@ -1,0 +1,25 @@
+task,arm,verdict,reason
+H-L3,N,correct,Commits to answer matching reference on all asked elements
+H-S2,N,correct,Commits to answer matching reference on all asked elements
+H-X2,C,correct,Commits to answer matching reference on all asked elements
+H-L2,N,correct,Commits to answer matching reference on all asked elements
+H-M2,C,correct,Commits to answer matching reference on all asked elements
+H-X1,C,correct,Commits to answer matching reference on all asked elements
+H-L1,C,correct,Commits to answer matching reference on all asked elements
+H-M1,N,incorrect,Names C89CodePrinter as the class; reference is CodePrinter
+H-R1,C,correct,Commits to answer matching reference on all asked elements
+H-S1,N,correct,Commits to answer matching reference on all asked elements
+H-L1,N,correct,Commits to answer matching reference on all asked elements
+H-L2,C,correct,Commits to answer matching reference on all asked elements
+H-L3,C,correct,Commits to answer matching reference on all asked elements
+H-X1,N,correct,Commits to answer matching reference on all asked elements
+H-M1,C,correct,Commits to answer matching reference on all asked elements
+H-R2,N,correct,Commits to answer matching reference on all asked elements
+H-R1,N,correct,Commits to answer matching reference on all asked elements
+H-S1,C,correct,Commits to answer matching reference on all asked elements
+H-S2,C,correct,Commits to answer matching reference on all asked elements
+H-R3,C,correct,Commits to answer matching reference on all asked elements
+H-X2,N,correct,Commits to answer matching reference on all asked elements
+H-M2,N,correct,Commits to answer matching reference on all asked elements
+H-R3,N,correct,Commits to answer matching reference on all asked elements
+H-R2,C,correct,Commits to answer matching reference on all asked elements

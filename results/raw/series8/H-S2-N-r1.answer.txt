@@ -1,0 +1,8 @@
+Public methods defined directly in `SandboxManager` (`src/DevX.Cli/SandboxManager.cs`), excluding the constructor at line 14:
+- `CopySourceTree()` at line 24
+- `ApplyChanges()` at line 32
+- `GetChangedFiles()` at line 47
+- `GetUnifiedDiff(int contextLines = 3)` at line 72
+- `Dispose()` at line 117
+
+`SandboxRoot` (line 11) and `OriginalRoot` (line 12) are public properties, not methods. `CopyDirectory` (line 134) and `EnumerateFiles` (line 159) are private.

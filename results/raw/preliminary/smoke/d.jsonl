@@ -1,0 +1,7 @@
+{"type":"thread.started","thread_id":"<THREAD-5>"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"I’ll use the attached DevX MCP tools to locate the symbol and confirm its definition line."}}
+{"type":"item.started","item":{"id":"item_1","type":"mcp_tool_call","server":"devx","tool":"search","arguments":{"query":"uniquely_named_symbol","kind":"symbol","sessionId":"<SESSION-F2>","format":"agent"},"result":null,"error":null,"status":"in_progress"}}
+{"type":"item.completed","item":{"id":"item_1","type":"mcp_tool_call","server":"devx","tool":"search","arguments":{"query":"uniquely_named_symbol","kind":"symbol","sessionId":"<SESSION-F2>","format":"agent"},"result":null,"error":{"message":"MCP tool call requires approval, but approval policy is never"},"status":"failed"}}
+{"type":"item.completed","item":{"id":"item_2","type":"agent_message","text":"I couldn’t search the repository: the DevX MCP search call was blocked because it requires approval, but the current approval policy is set to never."}}
+{"type":"turn.completed","usage":{"input_tokens":57946,"cached_input_tokens":36096,"cache_write_input_tokens":0,"output_tokens":165,"reasoning_output_tokens":0}}

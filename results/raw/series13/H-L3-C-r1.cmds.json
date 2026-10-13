@@ -1,0 +1,9 @@
+[
+ {
+  "tool": "Bash",
+  "kind": "devx",
+  "command": "devx search symbol \"LooksLikeShellCommandLine\" --session \"<SESSION-F3>\" --agent claude",
+  "bytes": 645,
+  "is_error": false
+ }
+]

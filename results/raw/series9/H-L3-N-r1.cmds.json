@@ -1,0 +1,16 @@
+[
+ {
+  "tool": "Bash",
+  "kind": "shell",
+  "command": "grep -rn \"func.*LooksLikeShellCommandLine\\|LooksLikeShellCommandLine *(\" --include=*.go . | grep -v _test.go",
+  "bytes": 42,
+  "is_error": false
+ },
+ {
+  "tool": "Bash",
+  "kind": "shell",
+  "command": "grep -rn \"LooksLikeShellCommandLine\" . 2>/dev/null | grep -v _test",
+  "bytes": 339,
+  "is_error": false
+ }
+]

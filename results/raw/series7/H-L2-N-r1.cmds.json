@@ -1,0 +1,7 @@
+[
+ [
+  "/bin/zsh -lc 'grep -rn \"class C99CodePrinter\" . 2>/dev/null'",
+  64,
+  0
+ ]
+]

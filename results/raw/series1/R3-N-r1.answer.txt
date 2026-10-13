@@ -1,0 +1,2 @@
+`sympy/core/symbol.py:604`: `sympify` is applied to each element of `exclude`.
+`sympy/core/symbol.py:607`: the final call is `Wild.__xnew__(cls, name, exclude, properties, **assumptions)`.

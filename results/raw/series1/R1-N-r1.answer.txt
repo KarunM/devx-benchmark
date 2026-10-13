@@ -1,0 +1,1 @@
+[`sympy/core/symbol.py:482`](sympy/core/symbol.py) raises `AssertionError` via the `assert name is not None` check.

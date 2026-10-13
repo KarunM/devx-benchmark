@@ -1,0 +1,5 @@
+The helper is `SqliteSessionStore.RequireSessionAsync` at src/DevX.Infrastructure/Storage/SQLite/SqliteSessionStore.cs:182.
+
+Its callers starting with `Mark`:
+- `DevX.Infrastructure.Storage.SQLite.SqliteSessionStore.MarkFileExpandedAsync`
+- `DevX.Infrastructure.Storage.SQLite.SqliteSessionStore.MarkSymbolExpandedAsync`

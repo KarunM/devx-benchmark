@@ -1,0 +1,17 @@
+[
+ [
+  "/bin/zsh -lc 'devx read type \"Symbol\" --session \"<SESSION-F2>\" --agent codex'",
+  1216,
+  0
+ ],
+ [
+  "/bin/zsh -lc 'devx search symbol \"Boolean\" --session \"<SESSION-F2>\" --agent codex'",
+  1155,
+  0
+ ],
+ [
+  "/bin/zsh -lc 'devx read type \"Boolean\" --full --session \"<SESSION-F2>\" --agent codex'",
+  4273,
+  0
+ ]
+]

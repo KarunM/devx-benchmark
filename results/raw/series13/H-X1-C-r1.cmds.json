@@ -1,0 +1,9 @@
+[
+ {
+  "tool": "Bash",
+  "kind": "devx",
+  "command": "devx callers \"mrv_leadterm\" --full --session <SESSION-F2> --agent claude",
+  "bytes": 1693,
+  "is_error": false
+ }
+]

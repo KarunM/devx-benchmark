@@ -1,0 +1,12 @@
+[
+ [
+  "/bin/zsh -lc 'rg -n \"class Limit|def __new__|Invalid direction|direction\" sympy/series/limits.py'",
+  353,
+  0
+ ],
+ [
+  "/bin/zsh -lc \"sed -n '145,167p' sympy/series/limits.py\"",
+  871,
+  0
+ ]
+]

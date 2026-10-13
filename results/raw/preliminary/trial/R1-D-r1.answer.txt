@@ -1,0 +1,1 @@
+`sympy/core/symbol.py:482` — `AssertionError` is raised by the `assert` when `dummy_index` is given and `name` is `None`.

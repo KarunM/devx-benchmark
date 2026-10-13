@@ -1,0 +1,12 @@
+[
+ [
+  "/bin/zsh -lc \"rg -n 'Session not found\\\\.|class SqliteSessionStore' .\"",
+  1900,
+  0
+ ],
+ [
+  "/bin/zsh -lc \"sed -n '1,205p' src/DevX.Infrastructure/Storage/SQLite/SqliteSessionStore.cs\"",
+  10667,
+  0
+ ]
+]

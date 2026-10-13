@@ -1,0 +1,7 @@
+[
+ [
+  "/bin/zsh -lc \"grep -nE '\"'^[[:space:]]*(public|protected|internal|private)[[:space:]]+.*'\"\\\\(' src/DevX.Cli/SandboxManager.cs\"",
+  403,
+  0
+ ]
+]

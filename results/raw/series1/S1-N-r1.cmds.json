@@ -1,0 +1,12 @@
+[
+ [
+  "/bin/zsh -lc \"grep -nE '\"'^class Symbol|''^    def [''^_]+'\"' sympy/core/symbol.py\"",
+  503,
+  0
+ ],
+ [
+  "/bin/zsh -lc \"grep -nE '\"'^class |''^    def [''^_]+'\"' sympy/core/symbol.py\"",
+  572,
+  0
+ ]
+]

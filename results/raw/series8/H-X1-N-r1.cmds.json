@@ -1,0 +1,9 @@
+[
+ {
+  "tool": "Bash",
+  "kind": "shell",
+  "command": "grep -n \"mrv_leadterm\\|^def \\|^    def \" sympy/series/gruntz.py | grep -B1 \"mrv_leadterm\"",
+  "bytes": 524,
+  "is_error": false
+ }
+]

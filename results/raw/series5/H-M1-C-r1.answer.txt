@@ -1,0 +1,2 @@
+`C99CodePrinter`’s base class: `CCodePrinter`  
+Defined at `sympy/printing/codeprinter.py:24`

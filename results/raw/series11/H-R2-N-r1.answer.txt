@@ -1,0 +1,4 @@
+In `DevX.Cli.SearchReplaceBlockParser.Parse`:
+
+- A response containing ` ``` ` returns `"markdown_fence_outside_blocks"` ([SearchReplaceBlockParser.cs](<F3>/src/DevX.Cli/SearchReplaceBlockParser.cs:22)).
+- An empty or whitespace response returns `"zero_blocks"` ([SearchReplaceBlockParser.cs](<F3>/src/DevX.Cli/SearchReplaceBlockParser.cs:16)).

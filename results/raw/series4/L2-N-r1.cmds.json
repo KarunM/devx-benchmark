@@ -1,0 +1,7 @@
+[
+ [
+  "/bin/zsh -lc \"grep -R -n 'uniquely_named_symbol' .\"",
+  5810,
+  0
+ ]
+]

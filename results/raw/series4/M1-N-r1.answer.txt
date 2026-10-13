@@ -1,0 +1,1 @@
+`Symbol` inherits from `AtomicExpr` and `Boolean`; the logic class is `Boolean` (`sympy/logic/boolalg.py`). It defines `to_nnf` at `sympy/logic/boolalg.py:131`.

@@ -1,0 +1,11 @@
+H-L1-C-r1: correct=1 calls=2 (devx 1/shell 0/mcp 0) in=52949 out=180 bytes=1762 wall=15.9s rc=0 tools={'error': 1, 'devx': 1}
+H-L1-N-r1: correct=1 calls=2 (devx 0/shell 1/mcp 0) in=51360 out=123 bytes=1848 wall=9.4s rc=0 tools={'error': 1, 'shell': 1}
+H-R1-N-r1: correct=1 calls=7 (devx 0/shell 5/mcp 1) in=227341 out=2167 bytes=29294 wall=52.8s rc=0 tools={'error': 1, 'shell': 5, 'codex.list_mcp_resources': 1}
+H-R1-C-r1: correct=1 calls=2 (devx 1/shell 0/mcp 0) in=52768 out=320 bytes=1078 wall=8.9s rc=0 tools={'error': 1, 'devx': 1}
+H-S2-C-r1: correct=1 calls=2 (devx 1/shell 0/mcp 0) in=53794 out=324 bytes=6046 wall=10.2s rc=0 tools={'error': 1, 'devx': 1}
+H-S2-N-r1: correct=1 calls=2 (devx 0/shell 1/mcp 0) in=51995 out=281 bytes=5939 wall=9.7s rc=0 tools={'error': 1, 'shell': 1}
+
+arm | n | correct | calls (shell/mcp) | input_tokens | output_tokens | result_bytes | wall_seconds
+N | 3 | 1.00 | 3.7 (2.3/0.3) | 110232 | 857 | 12360 | 24.0
+C | 3 | 1.00 | 2.0 (0.0/0.0) | 53170 | 275 | 2962 | 11.7
+TRIAL_DONE rc=0

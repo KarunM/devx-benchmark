@@ -1,0 +1,9 @@
+[
+ {
+  "tool": "Bash",
+  "kind": "shell",
+  "command": "grep -n \"^class C99CodePrinter\\|^class C89CodePrinter\\|^class CCodePrinter\" sympy/printing/c.py; grep -n \"^class \" sympy/printing/codeprinter.py",
+  "bytes": 232,
+  "is_error": false
+ }
+]

@@ -1,0 +1,4 @@
+Two callers in src:
+
+1. `DevX.Infrastructure.Storage.SQLite.RipgrepContentSearcher.TrySearch(string rootPath, string query, out List<Hit> hits, out bool scanCapped, CancellationToken)` — src/DevX.Infrastructure/Storage/SQLite/RipgrepContentSearcher.cs:42
+2. `DoctorAsync(string connectionString, string[] args, string format)` (top-level static in Program.cs) — src/DevX.Cli/Program.cs:1272

@@ -1,0 +1,10 @@
+
+
+The public methods defined directly in `SubsSet` (`sympy/series/gruntz.py:155`) are:
+
+| Method | Line |
+|--------|------|
+| `do_subs` | [sympy/series/gruntz.py:199](sympy/series/gruntz.py:199) |
+| `meets` | [sympy/series/gruntz.py:206](sympy/series/gruntz.py:206) |
+| `union` | [sympy/series/gruntz.py:211](sympy/series/gruntz.py:211) |
+| `copy` | [sympy/series/gruntz.py:226](sympy/series/gruntz.py:226) |

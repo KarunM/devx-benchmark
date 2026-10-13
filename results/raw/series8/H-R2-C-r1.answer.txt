@@ -1,0 +1,3 @@
+In `DevX.Cli.SearchReplaceBlockParser.Parse` (`src/DevX.Cli/SearchReplaceBlockParser.cs:12-114`):
+- **Markdown code fence (```)**: it returns `SearchReplaceParseResult(false, "markdown_fence_outside_blocks", [])`. The check runs on the normalized text, after the empty check.
+- **Empty or whitespace response**: it returns `SearchReplaceParseResult(false, "zero_blocks", [])`. The same message is returned at the end when no blocks were parsed.

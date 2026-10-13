@@ -1,0 +1,4 @@
+Two callers in `src`:
+
+- `src/DevX.Infrastructure/Storage/SQLite/RipgrepContentSearcher.cs:42` — `RipgrepContentSearcher.TrySearch(string rootPath, string query, out List<Hit> hits, out bool scanCapped, CancellationToken cancellationToken)` (public static).
+- `src/DevX.Cli/Program.cs:1272` — top-level local function `DoctorAsync` (Program.cs, top-level statements).

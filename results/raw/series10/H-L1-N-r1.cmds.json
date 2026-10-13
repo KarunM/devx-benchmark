@@ -1,0 +1,9 @@
+[
+ {
+  "tool": "Bash",
+  "kind": "shell",
+  "command": "grep -rn \"def limitinf\" . | grep -v test",
+  "bytes": 48,
+  "is_error": false
+ }
+]

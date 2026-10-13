@@ -1,0 +1,7 @@
+
+
+In `sympy/series/limits.py` at lines 160–162, `sympy.series.limits.Limit.__new__` raises a **`ValueError`** when `dir` is not one of the allowed values. The message begins with:
+
+```
+"direction must be one of '+', '-' or '+-', not %s" % dir
+```

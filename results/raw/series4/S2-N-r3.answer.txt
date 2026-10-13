@@ -1,0 +1,11 @@
+- `Sieve.__init__` — line 45
+- `Sieve.__repr__` — line 69
+- `Sieve.extend` — line 95
+- `Sieve.extend_to_no` — line 161
+- `Sieve.primerange` — line 188
+- `Sieve.totientrange` — line 224
+- `Sieve.mobiusrange` — line 261
+- `Sieve.search` — line 305
+- `Sieve.__contains__` — line 334
+- `Sieve.__iter__` — line 345
+- `Sieve.__getitem__` — line 349

@@ -1,0 +1,7 @@
+[
+ [
+  "/bin/zsh -lc \"rg -n -A 65 -B 8 'ConfiguredPath' .\"",
+  24461,
+  0
+ ]
+]

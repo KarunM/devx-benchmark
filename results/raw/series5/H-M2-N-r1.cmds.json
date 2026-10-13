@@ -1,0 +1,12 @@
+[
+ [
+  "/bin/zsh -lc \"grep -R -n 'Session not found\\\\.' .\"",
+  1716,
+  0
+ ],
+ [
+  "/bin/zsh -lc \"sed -n '1,240p' src/DevX.Infrastructure/Storage/SQLite/SqliteSessionStore.cs\"",
+  12836,
+  0
+ ]
+]

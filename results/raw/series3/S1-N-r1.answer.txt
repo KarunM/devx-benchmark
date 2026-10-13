@@ -1,0 +1,1 @@
+`sympy/core/symbol.py:269` `kind`; `:319` `__new__`; `:333` `__xnew__`; `:380` `__xnew_cached_`; `:383` `__getnewargs_ex__`; `:391` `__setstate__`; `:408` `assumptions0`; `:412` `sort_key`; `:415` `as_dummy`; `:420` `as_real_imag`; `:427` `is_constant`; `:433` `free_symbols`; `:438` `as_set`.

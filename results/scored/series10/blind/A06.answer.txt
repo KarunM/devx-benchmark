@@ -1,0 +1,3 @@
+The helper is `DevX.Infrastructure.Storage.SQLite.SqliteSessionStore.RequireSessionAsync` (`src/DevX.Infrastructure/Storage/SQLite/SqliteSessionStore.cs:182`). Two of its callers start with `Mark`, and I read both bodies to confirm each one calls it:
+- `SqliteSessionStore.MarkSymbolExpandedAsync` (`SqliteSessionStore.cs:101-105`)
+- `SqliteSessionStore.MarkFileExpandedAsync` (`SqliteSessionStore.cs:107-111`)

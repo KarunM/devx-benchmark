@@ -1,0 +1,4 @@
+`_factorint_small` is called by:
+
+- `sympy/ntheory/factor_.py:330` — `sympy.ntheory.factor_.<module>._perfect_power`
+- `sympy/ntheory/factor_.py:1318` — `sympy.ntheory.factor_.<module>.factorint`

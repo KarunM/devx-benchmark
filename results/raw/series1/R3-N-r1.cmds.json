@@ -1,0 +1,7 @@
+[
+ [
+  "/bin/zsh -lc \"rg -n -A35 -B5 'class Wild|def __new__' sympy/core/symbol.py\"",
+  6618,
+  0
+ ]
+]

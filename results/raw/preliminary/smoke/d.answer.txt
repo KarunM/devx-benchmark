@@ -1,0 +1,1 @@
+I couldn’t search the repository: the DevX MCP search call was blocked because it requires approval, but the current approval policy is set to never.

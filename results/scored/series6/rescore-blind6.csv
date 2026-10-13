@@ -1,0 +1,25 @@
+blind_id,task,verdict,reason
+A01,H-X2,correct,matches reference on all asked elements
+A02,H-L3,correct,matches reference on all asked elements
+A03,H-X1,correct,matches reference on all asked elements
+A04,H-M2,correct,matches reference on all asked elements
+A05,H-R2,correct,matches reference on all asked elements
+A06,H-R3,correct,matches reference on all asked elements
+A07,H-M1,correct,matches reference on all asked elements
+A08,H-S2,correct,matches reference on all asked elements
+A09,H-S1,correct,matches reference on all asked elements
+A10,H-L2,correct,matches reference on all asked elements
+A11,H-S1,correct,matches reference on all asked elements
+A12,H-R3,correct,matches reference on all asked elements
+A13,H-M2,correct,matches reference on all asked elements
+A14,H-L3,correct,matches reference on all asked elements
+A15,H-R1,correct,matches reference on all asked elements
+A16,H-M1,correct,matches reference on all asked elements
+A17,H-X2,correct,matches reference on all asked elements
+A18,H-R1,correct,matches reference on all asked elements
+A19,H-L1,correct,matches reference on all asked elements
+A20,H-L1,correct,matches reference on all asked elements
+A21,H-X1,correct,matches reference on all asked elements
+A22,H-R2,correct,matches reference on all asked elements
+A23,H-L2,correct,matches reference on all asked elements
+A24,H-S2,correct,matches reference on all asked elements

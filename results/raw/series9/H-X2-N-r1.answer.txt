@@ -1,0 +1,2 @@
+- `src/DevX.Cli/Program.cs:1272` — called inside `DoctorAsync` (static method starting at Program.cs:1255)
+- `src/DevX.Infrastructure/Storage/SQLite/RipgrepContentSearcher.cs:42` — called inside the `TrySearch(string, string, out List<Hit>, out bool, CancellationToken)` overload (RipgrepContentSearcher.cs:41-42)

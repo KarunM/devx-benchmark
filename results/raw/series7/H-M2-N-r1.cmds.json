@@ -1,0 +1,22 @@
+[
+ [
+  "/bin/zsh -lc \"rg -n \\\"InvalidOperationException\\\\(\\\\\\\"Session not found\\\\.\\\\\\\"\\\\)\\\" -g '*.cs' .\"",
+  185,
+  0
+ ],
+ [
+  "/bin/zsh -lc 'sed -n 170,200p ./src/DevX.Infrastructure/Storage/SQLite/SqliteSessionStore.cs'",
+  1813,
+  0
+ ],
+ [
+  "/bin/zsh -lc 'rg -n \"RequireSessionAsync\" ./src/DevX.Infrastructure/Storage/SQLite/SqliteSessionStore.cs'",
+  663,
+  0
+ ],
+ [
+  "/bin/zsh -lc \"awk 'NR>=80 && NR<=130' ./src/DevX.Infrastructure/Storage/SQLite/SqliteSessionStore.cs\"",
+  2878,
+  0
+ ]
+]

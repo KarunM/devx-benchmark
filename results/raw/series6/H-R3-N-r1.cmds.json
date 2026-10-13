@@ -1,0 +1,12 @@
+[
+ [
+  "/bin/zsh -lc 'rg -n -C 8 \"ConfiguredPath|class RipgrepLocator\" .'",
+  13603,
+  0
+ ],
+ [
+  "/bin/zsh -lc \"sed -n '99,145p' src/DevX.Infrastructure/Storage/SQLite/RipgrepLocator.cs\"",
+  2245,
+  0
+ ]
+]

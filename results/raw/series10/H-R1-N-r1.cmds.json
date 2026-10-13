@@ -1,0 +1,16 @@
+[
+ {
+  "tool": "Bash",
+  "kind": "shell",
+  "command": "f=$(find . -path '*sympy/series/limits.py' | head -1); echo $f; grep -n \"dir\" $f | sed -n '1,80p' | grep -n -i -E \"raise|Error|dir must|direction\" ",
+  "bytes": 319,
+  "is_error": false
+ },
+ {
+  "tool": "Bash",
+  "kind": "shell",
+  "command": "sed -n 150,168p ./sympy/series/limits.py",
+  "bytes": 793,
+  "is_error": false
+ }
+]

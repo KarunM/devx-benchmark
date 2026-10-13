@@ -1,0 +1,5 @@
+Two functions in `sympy/series/gruntz.py` call `mrv_leadterm`, ignoring docstrings:
+- `sign`: line 421, `c0, e0 = mrv_leadterm(e, x)`.
+- `limitinf`: lines 449 and 451 (on `e.min` and `e.max`) and line 453 (on `e`).
+
+Line 530 is the definition of `mrv_leadterm` itself, and nothing after it calls it.

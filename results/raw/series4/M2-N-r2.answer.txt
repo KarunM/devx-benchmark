@@ -1,0 +1,1 @@
+`Integer` inherits transitively from `Expr`, defined at `sympy/core/expr.py:44`.

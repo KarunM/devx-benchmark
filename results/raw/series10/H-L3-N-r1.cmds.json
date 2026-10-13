@@ -1,0 +1,9 @@
+[
+ {
+  "tool": "Bash",
+  "kind": "shell",
+  "command": "grep -rn \"LooksLikeShellCommandLine\" . | grep -iv test",
+  "bytes": 339,
+  "is_error": false
+ }
+]

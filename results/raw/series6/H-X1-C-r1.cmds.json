@@ -1,0 +1,17 @@
+[
+ [
+  "/bin/zsh -lc 'devx callers \"mrv_leadterm\" --session \"<SESSION-F2>\" --agent codex'",
+  769,
+  0
+ ],
+ [
+  "/bin/zsh -lc 'devx read file sympy/series/gruntz.py --range 60:120 --session \"<SESSION-F2>\" --agent codex && devx read file sympy/series/gruntz.py --range 400:465 --session \"<SESSION-F2>\" --agent codex'",
+  2143,
+  0
+ ],
+ [
+  "/bin/zsh -lc 'devx read file sympy/series/gruntz.py --range 360:430 --session \"<SESSION-F2>\" --agent codex'",
+  1937,
+  0
+ ]
+]

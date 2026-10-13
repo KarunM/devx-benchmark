@@ -1,0 +1,4 @@
+- **Code fence (```):** returns `"markdown_fence_outside_blocks"` at `src/DevX.Cli/SearchReplaceBlockParser.cs:22`, via `normalized.Contains("```")` on line 20.
+- **Empty or whitespace:** returns `"zero_blocks"` at `src/DevX.Cli/SearchReplaceBlockParser.cs:16`, via `string.IsNullOrWhiteSpace(response)` on line 14.
+- Both come back as `new SearchReplaceParseResult(false, <message>, [])`. The empty check runs first, so blank input never reaches the fence check.
+- `"zero_blocks"` is also returned at line 110 when no blocks are parsed.

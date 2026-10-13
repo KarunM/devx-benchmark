@@ -1,0 +1,7 @@
+[
+ [
+  "/bin/zsh -lc 'rg -n \"def factorint|function factorint\" .'",
+  105,
+  0
+ ]
+]

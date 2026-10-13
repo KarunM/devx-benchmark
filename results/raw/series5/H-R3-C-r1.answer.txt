@@ -1,0 +1,1 @@
+`DevX.Infrastructure.Storage.SQLite.RipgrepLocator.ConfiguredPath` ([RipgrepLocator.cs](<F3>/src/DevX.Infrastructure/Storage/SQLite/RipgrepLocator.cs:99)) catches `JsonException`, `IOException`, and `UnauthorizedAccessException`; each returns `null`.

@@ -1,0 +1,9 @@
+[
+ {
+  "tool": "Grep",
+  "kind": "other",
+  "command": "{\"pattern\": \"def limitinf|limitinf\\\\s*=|fn limitinf|function limitinf\", \"path\": \"<F2>\", \"output_mode\": \"content\", \"-n\": true}",
+  "bytes": 46,
+  "is_error": false
+ }
+]

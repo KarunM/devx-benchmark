@@ -1,0 +1,25 @@
+blind_id,task,verdict,reason
+A01,H-R3,correct,Commits to answer matching reference on all asked elements; no wrong extras.
+A02,H-X1,correct,Commits to answer matching reference on all asked elements; no wrong extras.
+A03,H-R3,correct,Commits to answer matching reference on all asked elements; no wrong extras.
+A04,H-S2,correct,Commits to answer matching reference on all asked elements; no wrong extras.
+A05,H-R1,correct,Commits to answer matching reference on all asked elements; no wrong extras.
+A06,H-M2,correct,Commits to answer matching reference on all asked elements; no wrong extras.
+A07,H-R2,correct,Commits to answer matching reference on all asked elements; no wrong extras.
+A08,H-L3,correct,Commits to answer matching reference on all asked elements; no wrong extras.
+A09,H-R2,correct,Commits to answer matching reference on all asked elements; no wrong extras.
+A10,H-L1,correct,Commits to answer matching reference on all asked elements; no wrong extras.
+A11,H-M1,correct,Commits to answer matching reference on all asked elements; no wrong extras.
+A12,H-S2,correct,Commits to answer matching reference on all asked elements; no wrong extras.
+A13,H-L2,correct,Commits to answer matching reference on all asked elements; no wrong extras.
+A14,H-X1,correct,Commits to answer matching reference on all asked elements; no wrong extras.
+A15,H-X2,correct,Commits to answer matching reference on all asked elements; no wrong extras.
+A16,H-M2,correct,Commits to answer matching reference on all asked elements; no wrong extras.
+A17,H-X2,correct,Commits to answer matching reference on all asked elements; no wrong extras.
+A18,H-L2,correct,Commits to answer matching reference on all asked elements; no wrong extras.
+A19,H-L1,correct,Commits to answer matching reference on all asked elements; no wrong extras.
+A20,H-S1,correct,Commits to answer matching reference on all asked elements; no wrong extras.
+A21,H-R1,correct,Commits to answer matching reference on all asked elements; no wrong extras.
+A22,H-L3,correct,Commits to answer matching reference on all asked elements; no wrong extras.
+A23,H-M1,incorrect,Commits to C89CodePrinter:147 as the answer; reference is CodePrinter at codeprinter.py:53 (mentioned only as chain end).
+A24,H-S1,correct,Commits to answer matching reference on all asked elements; no wrong extras.

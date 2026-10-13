@@ -1,0 +1,8 @@
+Public methods defined directly in `sympy.ntheory.generate.Sieve`:
+
+- `extend` — `sympy/ntheory/generate.py:95`
+- `extend_to_no` — `sympy/ntheory/generate.py:161`
+- `primerange` — `sympy/ntheory/generate.py:188`
+- `totientrange` — `sympy/ntheory/generate.py:224`
+- `mobiusrange` — `sympy/ntheory/generate.py:261`
+- `search` — `sympy/ntheory/generate.py:305`

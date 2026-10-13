@@ -1,0 +1,1 @@
+`ValueError` — `sympy/core/symbol.py`, `Dummy.__new__` (check for `name is None` with `dummy_index` specified).

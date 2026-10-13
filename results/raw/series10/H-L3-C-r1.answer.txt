@@ -1,0 +1,1 @@
+`LooksLikeShellCommandLine` is defined at `src/DevX.Indexer/DevXCommandConfig.cs:153` (it runs to line 161). Its full name is `DevX.Indexer.DevXCommandConfig.LooksLikeShellCommandLine`, a `public static bool` method. It returns true when the command contains `&&`, `||`, `|`, `;`, `>`, `<`, `$`, or a `cd ` token.

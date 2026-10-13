@@ -1,0 +1,23 @@
+[
+ {
+  "tool": "Bash",
+  "kind": "shell",
+  "command": "grep -rn \"RipgrepLocator\" src --include=* | grep -v \"/tests\\?/\" | grep -i \"locate\"; find . -name \"RipgrepLocator*\" | head",
+  "bytes": 147,
+  "is_error": false
+ },
+ {
+  "tool": "Bash",
+  "kind": "shell",
+  "command": "grep -rn \"Locate\\b\\|Locate(\" src | grep -v \"RipgrepLocator.cs\"; echo ---; grep -n \"Locate\\|class \" src/DevX.Infrastructure/Storage/SQLite/RipgrepLocator.cs",
+  "bytes": 592,
+  "is_error": false
+ },
+ {
+  "tool": "Bash",
+  "kind": "shell",
+  "command": "sed -n 30,42p src/DevX.Infrastructure/Storage/SQLite/RipgrepContentSearcher.cs; echo ---; awk 'NR<=1272 && /^[^ \\t].*\\(|^ *(static|private|public|internal).*\\(/ {l=NR\": \"$0} END{print l}' src/DevX.Cli/Program.cs; sed -n 1255,1272p src/DevX.Cli/Program.cs",
+  "bytes": 2169,
+  "is_error": false
+ }
+]

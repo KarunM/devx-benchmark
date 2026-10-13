@@ -1,0 +1,7 @@
+[
+ [
+  "/bin/zsh -lc \"grep -rn 'limitinf' <F2>\"",
+  1848,
+  0
+ ]
+]

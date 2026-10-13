@@ -1,0 +1,30 @@
+[
+ {
+  "tool": "Bash",
+  "kind": "devx",
+  "command": "devx callers \"RipgrepLocator.Locate\" --full --session <SESSION-F3> --agent claude",
+  "bytes": 64,
+  "is_error": true
+ },
+ {
+  "tool": "Bash",
+  "kind": "devx",
+  "command": "devx search symbol \"Locate\" --session <SESSION-F3> --agent claude",
+  "bytes": 253,
+  "is_error": false
+ },
+ {
+  "tool": "Bash",
+  "kind": "devx",
+  "command": "devx callers \"DevX.Infrastructure.Storage.SQLite.RipgrepLocator.Locate\" --full --session <SESSION-F3> --agent claude; devx references \"DevX.Infrastructure.Storage.SQLite.RipgrepLocator\" --session <SESSION-F3> --agent claude",
+  "bytes": 2195,
+  "is_error": false
+ },
+ {
+  "tool": "Bash",
+  "kind": "devx",
+  "command": "devx search text \"RipgrepLocator.Locate\" --session <SESSION-F3> --agent claude",
+  "bytes": 1626,
+  "is_error": false
+ }
+]

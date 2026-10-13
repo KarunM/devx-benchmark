@@ -1,0 +1,6 @@
+
+
+Two callers outside `RipgrepLocator` itself (excluding tests):
+
+- **`src/DevX.Infrastructure/Storage/SQLite/RipgrepContentSearcher.cs:42`** — in `SearchInRoot()`  
+- **`src/DevX.Cli/Program.cs:1272`** — in the `RunSearch()` command handler

@@ -1,0 +1,1 @@
+`AtomicExpr` — defined at `sympy/core/expr.py:3958` (class definition spans lines 3958–4012).

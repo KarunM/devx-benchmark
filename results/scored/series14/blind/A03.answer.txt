@@ -1,0 +1,3 @@
+
+
+In `sympy/series/limits.py:163-165`, `Limit.__new__` raises **`ValueError`** with a message that begins: `"direction must be one of '+', '-' or '+-', not "`.

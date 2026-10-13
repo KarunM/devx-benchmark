@@ -1,0 +1,7 @@
+[
+ [
+  "/bin/zsh -lc \"rg -n \\\"limitinf\\\" --glob '\"'!*test*'\"' -g '\"'!*.txt'\"' . | head -50\"",
+  902,
+  0
+ ]
+]

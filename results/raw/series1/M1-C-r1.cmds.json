@@ -1,0 +1,22 @@
+[
+ [
+  "/bin/zsh -lc 'devx search symbol \"Symbol\" --session <SESSION-F2> --format agent'",
+  1161,
+  0
+ ],
+ [
+  "/bin/zsh -lc 'devx read type \"sympy.core.symbol.Symbol\" --session <SESSION-F2> --format agent'",
+  1216,
+  0
+ ],
+ [
+  "/bin/zsh -lc 'devx search symbol \"Boolean\" --session <SESSION-F2> --format agent'",
+  1155,
+  0
+ ],
+ [
+  "/bin/zsh -lc 'devx search symbol \"to_nnf\" --session <SESSION-F2> --format agent'",
+  778,
+  0
+ ]
+]

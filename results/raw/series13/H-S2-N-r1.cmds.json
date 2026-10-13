@@ -1,0 +1,9 @@
+[
+ {
+  "tool": "Bash",
+  "kind": "shell",
+  "command": "grep -nE '^\\s*(public|internal|private|protected)?.*\\b(class|struct|record|interface)\\b' src/DevX.Cli/SandboxManager.cs; echo ---; grep -nE '^\\s*public\\s+[^=]*\\(' src/DevX.Cli/SandboxManager.cs",
+  "bytes": 316,
+  "is_error": false
+ }
+]

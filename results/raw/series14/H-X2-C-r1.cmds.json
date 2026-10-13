@@ -1,0 +1,22 @@
+[
+ [
+  "/bin/zsh -lc 'devx callers \"RipgrepLocator.Locate\" --session <SESSION-F3> --agent codex --full'",
+  131,
+  1
+ ],
+ [
+  "/bin/zsh -lc 'devx search symbol \"RipgrepLocator\" --session <SESSION-F3> --agent codex'",
+  1391,
+  0
+ ],
+ [
+  "/bin/zsh -lc 'devx references \"RipgrepLocator.Locate\" --session <SESSION-F3> --agent codex --full'",
+  11883,
+  0
+ ],
+ [
+  "/bin/zsh -lc 'devx search text \"RipgrepLocator.*Locate\" --session <SESSION-F3> --agent codex'",
+  1839,
+  0
+ ]
+]

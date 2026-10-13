@@ -1,0 +1,12 @@
+[
+ [
+  "/bin/zsh -lc 'devx search symbol \"sympy.series.limits.Limit.__new__\" --session \"<SESSION-F2>\" --agent codex'",
+  1150,
+  0
+ ],
+ [
+  "/bin/zsh -lc 'devx read file sympy/series/limits.py --range 160:165 --session \"<SESSION-F2>\" --agent codex'",
+  0,
+  0
+ ]
+]

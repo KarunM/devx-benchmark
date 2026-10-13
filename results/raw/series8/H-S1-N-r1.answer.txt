@@ -1,0 +1,7 @@
+`SubsSet` has four public methods, all in `./sympy/series/gruntz.py`:
+- `SubsSet.do_subs` (line 213)
+- `SubsSet.meets` (line 219)
+- `SubsSet.union` (line 223)
+- `SubsSet.copy` (line 238)
+
+I found them by listing `def` lines in the class that don't start with an underscore. I didn't separately check for decorated methods or nested definitions.

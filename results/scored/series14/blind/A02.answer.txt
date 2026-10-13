@@ -1,0 +1,6 @@
+
+
+The private helper `RequireSessionAsync` (`SqliteSessionStore.cs:181`) has two callers whose names start with `Mark`:
+
+- **`MarkSymbolExpandedAsync`** (`SqliteSessionStore.cs:101`)
+- **`MarkFileExpandedAsync`** (`SqliteSessionStore.cs:107`)

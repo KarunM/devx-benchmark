@@ -1,0 +1,1 @@
+`Integer` → `Rational` → `Number` → `AtomicExpr`. The class is `AtomicExpr`, defined at `sympy/core/expr.py:3958`.

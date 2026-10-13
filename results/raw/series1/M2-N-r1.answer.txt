@@ -1,0 +1,1 @@
+`Expr` — [sympy/core/expr.py:44](sympy/core/expr.py:44). Integer inherits through `Rational → Number → AtomicExpr → Expr`.

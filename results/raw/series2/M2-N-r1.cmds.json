@@ -1,0 +1,7 @@
+[
+ [
+  "/bin/zsh -lc \"grep -nE '\"'^(class Integer|class [A-Za-z_]+)'\"' sympy/core/numbers.py sympy/core/expr.py\"",
+  1810,
+  0
+ ]
+]

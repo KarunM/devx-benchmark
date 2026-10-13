@@ -1,0 +1,27 @@
+[
+ [
+  "/bin/zsh -lc 'cd <F2> && ls && rg -n \"mrv_leadterm\" sympy/series/gruntz.py'",
+  704,
+  0
+ ],
+ [
+  "/bin/zsh -lc \"cd <F2> && awk 'NR>=380 && NR<=460' sympy/series/gruntz.py | grep -n \\\"\"'^def'\"\\\\|mrv_leadterm\\\"\"",
+  204,
+  0
+ ],
+ [
+  "/bin/zsh -lc \"cd <F2> && sed -n '410,432p' sympy/series/gruntz.py\"",
+  487,
+  0
+ ],
+ [
+  "/bin/zsh -lc \"cd <F2> && sed -n '395,400p' sympy/series/gruntz.py\"",
+  153,
+  0
+ ],
+ [
+  "/bin/zsh -lc 'cd <F2> && grep -n \"''^def '\"\\\\|\"'^@'\"\\\\|mrv_leadterm\\\" sympy/series/gruntz.py | sed -n '1,40p'\"",
+  984,
+  0
+ ]
+]

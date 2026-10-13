@@ -1,0 +1,12 @@
+[
+ [
+  "/bin/zsh -lc 'find <F2> -type f -name \"*.py\" | head -30'",
+  2679,
+  0
+ ],
+ [
+  "/bin/zsh -lc 'grep -n -A3 \"dir\" <F2>/sympy/series/limits.py | head -80'",
+  2550,
+  0
+ ]
+]

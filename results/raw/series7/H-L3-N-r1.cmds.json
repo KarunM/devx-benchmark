@@ -1,0 +1,12 @@
+[
+ [
+  "/bin/zsh -lc 'grep -rn \"LooksLikeShellCommandLine\" . --include=* -l; echo \"---\"; grep -rn \"func.*LooksLikeShellCommandLine\" .'",
+  41,
+  1
+ ],
+ [
+  "/bin/zsh -lc 'rg -n \"LooksLikeShellCommandLine\" .'",
+  304,
+  0
+ ]
+]

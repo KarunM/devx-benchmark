@@ -1,0 +1,2 @@
+sympy/core/symbol.py:269 `Symbol.kind`; :408 `Symbol.assumptions0`; :412 `Symbol.sort_key`; :415 `Symbol.as_dummy`
+sympy/core/symbol.py:420 `Symbol.as_real_imag`; :427 `Symbol.is_constant`; :433 `Symbol.free_symbols`; :438 `Symbol.as_set`

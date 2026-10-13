@@ -1,0 +1,6 @@
+Public methods in `SubsSet` (sympy/series/gruntz.py):
+
+- `do_subs` — 213
+- `meets` — 219
+- `union` — 223
+- `copy` — 238

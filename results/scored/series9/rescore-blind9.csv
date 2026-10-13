@@ -1,0 +1,25 @@
+blind_id,task,verdict,reason
+A01,H-S1,correct,Commits to reference answer; no wrong elements
+A02,H-L2,correct,Commits to reference answer; no wrong elements
+A03,H-R3,correct,Commits to reference answer; no wrong elements
+A04,H-M2,correct,Commits to reference answer; no wrong elements
+A05,H-L2,correct,Commits to reference answer; no wrong elements
+A06,H-X2,correct,Commits to reference answer; no wrong elements
+A07,H-L3,correct,Commits to reference answer; no wrong elements
+A08,H-S1,correct,Commits to reference answer; no wrong elements
+A09,H-R3,correct,Commits to reference answer; no wrong elements
+A10,H-L3,correct,Commits to reference answer; no wrong elements
+A11,H-X2,correct,Commits to reference answer; no wrong elements
+A12,H-S2,correct,Commits to reference answer; no wrong elements
+A13,H-L1,correct,Commits to reference answer; no wrong elements
+A14,H-X1,incorrect,"Swaps attribution: says limitinf at 421 and sign at 449-453; self-contradictory, reference has sign=421, limitinf=449-453"
+A15,H-R2,incorrect,"Status message, not an answer"
+A16,H-M2,correct,Commits to reference answer; no wrong elements
+A17,H-M1,correct,Commits to reference answer; no wrong elements
+A18,H-L1,correct,Commits to reference answer; no wrong elements
+A19,H-R1,correct,Commits to reference answer; no wrong elements
+A20,H-R1,correct,Commits to reference answer; no wrong elements
+A21,H-X1,correct,Commits to reference answer; no wrong elements
+A22,H-M1,incorrect,Final answer right but states C89CodePrinter at c.py:637 (actually 147); wrong extra element
+A23,H-S2,correct,Commits to reference answer; no wrong elements
+A24,H-R2,correct,Commits to reference answer; no wrong elements

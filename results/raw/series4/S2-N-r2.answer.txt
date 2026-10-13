@@ -1,0 +1,11 @@
+sympy/ntheory/generate.py:45 — `Sieve.__init__`
+sympy/ntheory/generate.py:69 — `Sieve.__repr__`
+sympy/ntheory/generate.py:95 — `Sieve.extend`
+sympy/ntheory/generate.py:161 — `Sieve.extend_to_no`
+sympy/ntheory/generate.py:188 — `Sieve.primerange`
+sympy/ntheory/generate.py:224 — `Sieve.totientrange`
+sympy/ntheory/generate.py:261 — `Sieve.mobiusrange`
+sympy/ntheory/generate.py:305 — `Sieve.search`
+sympy/ntheory/generate.py:334 — `Sieve.__contains__`
+sympy/ntheory/generate.py:345 — `Sieve.__iter__`
+sympy/ntheory/generate.py:349 — `Sieve.__getitem__`

@@ -1,0 +1,2 @@
+- `sympy/series/gruntz.py:421` — `sign`
+- `sympy/series/gruntz.py:449,451,453` — `limitinf`

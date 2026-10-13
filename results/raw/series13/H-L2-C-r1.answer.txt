@@ -1,0 +1,1 @@
+`C99CodePrinter` is defined at `sympy/printing/c.py:637` (class `sympy.printing.c.C99CodePrinter`, spanning lines 637-729).

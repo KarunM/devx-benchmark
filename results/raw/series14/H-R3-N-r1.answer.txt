@@ -1,0 +1,7 @@
+
+
+In `RipgrepLocator.cs:108-110`, `ConfiguredPath` catches these three exception types, each returning `null`:
+
+1. **`JsonException`** — malformed JSON in `.devx/config.json`
+2. **`IOException`** — I/O failure reading the config file
+3. **`UnauthorizedAccessException`** — permission denied accessing the config file

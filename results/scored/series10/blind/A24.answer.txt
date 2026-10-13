@@ -1,0 +1,6 @@
+`SandboxManager` (src/DevX.Cli/SandboxManager.cs) defines five public methods directly, not counting the constructor:
+- `CopySourceTree()` at src/DevX.Cli/SandboxManager.cs:24
+- `ApplyChanges()` at src/DevX.Cli/SandboxManager.cs:32
+- `GetChangedFiles()` at src/DevX.Cli/SandboxManager.cs:47
+- `GetUnifiedDiff(int contextLines = 3)` at src/DevX.Cli/SandboxManager.cs:72
+- `Dispose()` at src/DevX.Cli/SandboxManager.cs:117

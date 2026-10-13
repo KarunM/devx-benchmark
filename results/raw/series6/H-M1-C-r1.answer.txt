@@ -1,0 +1,2 @@
+C99CodePrinter’s base is `C89CodePrinter`, defined at `sympy/printing/c.py:147`.  
+`C89CodePrinter` inherits from `CodePrinter`, defined at `sympy/printing/codeprinter.py:53`.

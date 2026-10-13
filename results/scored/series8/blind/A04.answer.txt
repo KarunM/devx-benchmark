@@ -1,0 +1,8 @@
+Public methods defined directly in `DevX.Cli.SandboxManager` (src/DevX.Cli/SandboxManager.cs, class at lines 5-173), excluding the constructor at line 14:
+- `CopySourceTree()` at line 24
+- `ApplyChanges()` at line 32
+- `GetChangedFiles()` at line 47
+- `GetUnifiedDiff(int contextLines = 3)` at line 72
+- `Dispose()` at line 117, which implements `IDisposable`
+
+`CopyDirectory` and `EnumerateFiles` are private.

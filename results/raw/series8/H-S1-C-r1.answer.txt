@@ -1,0 +1,7 @@
+Public methods defined directly in `sympy.series.gruntz.SubsSet` (class spans `sympy/series/gruntz.py:155-244`):
+- `do_subs(self, e)` at `sympy/series/gruntz.py:213`
+- `meets(self, s2)` at `sympy/series/gruntz.py:219`
+- `union(self, s2, exps=None)` at `sympy/series/gruntz.py:223`
+- `copy(self)` at `sympy/series/gruntz.py:238`
+
+I left out `__init__`, `__repr__` and `__getitem__` because their names start with an underscore.

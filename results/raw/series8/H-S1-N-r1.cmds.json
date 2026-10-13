@@ -1,0 +1,9 @@
+[
+ {
+  "tool": "Bash",
+  "kind": "shell",
+  "command": "cd <F2>; f=$(find . -path '*sympy/series/gruntz.py' | head -1); echo $f; awk '/^class /{p=($0 ~ /^class SubsSet/)} p && /^    def [^_]/{print FNR\": \"$0}' $f",
+  "bytes": 151,
+  "is_error": false
+ }
+]

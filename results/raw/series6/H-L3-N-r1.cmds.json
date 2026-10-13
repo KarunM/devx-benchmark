@@ -1,0 +1,7 @@
+[
+ [
+  "/bin/zsh -lc \"rg -n --glob '\"'!**/*test*'\"' 'LooksLikeShellCommandLine' .\"",
+  304,
+  0
+ ]
+]

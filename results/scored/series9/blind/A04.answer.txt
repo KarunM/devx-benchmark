@@ -1,0 +1,1 @@
+Two callers start with `Mark`: `SqliteSessionStore.MarkFileExpandedAsync` and `SqliteSessionStore.MarkSymbolExpandedAsync` (both in src/DevX.Infrastructure/Storage/SQLite/SqliteSessionStore.cs).

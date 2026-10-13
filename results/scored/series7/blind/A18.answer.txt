@@ -1,0 +1,3 @@
+`JsonException` (line 119), `IOException` (120), `UnauthorizedAccessException` (121) — each returns null.
+
+File: `src/DevX.Infrastructure/Storage/SQLite/RipgrepLocator.cs:119-121`

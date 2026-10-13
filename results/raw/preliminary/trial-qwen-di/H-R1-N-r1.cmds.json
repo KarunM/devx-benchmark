@@ -1,0 +1,27 @@
+[
+ [
+  "/bin/zsh -lc 'python3 -c \"import sympy; print(sympy.__file__)\"'",
+  785,
+  1
+ ],
+ [
+  "/bin/zsh -lc 'find <F2> -name \"limits.py\" -path \"*/series/*\" 2>/dev/null'",
+  81,
+  0
+ ],
+ [
+  "/bin/zsh -lc 'grep -n \"class Limit\" <F2>/sympy/series/limits.py'",
+  23,
+  0
+ ],
+ [
+  "/bin/zsh -lc 'cat <F2>/sympy/series/limits.py'",
+  12843,
+  0
+ ],
+ [
+  "/bin/zsh -lc \"sed -n '/class Limit/,/\"'^class /p'\"' <F2>/sympy/series/limits.py | head -120\"",
+  3535,
+  0
+ ]
+]

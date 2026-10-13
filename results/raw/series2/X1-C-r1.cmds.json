@@ -1,0 +1,22 @@
+[
+ [
+  "/bin/zsh -lc 'devx callers \"_factorint_small\" --session \"<SESSION-F2>\" --agent codex'",
+  82,
+  1
+ ],
+ [
+  "/bin/zsh -lc 'devx search symbol \"_factorint_small\" --session \"<SESSION-F2>\" --agent codex'",
+  263,
+  0
+ ],
+ [
+  "/bin/zsh -lc 'devx references \"sympy.ntheory.factor_._factorint_small\" --session \"<SESSION-F2>\" --agent codex'",
+  70,
+  1
+ ],
+ [
+  "/bin/zsh -lc 'devx search text \"_factorint_small(\" --session \"<SESSION-F2>\" --agent codex'",
+  543,
+  0
+ ]
+]

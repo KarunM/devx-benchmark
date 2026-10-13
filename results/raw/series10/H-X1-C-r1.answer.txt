@@ -1,0 +1,5 @@
+In `sympy/series/gruntz.py`, two functions call `mrv_leadterm` (defined at line 530):
+- `sign` calls it at `sympy/series/gruntz.py:421` (`c0, e0 = mrv_leadterm(e, x)`).
+- `limitinf` calls it at `sympy/series/gruntz.py:449` (twice, comparing `e.min` and `e.max`), `:451` and `:453`.
+
+The hits at lines 78–111 are in the docstring, so I left them out. devx matched these by name rather than resolving the call graph.

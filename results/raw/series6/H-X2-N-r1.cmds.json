@@ -1,0 +1,17 @@
+[
+ [
+  "/bin/zsh -lc \"grep -RIn --exclude-dir=test --exclude-dir=tests --exclude='*Test*' 'RipgrepLocator\\\\.Locate' src || true\"",
+  322,
+  0
+ ],
+ [
+  "/bin/zsh -lc \"sed -n '1,80p' src/DevX.Infrastructure/Storage/SQLite/RipgrepContentSearcher.cs; sed -n '1245,1285p' src/DevX.Cli/Program.cs\"",
+  6360,
+  0
+ ],
+ [
+  "/bin/zsh -lc \"grep -RIn --include='*.cs' 'Locate' src | head -80; grep -RIn --include='*.cs' 'class RipgrepLocator\\\\|static.*Locate' src\"",
+  1096,
+  0
+ ]
+]

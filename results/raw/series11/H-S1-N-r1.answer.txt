@@ -1,0 +1,1 @@
+The public methods defined directly in `SubsSet` are `do_subs` ([gruntz.py:213](<F2>/sympy/series/gruntz.py:213)), `meets` ([gruntz.py:219](<F2>/sympy/series/gruntz.py:219)), `union` ([gruntz.py:223](<F2>/sympy/series/gruntz.py:223)), and `copy` ([gruntz.py:238](<F2>/sympy/series/gruntz.py:238)).

@@ -1,0 +1,28 @@
+H-L1-C-r1: correct=1 calls=1 (devx 1/shell 0/mcp 0) in=28707 out=170 bytes=1762 wall=15.4s rc=0 tools={'devx': 1}
+H-L1-N-r1: correct=1 calls=1 (devx 0/shell 1/mcp 0) in=26809 out=158 bytes=707 wall=7.7s rc=0 tools={'shell': 1}
+H-L2-N-r1: correct=1 calls=1 (devx 0/shell 1/mcp 0) in=26536 out=140 bytes=64 wall=5.7s rc=0 tools={'shell': 1}
+H-L2-C-r1: correct=1 calls=1 (devx 1/shell 0/mcp 0) in=28458 out=184 bytes=982 wall=6.3s rc=0 tools={'devx': 1}
+H-R1-C-r1: correct=1 calls=1 (devx 1/shell 0/mcp 0) in=28501 out=183 bytes=1078 wall=9.5s rc=0 tools={'devx': 1}
+H-R1-N-r1: correct=1 calls=2 (devx 0/shell 2/mcp 0) in=40434 out=238 bytes=1224 wall=10.2s rc=0 tools={'shell': 2}
+H-S1-N-r1: correct=1 calls=2 (devx 0/shell 2/mcp 0) in=41007 out=392 bytes=3423 wall=8.1s rc=0 tools={'shell': 2}
+H-S1-C-r1: correct=1 calls=1 (devx 1/shell 0/mcp 0) in=28350 out=290 bytes=468 wall=10.3s rc=0 tools={'devx': 1}
+H-X1-C-r1: correct=1 calls=3 (devx 3/shell 0/mcp 0) in=59432 out=488 bytes=4263 wall=16.5s rc=0 tools={'devx': 3}
+H-X1-N-r1: correct=1 calls=3 (devx 0/shell 3/mcp 0) in=55560 out=335 bytes=2952 wall=10.8s rc=0 tools={'shell': 3}
+H-M1-N-r1: correct=1 calls=1 (devx 0/shell 1/mcp 0) in=27647 out=301 bytes=185 wall=9.4s rc=0 tools={'shell': 1}
+H-M1-C-r1: correct=1 calls=3 (devx 3/shell 0/mcp 0) in=59395 out=309 bytes=5846 wall=12.1s rc=0 tools={'devx': 3}
+H-L3-C-r1: correct=1 calls=1 (devx 1/shell 0/mcp 0) in=29358 out=220 bytes=724 wall=11.1s rc=0 tools={'devx': 1}
+H-L3-N-r1: correct=1 calls=1 (devx 0/shell 1/mcp 0) in=26555 out=115 bytes=304 wall=6.8s rc=0 tools={'shell': 1}
+H-R2-N-r1: correct=1 calls=2 (devx 0/shell 2/mcp 0) in=50730 out=265 bytes=19664 wall=7.9s rc=0 tools={'shell': 2}
+H-R2-C-r1: correct=1 calls=1 (devx 1/shell 0/mcp 0) in=28869 out=220 bytes=3581 wall=9.0s rc=0 tools={'devx': 1}
+H-R3-C-r1: correct=1 calls=1 (devx 1/shell 0/mcp 0) in=28485 out=209 bytes=1358 wall=6.3s rc=0 tools={'devx': 1}
+H-R3-N-r1: correct=1 calls=1 (devx 0/shell 1/mcp 0) in=29746 out=181 bytes=24461 wall=9.5s rc=0 tools={'shell': 1}
+H-S2-N-r1: correct=1 calls=2 (devx 0/shell 2/mcp 0) in=41086 out=350 bytes=4947 wall=12.2s rc=0 tools={'shell': 2}
+H-S2-C-r1: correct=1 calls=1 (devx 1/shell 0/mcp 0) in=28431 out=273 bytes=942 wall=7.1s rc=0 tools={'devx': 1}
+H-X2-C-r1: correct=1 calls=4 (devx 4/shell 0/mcp 0) in=73180 out=584 bytes=3415 wall=13.2s rc=0 tools={'devx': 4}
+H-X2-N-r1: correct=1 calls=2 (devx 0/shell 2/mcp 0) in=41406 out=285 bytes=6109 wall=8.6s rc=0 tools={'shell': 2}
+H-M2-N-r1: correct=1 calls=2 (devx 0/shell 2/mcp 0) in=42895 out=294 bytes=12567 wall=8.0s rc=0 tools={'shell': 2}
+H-M2-C-r1: correct=1 calls=2 (devx 2/shell 0/mcp 0) in=43869 out=300 bytes=3875 wall=8.4s rc=0 tools={'devx': 2}
+
+arm | n | correct | calls (shell/mcp) | input_tokens | output_tokens | result_bytes | wall_seconds
+N | 12 | 1.00 | 1.7 (1.7/0.0) | 37534 | 254 | 6384 | 8.7
+C | 12 | 1.00 | 1.7 (0.0/0.0) | 38753 | 286 | 2358 | 10.4

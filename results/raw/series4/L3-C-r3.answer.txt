@@ -1,0 +1,1 @@
+`Rational` is defined in `sympy/core/numbers.py:1202`.

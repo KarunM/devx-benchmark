@@ -1,0 +1,7 @@
+[
+ [
+  "/bin/zsh -lc \"grep -n '\"'^class Sieve'\"' sympy/ntheory/generate.py && sed -n '/\"'^class Sieve/,/''^class /p'\"' sympy/ntheory/generate.py | grep -nE '\"'^    def [''^_]'\"'\"",
+  224,
+  0
+ ]
+]

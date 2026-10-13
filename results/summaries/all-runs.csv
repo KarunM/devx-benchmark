@@ -1,0 +1,217 @@
+series,model,harness,task,kind,fixture,arm,verified_correct,tool_calls,tool_calls_devx,tool_calls_shell,input_tokens,cached_tokens,output_tokens,result_bytes,wall_seconds,both_correct
+5,gpt-6-luna,Codex,H-L1,locate,f2,DevX,1,1,1,0,28345,9984,156,1762,12.7,1
+5,gpt-6-luna,Codex,H-L1,locate,f2,native,1,1,0,1,27442,11776,111,813,9.7,1
+5,gpt-6-luna,Codex,H-L2,locate,f2,DevX,1,1,1,0,28072,23040,123,982,5.5,1
+5,gpt-6-luna,Codex,H-L2,locate,f2,native,1,1,0,1,26122,24064,84,64,5.0,1
+5,gpt-6-luna,Codex,H-L3,locate,f3,DevX,1,1,1,0,27955,23040,143,724,7.7,1
+5,gpt-6-luna,Codex,H-L3,locate,f3,native,1,1,0,1,26188,24064,101,304,7.6,1
+5,gpt-6-luna,Codex,H-M1,multihop,f2,DevX,0,0,0,0,13858,1792,34,0,3.6,0
+5,gpt-6-luna,Codex,H-M1,multihop,f2,native,1,1,0,1,26313,24064,222,455,9.4,0
+5,gpt-6-luna,Codex,H-M2,multihop,f3,DevX,1,2,2,0,43217,40192,225,3875,7.3,1
+5,gpt-6-luna,Codex,H-M2,multihop,f3,native,1,2,0,2,42542,35072,239,14552,10.2,1
+5,gpt-6-luna,Codex,H-R1,read,f2,DevX,1,1,1,0,28185,25088,193,1150,13.6,1
+5,gpt-6-luna,Codex,H-R1,read,f2,native,1,1,0,1,26747,24064,159,1808,8.1,1
+5,gpt-6-luna,Codex,H-R2,read,f3,DevX,1,2,2,0,43176,37120,373,4550,13.5,1
+5,gpt-6-luna,Codex,H-R2,read,f3,native,1,3,0,3,61576,54272,383,358121,10.5,1
+5,gpt-6-luna,Codex,H-R3,read,f3,DevX,1,1,1,0,28140,23040,188,1494,7.4,1
+5,gpt-6-luna,Codex,H-R3,read,f3,native,1,2,0,2,41926,39168,159,3572,8.9,1
+5,gpt-6-luna,Codex,H-S1,structure,f2,DevX,0,1,1,0,27957,23040,194,468,6.7,0
+5,gpt-6-luna,Codex,H-S1,structure,f2,native,0,0,0,0,13018,12032,18,0,3.8,0
+5,gpt-6-luna,Codex,H-S2,structure,f3,DevX,1,1,1,0,28041,23040,217,942,10.2,1
+5,gpt-6-luna,Codex,H-S2,structure,f3,native,1,1,0,1,26226,22016,190,403,9.5,1
+5,gpt-6-luna,Codex,H-X1,crossref,f2,DevX,1,1,1,0,28470,11776,220,1772,8.3,1
+5,gpt-6-luna,Codex,H-X1,crossref,f2,native,1,3,0,3,54704,50176,359,2636,16.0,1
+5,gpt-6-luna,Codex,H-X2,crossref,f3,DevX,1,4,4,0,79587,69376,496,14239,12.2,0
+5,gpt-6-luna,Codex,H-X2,crossref,f3,native,0,1,0,1,26793,13824,223,2555,7.1,0
+6,gpt-5.6-luna,Codex,H-L1,locate,f2,DevX,1,1,1,0,25796,20992,203,1762,15.4,1
+6,gpt-5.6-luna,Codex,H-L1,locate,f2,native,1,1,0,1,22627,19968,176,49,5.1,1
+6,gpt-5.6-luna,Codex,H-L2,locate,f2,DevX,1,1,1,0,24561,17920,193,982,7.4,1
+6,gpt-5.6-luna,Codex,H-L2,locate,f2,native,1,1,0,1,22612,19968,155,64,4.6,1
+6,gpt-5.6-luna,Codex,H-L3,locate,f3,DevX,1,1,1,0,25457,20992,225,724,6.6,1
+6,gpt-5.6-luna,Codex,H-L3,locate,f3,native,1,1,0,1,22658,19968,152,304,4.9,1
+6,gpt-5.6-luna,Codex,H-M1,multihop,f2,DevX,1,3,3,0,51849,44032,746,5846,10.5,1
+6,gpt-5.6-luna,Codex,H-M1,multihop,f2,native,1,1,0,1,22885,19968,252,1031,5.6,1
+6,gpt-5.6-luna,Codex,H-M2,multihop,f3,DevX,1,3,3,0,51634,47104,536,5449,8.7,1
+6,gpt-5.6-luna,Codex,H-M2,multihop,f3,native,1,2,0,2,37151,30976,386,14131,7.1,1
+6,gpt-5.6-luna,Codex,H-R1,read,f2,DevX,1,2,2,0,37600,29952,487,1150,13.9,1
+6,gpt-5.6-luna,Codex,H-R1,read,f2,native,1,3,0,3,61295,52224,380,1051628,7.6,1
+6,gpt-5.6-luna,Codex,H-R2,read,f3,DevX,1,3,3,0,51063,44032,632,4641,9.7,1
+6,gpt-5.6-luna,Codex,H-R2,read,f3,native,1,2,0,2,55921,41216,390,65362,6.8,1
+6,gpt-5.6-luna,Codex,H-R3,read,f3,DevX,1,1,1,0,24588,19968,211,1358,9.0,1
+6,gpt-5.6-luna,Codex,H-R3,read,f3,native,1,2,0,2,41892,34048,325,15848,12.4,1
+6,gpt-5.6-luna,Codex,H-S1,structure,f2,DevX,1,1,1,0,24553,19968,348,665,10.9,1
+6,gpt-5.6-luna,Codex,H-S1,structure,f2,native,1,1,0,1,24987,19968,247,4542,5.7,1
+6,gpt-5.6-luna,Codex,H-S2,structure,f3,DevX,1,1,1,0,24517,19968,321,942,5.4,1
+6,gpt-5.6-luna,Codex,H-S2,structure,f3,native,1,1,0,1,22669,17920,216,313,9.0,1
+6,gpt-5.6-luna,Codex,H-X1,crossref,f2,DevX,1,3,3,0,54015,48128,732,4849,10.7,1
+6,gpt-5.6-luna,Codex,H-X1,crossref,f2,native,1,2,0,2,37025,28928,456,6548,13.1,1
+6,gpt-5.6-luna,Codex,H-X2,crossref,f3,DevX,1,2,2,0,43242,35072,580,13722,10.6,1
+6,gpt-5.6-luna,Codex,H-X2,crossref,f3,native,1,3,0,3,51323,44032,811,7778,10.9,1
+7,DeepSeek Flash 4.1,Codex,H-L1,locate,f2,DevX,1,1,1,0,75482,46464,125,1762,12.1,1
+7,DeepSeek Flash 4.1,Codex,H-L1,locate,f2,native,1,1,0,1,73607,71424,100,902,4.6,1
+7,DeepSeek Flash 4.1,Codex,H-L2,locate,f2,DevX,1,1,1,0,75252,74624,170,982,5.0,1
+7,DeepSeek Flash 4.1,Codex,H-L2,locate,f2,native,1,1,0,1,73275,72832,86,64,6.3,1
+7,DeepSeek Flash 4.1,Codex,H-L3,locate,f3,DevX,1,1,1,0,75129,72192,171,724,5.2,1
+7,DeepSeek Flash 4.1,Codex,H-L3,locate,f3,native,1,2,0,2,110170,109440,193,345,5.5,1
+7,DeepSeek Flash 4.1,Codex,H-M1,multihop,f2,DevX,1,2,2,0,114560,112640,246,4864,7.2,1
+7,DeepSeek Flash 4.1,Codex,H-M1,multihop,f2,native,1,2,0,2,110364,109696,302,145,6.1,1
+7,DeepSeek Flash 4.1,Codex,H-M2,multihop,f3,DevX,1,4,4,0,153700,151808,648,5073,9.5,1
+7,DeepSeek Flash 4.1,Codex,H-M2,multihop,f3,native,1,4,0,4,186227,184320,342,5539,10.2,1
+7,DeepSeek Flash 4.1,Codex,H-R1,read,f2,DevX,1,1,1,0,75294,74752,111,1078,4.8,1
+7,DeepSeek Flash 4.1,Codex,H-R1,read,f2,native,1,3,0,3,111686,109952,378,3806,16.6,1
+7,DeepSeek Flash 4.1,Codex,H-R2,read,f3,DevX,1,2,0,2,114452,113152,449,4272,8.0,1
+7,DeepSeek Flash 4.1,Codex,H-R2,read,f3,native,1,4,0,4,148442,147200,402,2992,8.1,1
+7,DeepSeek Flash 4.1,Codex,H-R3,read,f3,DevX,1,1,1,0,75311,74752,150,1358,4.5,1
+7,DeepSeek Flash 4.1,Codex,H-R3,read,f3,native,1,2,0,2,111232,109952,178,3097,6.0,1
+7,DeepSeek Flash 4.1,Codex,H-S1,structure,f2,DevX,1,1,1,0,75125,74752,143,468,4.5,1
+7,DeepSeek Flash 4.1,Codex,H-S1,structure,f2,native,1,3,0,3,149508,147968,348,2671,7.3,1
+7,DeepSeek Flash 4.1,Codex,H-S2,structure,f3,DevX,1,1,1,0,73705,69120,169,942,4.5,1
+7,DeepSeek Flash 4.1,Codex,H-S2,structure,f3,native,1,2,0,2,75261,72960,354,7864,4.8,1
+7,DeepSeek Flash 4.1,Codex,H-X1,crossref,f2,DevX,1,1,1,0,75729,74752,230,1884,5.5,1
+7,DeepSeek Flash 4.1,Codex,H-X1,crossref,f2,native,1,5,0,5,224673,222976,673,2532,11.7,1
+7,DeepSeek Flash 4.1,Codex,H-X2,crossref,f3,DevX,1,3,3,0,113890,112384,432,3361,7.1,1
+7,DeepSeek Flash 4.1,Codex,H-X2,crossref,f3,native,1,5,0,5,224972,223104,936,3891,12.9,1
+8,Sonnet 5.5,Claude Code,H-L1,locate,f2,DevX,1,1,1,0,38240,29373,92,1683,11.2,1
+8,Sonnet 5.5,Claude Code,H-L1,locate,f2,native,1,1,0,0,36839,29904,78,46,5.4,1
+8,Sonnet 5.5,Claude Code,H-L2,locate,f2,DevX,1,1,1,0,39556,33268,85,903,6.4,1
+8,Sonnet 5.5,Claude Code,H-L2,locate,f2,native,1,1,0,0,36865,31011,104,61,5.3,1
+8,Sonnet 5.5,Claude Code,H-L3,locate,f3,DevX,1,1,1,0,39411,31073,162,645,6.7,1
+8,Sonnet 5.5,Claude Code,H-L3,locate,f3,native,1,1,0,0,35342,29323,104,299,5.2,1
+8,Sonnet 5.5,Claude Code,H-M1,multihop,f2,DevX,1,2,2,0,59770,53315,147,923,9.6,0
+8,Sonnet 5.5,Claude Code,H-M1,multihop,f2,native,0,1,0,1,37035,31047,187,184,6.9,0
+8,Sonnet 5.5,Claude Code,H-M2,multihop,f3,DevX,1,3,3,0,84155,75368,282,4730,11.6,1
+8,Sonnet 5.5,Claude Code,H-M2,multihop,f3,native,1,3,0,2,75929,68222,298,3344,8.9,1
+8,Sonnet 5.5,Claude Code,H-R1,read,f2,DevX,1,1,1,0,38003,31607,220,999,11.7,1
+8,Sonnet 5.5,Claude Code,H-R1,read,f2,native,1,2,0,2,56497,49918,233,1342,78.7,1
+8,Sonnet 5.5,Claude Code,H-R2,read,f3,DevX,1,1,1,0,38798,31610,210,3502,6.0,1
+8,Sonnet 5.5,Claude Code,H-R2,read,f3,native,1,2,0,1,56166,49618,246,1410,9.0,1
+8,Sonnet 5.5,Claude Code,H-R3,read,f3,DevX,1,1,1,0,39721,33293,211,1279,6.4,1
+8,Sonnet 5.5,Claude Code,H-R3,read,f3,native,1,2,0,1,57738,50159,179,3791,7.6,1
+8,Sonnet 5.5,Claude Code,H-S1,structure,f2,DevX,1,1,1,0,39336,33283,220,389,7.4,1
+8,Sonnet 5.5,Claude Code,H-S1,structure,f2,native,1,1,0,1,35377,29333,163,151,6.7,1
+8,Sonnet 5.5,Claude Code,H-S2,structure,f3,DevX,1,1,1,0,37932,31592,210,863,6.2,1
+8,Sonnet 5.5,Claude Code,H-S2,structure,f3,native,1,1,0,1,35513,29339,232,674,6.1,1
+8,Sonnet 5.5,Claude Code,H-X1,crossref,f2,DevX,1,1,1,0,41194,33283,209,3499,9.4,1
+8,Sonnet 5.5,Claude Code,H-X1,crossref,f2,native,1,1,0,1,35599,29333,26,524,7.2,1
+8,Sonnet 5.5,Claude Code,H-X2,crossref,f3,DevX,1,4,4,0,102947,94281,409,4138,15.0,1
+8,Sonnet 5.5,Claude Code,H-X2,crossref,f3,native,1,3,0,3,76079,68617,405,2908,13.5,1
+9,Sonnet 5,Claude Code,H-L1,locate,f2,DevX,1,1,1,0,55090,26594,21,1683,11.0,1
+9,Sonnet 5,Claude Code,H-L1,locate,f2,native,1,1,0,0,52980,46142,22,46,6.6,1
+9,Sonnet 5,Claude Code,H-L2,locate,f2,DevX,1,1,1,0,55622,49904,18,903,6.9,1
+9,Sonnet 5,Claude Code,H-L2,locate,f2,native,1,2,0,2,78821,73329,41,105,10.1,1
+9,Sonnet 5,Claude Code,H-L3,locate,f3,DevX,1,1,1,0,55477,47311,21,645,7.7,1
+9,Sonnet 5,Claude Code,H-L3,locate,f3,native,1,2,0,2,79854,74229,41,381,8.8,1
+9,Sonnet 5,Claude Code,H-M1,multihop,f2,DevX,1,3,3,0,114509,106102,6,5609,15.9,1
+9,Sonnet 5,Claude Code,H-M1,multihop,f2,native,1,3,0,3,106447,100511,8,309,16.0,1
+9,Sonnet 5,Claude Code,H-M2,multihop,f3,DevX,1,2,2,0,85986,78444,8,3583,16.1,1
+9,Sonnet 5,Claude Code,H-M2,multihop,f3,native,1,3,0,3,107667,101379,43,1719,13.0,1
+9,Sonnet 5,Claude Code,H-R1,read,f2,DevX,1,1,1,0,55687,49936,21,999,7.3,1
+9,Sonnet 5,Claude Code,H-R1,read,f2,native,1,5,0,3,164190,155890,63,3578,139.1,1
+9,Sonnet 5,Claude Code,H-R2,read,f3,DevX,1,1,1,0,56481,49939,22,3502,8.5,0
+9,Sonnet 5,Claude Code,H-R2,read,f3,native,0,5,0,3,199328,189540,31,6638,271.2,0
+9,Sonnet 5,Claude Code,H-R3,read,f3,DevX,1,2,1,0,84456,78033,30,1948,7.3,1
+9,Sonnet 5,Claude Code,H-R3,read,f3,native,1,3,0,1,108317,101319,25,2919,13.7,1
+9,Sonnet 5,Claude Code,H-S1,structure,f2,DevX,1,1,1,0,55402,49919,22,389,8.0,1
+9,Sonnet 5,Claude Code,H-S1,structure,f2,native,1,5,0,5,160928,154658,66,373,16.2,1
+9,Sonnet 5,Claude Code,H-S2,structure,f3,DevX,1,1,1,0,55653,49921,7,863,9.9,1
+9,Sonnet 5,Claude Code,H-S2,structure,f3,native,1,1,0,1,53103,47668,22,363,7.6,1
+9,Sonnet 5,Claude Code,H-X1,crossref,f2,DevX,1,1,1,0,55587,49919,8,690,9.7,0
+9,Sonnet 5,Claude Code,H-X1,crossref,f2,native,0,2,0,2,79738,73671,5,845,11.1,0
+9,Sonnet 5,Claude Code,H-X2,crossref,f3,DevX,1,4,4,0,156239,141757,45,15121,18.8,1
+9,Sonnet 5,Claude Code,H-X2,crossref,f3,native,1,4,0,1,140070,130555,29,8716,16.9,1
+10,Opus 5.5,Claude Code,H-L1,locate,f2,DevX,1,1,1,0,39867,31060,104,1683,10.5,1
+10,Opus 5.5,Claude Code,H-L1,locate,f2,native,1,1,0,1,36827,29898,70,48,6.6,1
+10,Opus 5.5,Claude Code,H-L2,locate,f2,DevX,1,1,1,0,39578,33262,79,903,5.5,1
+10,Opus 5.5,Claude Code,H-L2,locate,f2,native,1,2,0,2,55514,49502,85,105,8.2,1
+10,Opus 5.5,Claude Code,H-L3,locate,f3,DevX,1,1,1,0,37818,29374,19,645,6.2,1
+10,Opus 5.5,Claude Code,H-L3,locate,f3,native,1,1,0,1,36973,31010,135,339,5.7,1
+10,Opus 5.5,Claude Code,H-M1,multihop,f2,DevX,0,2,2,0,59360,53089,179,363,8.1,0
+10,Opus 5.5,Claude Code,H-M1,multihop,f2,native,0,1,0,1,37023,31041,20,232,7.2,0
+10,Opus 5.5,Claude Code,H-M2,multihop,f3,DevX,1,4,4,0,107376,97139,253,6778,13.4,1
+10,Opus 5.5,Claude Code,H-M2,multihop,f3,native,1,4,0,4,94573,86693,70,3736,10.7,1
+10,Opus 5.5,Claude Code,H-R1,read,f2,DevX,1,1,1,0,38031,31601,19,999,6.7,1
+10,Opus 5.5,Claude Code,H-R1,read,f2,native,1,2,0,2,54634,48093,221,1112,7.3,1
+10,Opus 5.5,Claude Code,H-R2,read,f3,DevX,1,1,1,0,38821,31604,21,3502,6.9,1
+10,Opus 5.5,Claude Code,H-R2,read,f3,native,1,3,0,3,74644,67270,53,2232,11.4,1
+10,Opus 5.5,Claude Code,H-R3,read,f3,DevX,1,1,1,0,38131,31594,18,1279,6.0,1
+10,Opus 5.5,Claude Code,H-R3,read,f3,native,1,4,0,4,95864,88320,233,2855,10.6,1
+10,Opus 5.5,Claude Code,H-S1,structure,f2,DevX,1,1,1,0,39354,33277,19,389,6.0,1
+10,Opus 5.5,Claude Code,H-S1,structure,f2,native,1,2,0,2,54682,48070,174,648,9.6,1
+10,Opus 5.5,Claude Code,H-S2,structure,f3,DevX,1,1,1,0,39560,33279,244,863,6.3,1
+10,Opus 5.5,Claude Code,H-S2,structure,f3,native,1,1,0,1,37174,31026,309,783,7.0,1
+10,Opus 5.5,Claude Code,H-X1,crossref,f2,DevX,1,1,1,0,40139,33277,24,1693,7.6,1
+10,Opus 5.5,Claude Code,H-X1,crossref,f2,native,1,1,0,1,37470,31020,22,1033,6.8,1
+10,Opus 5.5,Claude Code,H-X2,crossref,f3,DevX,1,5,5,0,125724,116276,330,5239,14.2,1
+10,Opus 5.5,Claude Code,H-X2,crossref,f3,native,1,2,0,2,56925,49905,55,1935,15.8,1
+11,gpt-6-sol,Codex,H-L1,locate,f2,DevX,1,1,1,0,28707,24960,170,1762,15.4,1
+11,gpt-6-sol,Codex,H-L1,locate,f2,native,1,1,0,1,26809,24192,158,707,7.7,1
+11,gpt-6-sol,Codex,H-L2,locate,f2,DevX,1,1,1,0,28458,24960,184,982,6.3,1
+11,gpt-6-sol,Codex,H-L2,locate,f2,native,1,1,0,1,26536,24192,140,64,5.7,1
+11,gpt-6-sol,Codex,H-L3,locate,f3,DevX,1,1,1,0,29358,14336,220,724,11.1,1
+11,gpt-6-sol,Codex,H-L3,locate,f3,native,1,1,0,1,26555,24192,115,304,6.8,1
+11,gpt-6-sol,Codex,H-M1,multihop,f2,DevX,1,3,3,0,59395,53888,309,5846,12.1,0
+11,gpt-6-sol,Codex,H-M1,multihop,f2,native,0,1,0,1,27647,24704,301,185,9.4,0
+11,gpt-6-sol,Codex,H-M2,multihop,f3,DevX,1,2,2,0,43869,39424,300,3875,8.4,1
+11,gpt-6-sol,Codex,H-M2,multihop,f3,native,1,2,0,2,42895,37888,294,12567,8.0,1
+11,gpt-6-sol,Codex,H-R1,read,f2,DevX,1,1,1,0,28501,24960,183,1078,9.5,1
+11,gpt-6-sol,Codex,H-R1,read,f2,native,1,2,0,2,40434,37504,238,1224,10.2,1
+11,gpt-6-sol,Codex,H-R2,read,f3,DevX,1,1,1,0,28869,24960,220,3581,9.0,1
+11,gpt-6-sol,Codex,H-R2,read,f3,native,1,2,0,2,50730,42624,265,19664,7.9,1
+11,gpt-6-sol,Codex,H-R3,read,f3,DevX,1,1,1,0,28485,24960,209,1358,6.3,1
+11,gpt-6-sol,Codex,H-R3,read,f3,native,1,1,0,1,29746,24192,181,24461,9.5,1
+11,gpt-6-sol,Codex,H-S1,structure,f2,DevX,1,1,1,0,28350,13824,290,468,10.3,1
+11,gpt-6-sol,Codex,H-S1,structure,f2,native,1,2,0,2,41007,26240,392,3423,8.1,1
+11,gpt-6-sol,Codex,H-S2,structure,f3,DevX,1,1,1,0,28431,27648,273,942,7.1,1
+11,gpt-6-sol,Codex,H-S2,structure,f3,native,1,2,0,2,41086,37504,350,4947,12.2,1
+11,gpt-6-sol,Codex,H-X1,crossref,f2,DevX,1,3,3,0,59432,54144,488,4263,16.5,1
+11,gpt-6-sol,Codex,H-X1,crossref,f2,native,1,3,0,3,55560,51712,335,2952,10.8,1
+11,gpt-6-sol,Codex,H-X2,crossref,f3,DevX,1,4,4,0,73180,70912,584,3415,13.2,1
+11,gpt-6-sol,Codex,H-X2,crossref,f3,native,1,2,0,2,41406,26240,285,6109,8.6,1
+13,Fable 5.1,Claude Code,H-L1,locate,f2,DevX,1,1,1,0,43632,21347,65,1683,11.2,1
+13,Fable 5.1,Claude Code,H-L1,locate,f2,native,1,1,0,1,40677,31757,55,104,16.0,1
+13,Fable 5.1,Claude Code,H-L2,locate,f2,DevX,1,1,1,0,43340,36980,69,903,6.4,1
+13,Fable 5.1,Claude Code,H-L2,locate,f2,native,1,1,0,1,40680,34723,65,119,11.6,1
+13,Fable 5.1,Claude Code,H-L3,locate,f3,DevX,1,1,1,0,43201,32926,120,645,7.4,1
+13,Fable 5.1,Claude Code,H-L3,locate,f3,native,1,1,0,1,40907,34728,105,507,13.3,1
+13,Fable 5.1,Claude Code,H-M1,multihop,f2,DevX,1,2,2,0,63522,57082,170,363,9.7,1
+13,Fable 5.1,Claude Code,H-M1,multihop,f2,native,1,1,0,1,40847,34759,87,232,12.4,1
+13,Fable 5.1,Claude Code,H-M2,multihop,f3,DevX,1,2,2,0,65887,57706,197,3583,11.1,1
+13,Fable 5.1,Claude Code,H-M2,multihop,f3,native,1,4,0,4,105782,97377,326,3875,18.8,1
+13,Fable 5.1,Claude Code,H-R1,read,f2,DevX,1,1,1,0,41810,35319,189,999,7.8,1
+13,Fable 5.1,Claude Code,H-R1,read,f2,native,1,1,0,1,40882,34755,89,299,7.9,1
+13,Fable 5.1,Claude Code,H-R2,read,f3,DevX,1,1,1,0,44204,37015,176,3502,7.4,1
+13,Fable 5.1,Claude Code,H-R2,read,f3,native,1,3,0,3,84074,76432,236,2433,16.4,1
+13,Fable 5.1,Claude Code,H-R3,read,f3,DevX,1,1,1,0,43508,37005,145,1279,8.0,1
+13,Fable 5.1,Claude Code,H-R3,read,f3,native,1,4,0,4,105061,97478,178,2037,28.6,1
+13,Fable 5.1,Claude Code,H-S1,structure,f2,DevX,1,1,1,0,43121,36995,111,389,8.1,1
+13,Fable 5.1,Claude Code,H-S1,structure,f2,native,1,1,0,1,40775,34738,145,221,8.8,1
+13,Fable 5.1,Claude Code,H-S2,structure,f3,DevX,1,1,1,0,43327,36997,237,863,9.9,1
+13,Fable 5.1,Claude Code,H-S2,structure,f3,native,1,1,0,1,40830,34744,141,316,7.6,1
+13,Fable 5.1,Claude Code,H-X1,crossref,f2,DevX,1,1,1,0,43910,36995,129,1693,8.3,1
+13,Fable 5.1,Claude Code,H-X1,crossref,f2,native,1,1,0,1,39640,33045,87,1033,13.7,1
+13,Fable 5.1,Claude Code,H-X2,crossref,f3,DevX,1,3,3,0,91255,82136,171,4948,12.9,1
+13,Fable 5.1,Claude Code,H-X2,crossref,f3,native,1,3,0,3,82543,74996,223,1844,14.1,1
+14,Qwen3.6-27B fp8,Codex,H-L1,locate,f2,DevX,1,1,1,0,52932,0,163,1762,13.8,1
+14,Qwen3.6-27B fp8,Codex,H-L1,locate,f2,native,1,1,0,1,51202,0,162,1323,7.0,1
+14,Qwen3.6-27B fp8,Codex,H-L2,locate,f2,DevX,1,1,1,0,52714,0,164,982,6.6,1
+14,Qwen3.6-27B fp8,Codex,H-L2,locate,f2,native,1,1,0,1,50719,0,134,120,6.4,1
+14,Qwen3.6-27B fp8,Codex,H-L3,locate,f3,DevX,1,1,1,0,52598,0,172,724,7.3,1
+14,Qwen3.6-27B fp8,Codex,H-L3,locate,f3,native,1,3,0,3,101997,0,317,508,13.7,1
+14,Qwen3.6-27B fp8,Codex,H-M1,multihop,f2,DevX,1,2,2,0,81099,0,382,4864,11.9,0
+14,Qwen3.6-27B fp8,Codex,H-M1,multihop,f2,native,0,0,0,0,50706,0,273,0,17.7,0
+14,Qwen3.6-27B fp8,Codex,H-M2,multihop,f3,DevX,1,2,2,0,80220,0,418,3875,13.1,1
+14,Qwen3.6-27B fp8,Codex,H-M2,multihop,f3,native,1,6,0,6,181857,0,1027,2529,24.6,1
+14,Qwen3.6-27B fp8,Codex,H-R1,read,f2,DevX,1,1,1,0,52737,0,307,1078,8.5,1
+14,Qwen3.6-27B fp8,Codex,H-R1,read,f2,native,1,2,0,2,79085,0,388,5229,10.4,1
+14,Qwen3.6-27B fp8,Codex,H-R2,read,f3,DevX,1,2,2,0,106828,0,384,4790,13.4,1
+14,Qwen3.6-27B fp8,Codex,H-R2,read,f3,native,1,3,0,3,130342,0,807,6490,28.2,1
+14,Qwen3.6-27B fp8,Codex,H-R3,read,f3,DevX,1,1,1,0,52723,0,269,1358,7.8,1
+14,Qwen3.6-27B fp8,Codex,H-R3,read,f3,native,1,3,0,3,106580,0,454,11302,12.3,1
+14,Qwen3.6-27B fp8,Codex,H-S1,structure,f2,DevX,1,1,1,0,53350,0,389,3181,9.7,0
+14,Qwen3.6-27B fp8,Codex,H-S1,structure,f2,native,0,0,0,0,76169,0,358,0,29.7,0
+14,Qwen3.6-27B fp8,Codex,H-S2,structure,f3,DevX,1,1,1,0,52689,0,283,942,10.1,1
+14,Qwen3.6-27B fp8,Codex,H-S2,structure,f3,native,1,2,0,2,78369,0,432,7239,11.3,1
+14,Qwen3.6-27B fp8,Codex,H-X1,crossref,f2,DevX,0,1,1,0,52688,0,533,769,11.4,0
+14,Qwen3.6-27B fp8,Codex,H-X1,crossref,f2,native,1,4,0,4,128767,0,738,780,17.6,0
+14,Qwen3.6-27B fp8,Codex,H-X2,crossref,f3,DevX,1,4,4,0,166012,0,1002,15244,23.1,0
+14,Qwen3.6-27B fp8,Codex,H-X2,crossref,f3,native,0,6,0,6,183215,0,689,6072,19.7,0

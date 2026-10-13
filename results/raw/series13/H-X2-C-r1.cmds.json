@@ -1,0 +1,23 @@
+[
+ {
+  "tool": "Bash",
+  "kind": "devx",
+  "command": "devx callers \"RipgrepLocator.Locate\" --full --session <SESSION-F3> --agent claude",
+  "bytes": 64,
+  "is_error": true
+ },
+ {
+  "tool": "Bash",
+  "kind": "devx",
+  "command": "devx search symbol \"RipgrepLocator\" --session <SESSION-F3> --agent claude; echo ---; devx search text \"RipgrepLocator\" --session <SESSION-F3> --agent claude",
+  "bytes": 3258,
+  "is_error": false
+ },
+ {
+  "tool": "Bash",
+  "kind": "devx",
+  "command": "devx search text \"RipgrepLocator.Locate\" --session <SESSION-F3> --agent claude",
+  "bytes": 1626,
+  "is_error": false
+ }
+]

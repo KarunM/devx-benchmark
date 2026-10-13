@@ -1,0 +1,3 @@
+Public methods defined directly in `SubsSet` ([sympy/series/gruntz.py:155-244](<F2>/sympy/series/gruntz.py:155)):
+
+`__init__`, `__repr__`, `__getitem__`, `do_subs`, `meets`, `union`, `copy`

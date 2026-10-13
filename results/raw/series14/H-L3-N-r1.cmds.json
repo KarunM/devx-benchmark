@@ -1,0 +1,17 @@
+[
+ [
+  "/bin/zsh -lc \"grep -rn 'func.*LooksLikeShellCommandLine' <F3> --include='*.go' | grep -v '_test.go'\"",
+  0,
+  1
+ ],
+ [
+  "/bin/zsh -lc \"grep -rn 'LooksLikeShellCommandLine' <F3> --include='*.go' | grep -v '_test.go'\"",
+  0,
+  1
+ ],
+ [
+  "/bin/zsh -lc \"grep -rn 'LooksLikeShellCommandLine' <F3> | head -20\"",
+  508,
+  0
+ ]
+]

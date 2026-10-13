@@ -1,0 +1,32 @@
+[
+ [
+  "/bin/zsh -lc \"grep -rn 'RipgrepLocator.*Locate\\\\|\\\\.Locate(' <F3>/src --include='*.go' | grep -v '_test\\\\.go' | grep -v 'RipgrepLocator\\\\.go'\"",
+  0,
+  1
+ ],
+ [
+  "/bin/zsh -lc \"grep -rn 'RipgrepLocator' <F3>/src --include='*.go' | grep -v '_test\\\\.go'\"",
+  0,
+  1
+ ],
+ [
+  "/bin/zsh -lc \"find <F3> -type f -name '*.go' -path '*/src/*' | head -30\"",
+  0,
+  0
+ ],
+ [
+  "/bin/zsh -lc \"find <F3> -type f -name '*.go' | head -40\"",
+  0,
+  0
+ ],
+ [
+  "/bin/zsh -lc 'find <F3> -type f | head -50'",
+  5066,
+  0
+ ],
+ [
+  "/bin/zsh -lc \"find <F3> -type f -name '*.cs' | grep -v '/tests/' | xargs grep -n 'RipgrepLocator' 2>/dev/null\"",
+  1006,
+  0
+ ]
+]

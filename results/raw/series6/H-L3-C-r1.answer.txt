@@ -1,0 +1,2 @@
+`src/DevX.Indexer/DevXCommandConfig.cs:153`  
+`DevX.Indexer.DevXCommandConfig.LooksLikeShellCommandLine`

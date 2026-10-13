@@ -1,0 +1,1 @@
+`sympy/series/limits.py:163-165` (in `Limit.__new__`): it raises `ValueError`, with the message beginning `"direction must be one of '+', '-' or '+-', not %s"` (the `%s` is the offending `dir`).

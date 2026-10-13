@@ -1,0 +1,1 @@
+[`Symbol._sanitize`](sympy/core/symbol.py:289) raises `ValueError` at line 297 when `commutative` is neither `True` nor `False`. The message is `commutativity must be True or False.` (line 298); when `obj` is supplied, its name prefixes the message.

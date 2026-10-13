@@ -1,0 +1,1 @@
+`uniquely_named_symbol` calls `_symbol` at [sympy/core/symbol.py:193](sympy/core/symbol.py:193) and [sympy/core/symbol.py:203](sympy/core/symbol.py:203).

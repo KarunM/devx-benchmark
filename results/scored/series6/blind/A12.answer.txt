@@ -1,0 +1,7 @@
+`DevX.Infrastructure.Storage.SQLite.RipgrepLocator.ConfiguredPath` catches:
+
+- `JsonException`
+- `IOException`
+- `UnauthorizedAccessException`
+
+Source: [RipgrepLocator.cs:117-119](<F3>/src/DevX.Infrastructure/Storage/SQLite/RipgrepLocator.cs:117)

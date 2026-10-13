@@ -1,0 +1,17 @@
+[
+ [
+  "/bin/zsh -lc 'find <F3> -type f | head -30'",
+  2900,
+  0
+ ],
+ [
+  "/bin/zsh -lc 'find <F3> -name \"RipgrepLocator.cs\" 2>/dev/null'",
+  115,
+  0
+ ],
+ [
+  "/bin/zsh -lc 'cat <F3>/src/DevX.Infrastructure/Storage/SQLite/RipgrepLocator.cs'",
+  8287,
+  0
+ ]
+]

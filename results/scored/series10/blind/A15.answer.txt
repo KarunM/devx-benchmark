@@ -1,0 +1,6 @@
+Two methods in `src` call `RipgrepLocator.Locate`:
+
+1. `RipgrepContentSearcher.TrySearch(string rootPath, string query, out List<Hit> hits, out bool scanCapped, CancellationToken)` at `src/DevX.Infrastructure/Storage/SQLite/RipgrepContentSearcher.cs:42`, which passes `RipgrepLocator.Locate(rootPath).Executable` on to the overload that takes an explicit executable.
+2. `DoctorAsync(string connectionString, string[] args, string format)`, a top-level static method in `src/DevX.Cli/Program.cs` (starts line 1255), at `src/DevX.Cli/Program.cs:1272`.
+
+The only other matches are in `RipgrepLocator.cs:72`, where one `Locate` overload calls the other, so they're excluded.

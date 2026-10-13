@@ -1,0 +1,16 @@
+[
+ {
+  "tool": "Grep",
+  "kind": "other",
+  "command": "{\"pattern\": \"class SearchReplaceBlockParser\", \"output_mode\": \"files_with_matches\"}",
+  "bytes": 108,
+  "is_error": false
+ },
+ {
+  "tool": "Bash",
+  "kind": "shell",
+  "command": "grep -n -i -E '```|IsNullOrWhiteSpace|empty|Error|Fail|return' src/DevX.Cli/SearchReplaceBlockParser.cs | head -40",
+  "bytes": 1302,
+  "is_error": false
+ }
+]

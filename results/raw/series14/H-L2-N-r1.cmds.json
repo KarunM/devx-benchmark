@@ -1,0 +1,7 @@
+[
+ [
+  "/bin/zsh -lc \"grep -rn 'class C99CodePrinter' <F2> --include='*.py' | grep -v test\"",
+  120,
+  0
+ ]
+]

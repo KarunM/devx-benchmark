@@ -1,0 +1,7 @@
+[
+ [
+  "/bin/zsh -lc 'rg -n -A18 -B5 \"def _sanitize\" .'",
+  1436,
+  0
+ ]
+]

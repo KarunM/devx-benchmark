@@ -1,0 +1,12 @@
+[
+ [
+  "/bin/zsh -lc \"grep -n '\"'^class Integer'\"' sympy/core/numbers.py; grep -n '\"'^class .*'\"' sympy/core/expr.py | head -30; sed -n '.*p' sympy/core/numbers.py\"",
+  233,
+  1
+ ],
+ [
+  "/bin/zsh -lc \"grep -nE '\"'^class (Rational|Number|NumberSymbol|Expr)'\"\\\\b' sympy/core/numbers.py sympy/core/expr.py; sed -n '1725,1755p' sympy/core/numbers.py\"",
+  977,
+  0
+ ]
+]

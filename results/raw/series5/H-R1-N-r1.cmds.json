@@ -1,0 +1,7 @@
+[
+ [
+  "/bin/zsh -lc \"grep -n -A45 -B8 'def __new__' sympy/series/limits.py\"",
+  1808,
+  0
+ ]
+]

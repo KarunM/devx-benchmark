@@ -1,0 +1,6 @@
+`DevX.Infrastructure.Storage.SQLite.RipgrepLocator.ConfiguredPath` (`src/DevX.Infrastructure/Storage/SQLite/RipgrepLocator.cs:99-118`) catches three exception types. Each catch returns null:
+- `JsonException` (line 115)
+- `IOException` (line 116)
+- `UnauthorizedAccessException` (line 117)
+
+The `try` block covers `JsonDocument.Parse(File.ReadAllText(configPath))` and the config lookups after it. Any other exception type propagates.

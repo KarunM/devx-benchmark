@@ -1,0 +1,7 @@
+[
+ [
+  "/bin/zsh -lc \"grep -n -E '\"'^class C99CodePrinter|''^class '\"' sympy/printing/c.py sympy/printing/codeprinter.py\"",
+  455,
+  0
+ ]
+]

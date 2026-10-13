@@ -1,0 +1,5 @@
+It raises `ValueError`, at `sympy/series/limits.py:164`, inside `Limit.__new__`. The check at line 163 is `str(dir) not in ('+', '-', '+-')`, which runs after a string `dir` has been converted to a `Symbol`.
+
+The message begins `"direction must be one of '+', '-' or '+-', not %s"`, with the offending `dir` filled in at the end.
+
+A `dir` that is neither a string nor a `Symbol` gets a `TypeError` instead (lines 161-162, "direction must be of type basestring or Symbol, not ...").

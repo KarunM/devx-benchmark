@@ -1,0 +1,25 @@
+H-L1-C-r1: correct=1 calls=1 in=43632 out=65 bytes=1683 wall=11.2s rc=0 tools={'devx': 1}
+H-L1-N-r1: correct=1 calls=1 in=40677 out=55 bytes=104 wall=16.0s rc=0 tools={'shell': 1}
+H-L2-N-r1: correct=1 calls=1 in=40680 out=65 bytes=119 wall=11.6s rc=0 tools={'shell': 1}
+H-L2-C-r1: correct=1 calls=1 in=43340 out=69 bytes=903 wall=6.4s rc=0 tools={'devx': 1}
+H-R1-C-r1: correct=1 calls=1 in=41810 out=189 bytes=999 wall=7.8s rc=0 tools={'devx': 1}
+H-R1-N-r1: correct=1 calls=1 in=40882 out=89 bytes=299 wall=7.9s rc=0 tools={'shell': 1}
+H-S1-N-r1: correct=1 calls=1 in=40775 out=145 bytes=221 wall=8.8s rc=0 tools={'shell': 1}
+H-S1-C-r1: correct=1 calls=1 in=43121 out=111 bytes=389 wall=8.1s rc=0 tools={'devx': 1}
+H-X1-C-r1: correct=1 calls=1 in=43910 out=129 bytes=1693 wall=8.3s rc=0 tools={'devx': 1}
+H-X1-N-r1: correct=1 calls=1 in=39640 out=87 bytes=1033 wall=13.7s rc=0 tools={'shell': 1}
+H-M1-N-r1: correct=1 calls=1 in=40847 out=87 bytes=232 wall=12.4s rc=0 tools={'shell': 1}
+H-M1-C-r1: correct=1 calls=2 in=63522 out=170 bytes=363 wall=9.7s rc=0 tools={'devx': 2}
+H-L3-C-r1: correct=1 calls=1 in=43201 out=120 bytes=645 wall=7.4s rc=0 tools={'devx': 1}
+H-L3-N-r1: correct=1 calls=1 in=40907 out=105 bytes=507 wall=13.3s rc=0 tools={'shell': 1}
+H-R2-N-r1: correct=1 calls=3 in=84074 out=236 bytes=2433 wall=16.4s rc=0 tools={'shell': 3}
+H-R2-C-r1: correct=1 calls=1 in=44204 out=176 bytes=3502 wall=7.4s rc=0 tools={'devx': 1}
+H-R3-C-r1: correct=1 calls=1 in=43508 out=145 bytes=1279 wall=8.0s rc=0 tools={'devx': 1}
+H-R3-N-r1: correct=1 calls=4 in=105061 out=178 bytes=2037 wall=28.6s rc=0 tools={'shell': 4}
+H-S2-N-r1: correct=1 calls=1 in=40830 out=141 bytes=316 wall=7.6s rc=0 tools={'shell': 1}
+H-S2-C-r1: correct=1 calls=1 in=43327 out=237 bytes=863 wall=9.9s rc=0 tools={'devx': 1}
+H-X2-C-r1: correct=1 calls=3 in=91255 out=171 bytes=4948 wall=12.9s rc=0 tools={'devx': 3}
+H-X2-N-r1: correct=1 calls=3 in=82543 out=223 bytes=1844 wall=14.1s rc=0 tools={'shell': 3}
+H-M2-N-r1: correct=1 calls=4 in=105782 out=326 bytes=3875 wall=18.8s rc=0 tools={'shell': 4}
+H-M2-C-r1: correct=1 calls=2 in=65887 out=197 bytes=3583 wall=11.1s rc=0 tools={'devx': 2}
+LISTINGS_IDENTICAL=True

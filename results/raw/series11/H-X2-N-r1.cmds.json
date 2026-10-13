@@ -1,0 +1,12 @@
+[
+ [
+  "/bin/zsh -lc \"rg -n 'RipgrepLocator\\\\.Locate' src\"",
+  322,
+  0
+ ],
+ [
+  "/bin/zsh -lc \"sed -n '1240,1280p' src/DevX.Cli/Program.cs; sed -n '1,65p' src/DevX.Infrastructure/Storage/SQLite/RipgrepContentSearcher.cs\"",
+  5787,
+  0
+ ]
+]

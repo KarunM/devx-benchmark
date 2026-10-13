@@ -1,0 +1,12 @@
+[
+ [
+  "/bin/zsh -lc 'rg -n \"def _sanitize|commutative\" sympy/core/symbol.py'",
+  675,
+  0
+ ],
+ [
+  "/bin/zsh -lc \"sed -n '286,303p' sympy/core/symbol.py\"",
+  661,
+  0
+ ]
+]

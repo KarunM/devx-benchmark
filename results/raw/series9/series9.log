@@ -1,0 +1,25 @@
+H-L1-C-r1: correct=1 calls=1 in=55090 out=21 bytes=1683 wall=11.0s rc=0 tools={'devx': 1}
+H-L1-N-r1: correct=1 calls=1 in=52980 out=22 bytes=46 wall=6.6s rc=0 tools={'Grep': 1}
+H-L2-N-r1: correct=1 calls=2 in=78821 out=41 bytes=105 wall=10.1s rc=0 tools={'shell': 2}
+H-L2-C-r1: correct=1 calls=1 in=55622 out=18 bytes=903 wall=6.9s rc=0 tools={'devx': 1}
+H-R1-C-r1: correct=1 calls=1 in=55687 out=21 bytes=999 wall=7.3s rc=0 tools={'devx': 1}
+H-R1-N-r1: correct=1 calls=5 in=164190 out=63 bytes=3578 wall=139.1s rc=0 tools={'shell': 3, 'Grep': 2}
+H-S1-N-r1: correct=1 calls=5 in=160928 out=66 bytes=373 wall=16.2s rc=0 tools={'shell': 5}
+H-S1-C-r1: correct=1 calls=1 in=55402 out=22 bytes=389 wall=8.0s rc=0 tools={'devx': 1}
+H-X1-C-r1: correct=1 calls=1 in=55587 out=8 bytes=690 wall=9.7s rc=0 tools={'devx': 1}
+H-X1-N-r1: correct=1 calls=2 in=79738 out=5 bytes=845 wall=11.1s rc=0 tools={'shell': 2}
+H-M1-N-r1: correct=1 calls=3 in=106447 out=8 bytes=309 wall=16.0s rc=0 tools={'shell': 3}
+H-M1-C-r1: correct=1 calls=3 in=114509 out=6 bytes=5609 wall=15.9s rc=0 tools={'devx': 3}
+H-L3-C-r1: correct=1 calls=1 in=55477 out=21 bytes=645 wall=7.7s rc=0 tools={'devx': 1}
+H-L3-N-r1: correct=1 calls=2 in=79854 out=41 bytes=381 wall=8.8s rc=0 tools={'shell': 2}
+H-R2-N-r1: correct=0 calls=5 in=199328 out=31 bytes=6638 wall=271.2s rc=0 tools={'shell': 3, 'Grep': 1, 'Read': 1}
+H-R2-C-r1: correct=1 calls=1 in=56481 out=22 bytes=3502 wall=8.5s rc=0 tools={'devx': 1}
+H-R3-C-r1: correct=1 calls=2 in=84456 out=30 bytes=1948 wall=7.3s rc=0 tools={'devx': 1, 'Read': 1}
+H-R3-N-r1: correct=1 calls=3 in=108317 out=25 bytes=2919 wall=13.7s rc=0 tools={'Grep': 2, 'shell': 1}
+H-S2-N-r1: correct=1 calls=1 in=53103 out=22 bytes=363 wall=7.6s rc=0 tools={'shell': 1}
+H-S2-C-r1: correct=1 calls=1 in=55653 out=7 bytes=863 wall=9.9s rc=0 tools={'devx': 1}
+H-X2-C-r1: correct=1 calls=4 in=156239 out=45 bytes=15121 wall=18.8s rc=0 tools={'devx': 4}
+H-X2-N-r1: correct=1 calls=4 in=140070 out=29 bytes=8716 wall=16.9s rc=0 tools={'shell': 1, 'Grep': 2, 'Read': 1}
+H-M2-N-r1: correct=1 calls=3 in=107667 out=43 bytes=1719 wall=13.0s rc=0 tools={'shell': 3}
+H-M2-C-r1: correct=1 calls=2 in=85986 out=8 bytes=3583 wall=16.1s rc=0 tools={'devx': 2}
+LISTINGS_IDENTICAL=True

@@ -1,0 +1,7 @@
+Public methods defined directly in `SandboxManager` (excluding its constructor):
+
+- `SandboxManager.CopySourceTree` — `src/DevX.Cli/SandboxManager.cs:24`
+- `SandboxManager.ApplyChanges` — `src/DevX.Cli/SandboxManager.cs:32`
+- `SandboxManager.GetChangedFiles` — `src/DevX.Cli/SandboxManager.cs:47`
+- `SandboxManager.GetUnifiedDiff` — `src/DevX.Cli/SandboxManager.cs:72`
+- `SandboxManager.Dispose` — `src/DevX.Cli/SandboxManager.cs:117`

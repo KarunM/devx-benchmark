@@ -1,0 +1,2 @@
+`sympy/series/limits.py:145-165`, `Limit.__new__`: raises `ValueError` for an invalid string/Symbol direction.  
+Its message begins: `"direction must be one of '+', '-' or '+-', not "`.

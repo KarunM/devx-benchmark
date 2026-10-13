@@ -1,0 +1,4 @@
+In `DevX.Cli.SearchReplaceBlockParser.Parse` (src/DevX.Cli/SearchReplaceBlockParser.cs:12-114):
+
+- Markdown fence (```) anywhere in the normalized response returns `"markdown_fence_outside_blocks"` (line 22).
+- Empty or whitespace response returns `"zero_blocks"` (line 16). The same `"zero_blocks"` message is also returned at line 110 when parsing finishes with no blocks.

@@ -1,0 +1,32 @@
+[
+ [
+  "/bin/zsh -lc \"grep -rn 'Session not found' <F3> --include='*.cs' -l\"",
+  397,
+  0
+ ],
+ [
+  "/bin/zsh -lc \"grep -n 'Session not found' <F3>/src/DevX.Infrastructure/Storage/SQLite/SqliteSessionStore.cs\"",
+  122,
+  0
+ ],
+ [
+  "/bin/zsh -lc \"sed -n '180,185p' <F3>/src/DevX.Infrastructure/Storage/SQLite/SqliteSessionStore.cs\"",
+  333,
+  0
+ ],
+ [
+  "/bin/zsh -lc \"grep -n 'RequireSessionAsync' <F3>/src/DevX.Infrastructure/Storage/SQLite/SqliteSessionStore.cs\"",
+  663,
+  0
+ ],
+ [
+  "/bin/zsh -lc \"awk '/RequireSessionAsync/ && \"'!/private async/ {line=$0} /public.*async.*Mark/ {method=$0; lnum=NR} line && NR==lnum+1 {print lnum\": \"method}'\"' <F3>/src/DevX.Infrastructure/Storage/SQLite/SqliteSessionStore.cs\"",
+  262,
+  0
+ ],
+ [
+  "/bin/zsh -lc 'for line in 89 96 103 109 115 122; do awk -v l=$line '\"'NR<=l && /\"'^[[:space:]]*(public|private|protected)/{m=$0; n=NR} NR==l{print n\": \"m}'\"' <F3>/src/DevX.Infrastructure/Storage/SQLite/SqliteSessionStore.cs; done\"",
+  752,
+  0
+ ]
+]

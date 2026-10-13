@@ -1,0 +1,17 @@
+[
+ [
+  "/bin/zsh -lc \"grep -n '\"'^class Integer'\"' sympy/core/numbers.py; grep -n '\"'^class '\"' sympy/core/expr.py | head -40\"",
+  194,
+  0
+ ],
+ [
+  "/bin/zsh -lc \"grep -n '\"'^class Rational'\"\\\\|\"'^class Number'\"\\\\|\"'^class Integer'\"' sympy/core/numbers.py; sed -n '1735,1744p' sympy/core/numbers.py; sed -n '35,48p' sympy/core/expr.py\"",
+  659,
+  0
+ ],
+ [
+  "/bin/zsh -lc \"sed -n '265,283p' sympy/core/numbers.py; sed -n '1198,1207p' sympy/core/numbers.py; sed -n '39,47p' sympy/core/expr.py; grep -n '\"'^class AtomicExpr'\"\\\\|\"'^class Atom'\"\\\\|\"'^class Basic'\"' sympy/core/expr.py sympy/core/basic.py\"",
+  933,
+  0
+ ]
+]

@@ -1,0 +1,1 @@
+It raises `AssertionError` when `dummy_index` is given and `name` is `None`: [sympy/core/symbol.py:481](<F2>/sympy/core/symbol.py:481).

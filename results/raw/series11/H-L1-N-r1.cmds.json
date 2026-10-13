@@ -1,0 +1,7 @@
+[
+ [
+  "/bin/zsh -lc \"grep -RIn --exclude-dir=.git -E '\"'^[[:space:]]*(def|function)[[:space:]]+limitinf'\"\\\\b|limitinf[[:space:]]*\\\\(' .\"",
+  707,
+  0
+ ]
+]

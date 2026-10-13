@@ -1,0 +1,7 @@
+[
+ [
+  "/bin/zsh -lc \"grep -R -n -A18 -B4 'class Dummy\\\\|def __new__' sympy/core/symbol.py | grep -n -A20 -B5 'dummy_index\\\\|Dummy'\"",
+  3370,
+  0
+ ]
+]

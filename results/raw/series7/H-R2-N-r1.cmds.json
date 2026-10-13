@@ -1,0 +1,22 @@
+[
+ [
+  "/bin/zsh -lc 'rg -n \"code fence|```|whitespace|empty\" --type cs -i | rg -i \"searchreplace|blockparser\" '",
+  19,
+  1
+ ],
+ [
+  "/bin/zsh -lc 'rg -n \"SearchReplaceBlockParser\" --type cs -l'",
+  127,
+  0
+ ],
+ [
+  "/bin/zsh -lc \"rg -n 'Parse|Error|message|\"'```'\"' src/DevX.Cli/SearchReplaceBlockParser.cs\"",
+  1283,
+  0
+ ],
+ [
+  "/bin/zsh -lc \"sed -n '1,30p' src/DevX.Cli/SearchReplaceBlockParser.cs; echo ---; sed -n '100,115p' src/DevX.Cli/SearchReplaceBlockParser.cs\"",
+  1563,
+  0
+ ]
+]

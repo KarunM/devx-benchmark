@@ -1,0 +1,37 @@
+[
+ {
+  "tool": "Bash",
+  "kind": "shell",
+  "command": "grep -n \"class SubsSet\" -A 200 <F2>/sympy/series/gruntz.py | grep -n \"^\\s*def \\|^class \" | head -60",
+  "bytes": 31,
+  "is_error": false
+ },
+ {
+  "tool": "Bash",
+  "kind": "shell",
+  "command": "find <F2> -iname \"gruntz.py\" 2>/dev/null",
+  "bytes": 80,
+  "is_error": false
+ },
+ {
+  "tool": "Bash",
+  "kind": "shell",
+  "command": "grep -n \"class SubsSet\" <F2>/sympy/series/gruntz.py",
+  "bytes": 24,
+  "is_error": false
+ },
+ {
+  "tool": "Bash",
+  "kind": "shell",
+  "command": "awk 'NR==155,/^class [A-Za-z]/{if(NR>155 && /^class /){exit} print NR\": \"$0}' <F2>/sympy/series/gruntz.py | grep -E \"def \"",
+  "bytes": 31,
+  "is_error": false
+ },
+ {
+  "tool": "Bash",
+  "kind": "shell",
+  "command": "sed -n '155,260p' <F2>/sympy/series/gruntz.py | grep -n \"    def \"",
+  "bytes": 207,
+  "is_error": false
+ }
+]

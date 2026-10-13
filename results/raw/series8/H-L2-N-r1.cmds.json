@@ -1,0 +1,9 @@
+[
+ {
+  "tool": "Grep",
+  "kind": "other",
+  "command": "{\"pattern\": \"^class C99CodePrinter\", \"output_mode\": \"content\", \"glob\": \"!**/tests/**\"}",
+  "bytes": 61,
+  "is_error": false
+ }
+]

@@ -1,0 +1,7 @@
+[
+ [
+  "/bin/zsh -lc 'devx search text \"_factorint_small\" --session <SESSION-F2> --format agent'",
+  543,
+  0
+ ]
+]

@@ -1,0 +1,1 @@
+`Symbol(AtomicExpr, Boolean)` is declared at `sympy/core/symbol.py:206`. The `sympy/logic` base is `Boolean`; it defines `to_nnf` at `sympy/logic/boolalg.py:131`.

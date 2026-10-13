@@ -1,0 +1,5 @@
+In `RipgrepLocator.ConfiguredPath` (src/DevX.Infrastructure/Storage/SQLite/RipgrepLocator.cs:115-117), three catch blocks each return null:
+
+- `JsonException` — line 115
+- `IOException` — line 116
+- `UnauthorizedAccessException` — line 117

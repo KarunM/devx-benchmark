@@ -1,0 +1,1 @@
+Defined directly in `sympy.ntheory.generate.Sieve` (`sympy/ntheory/generate.py:26-368`): `extend`, `extend_to_no`, `primerange`, `totientrange`, `mobiusrange`, and `search`.

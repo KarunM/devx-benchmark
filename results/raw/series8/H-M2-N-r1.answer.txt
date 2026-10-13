@@ -1,0 +1,5 @@
+The helper is `RequireSessionAsync` (`src/DevX.Infrastructure/Storage/SQLite/SqliteSessionStore.cs:181`). Two of its callers start with `Mark`:
+- `SqliteSessionStore.MarkSymbolExpandedAsync`, which calls the helper at line 103.
+- `SqliteSessionStore.MarkFileExpandedAsync`, which calls the helper at line 109.
+
+The other callers are `SaveSearchAsync`, `AddWorkingSetItemAsync`, `AddDiagnosticAsync` and `AddExecutionAsync`. I searched only `SqliteSessionStore.cs`, so callers in other files, if any, aren't covered.

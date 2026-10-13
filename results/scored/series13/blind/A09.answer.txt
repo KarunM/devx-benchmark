@@ -1,0 +1,5 @@
+Public methods defined directly in `SubsSet` (sympy/series/gruntz.py:155):
+- `SubsSet.do_subs` (line 213)
+- `SubsSet.meets` (line 219)
+- `SubsSet.union` (line 223)
+- `SubsSet.copy` (line 238)

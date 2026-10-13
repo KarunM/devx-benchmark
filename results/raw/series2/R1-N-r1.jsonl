@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"<THREAD-589>"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"`ValueError` — `sympy/core/symbol.py`, `Dummy.__new__` (check for `name is None` with `dummy_index` specified)."}}
+{"type":"turn.completed","usage":{"input_tokens":13015,"cached_input_tokens":1792,"cache_write_input_tokens":0,"output_tokens":38,"reasoning_output_tokens":0}}

@@ -1,0 +1,12 @@
+[
+ [
+  "/bin/zsh -lc 'find <F3> -name \"SandboxManager.cs\" 2>/dev/null'",
+  89,
+  0
+ ],
+ [
+  "/bin/zsh -lc 'cat -n <F3>/src/DevX.Cli/SandboxManager.cs'",
+  7150,
+  0
+ ]
+]

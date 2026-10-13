@@ -1,0 +1,1 @@
+Helper: `RequireSessionAsync` (SqliteSessionStore.cs:181). Its `Mark`-prefixed callers are `MarkSymbolExpandedAsync` (SqliteSessionStore.cs:101) and `MarkFileExpandedAsync` (SqliteSessionStore.cs:107).

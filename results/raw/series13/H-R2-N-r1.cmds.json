@@ -1,0 +1,23 @@
+[
+ {
+  "tool": "Bash",
+  "kind": "shell",
+  "command": "f=$(grep -rl \"class SearchReplaceBlockParser\" <F3> --include=*.cs | head -1); echo \"$f\"; grep -n -iE '```|fence|IsNullOrWhiteSpace|empty|Error|Failure' \"$f\" | head -40",
+  "bytes": 77,
+  "is_error": false
+ },
+ {
+  "tool": "Bash",
+  "kind": "shell",
+  "command": "f=$(grep -rl \"class SearchReplaceBlockParser\" . | head -1); echo \"FILE=$f\"; grep -n -E 'IsNullOrWhiteSpace|```|fence|Error\\(|Fail|\"' \"$f\" | head -40",
+  "bytes": 930,
+  "is_error": false
+ },
+ {
+  "tool": "Bash",
+  "kind": "shell",
+  "command": "grep -rln \"SearchReplaceBlockParser\" . | grep -v Tests; f=$(grep -rl \"class SearchReplaceBlockParser\" . | grep -v Tests | head -1); echo \"FILE=$f\"; grep -n -E 'IsNullOrWhiteSpace|```|fence|ErrorMessage|Fail\\(|\"[a-z_]+\"' \"$f\" | head -40",
+  "bytes": 1426,
+  "is_error": false
+ }
+]

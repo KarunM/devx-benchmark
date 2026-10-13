@@ -1,0 +1,1 @@
+`ConfiguredPath` catches `JsonException`, `IOException`, and `UnauthorizedAccessException`; each catch returns `null`. [RipgrepLocator.cs:115](<F3>/src/DevX.Infrastructure/Storage/SQLite/RipgrepLocator.cs:115)

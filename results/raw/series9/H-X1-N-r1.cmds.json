@@ -1,0 +1,16 @@
+[
+ {
+  "tool": "Bash",
+  "kind": "shell",
+  "command": "grep -n \"mrv_leadterm\" <F2>/sympy/series/gruntz.py",
+  "bytes": 431,
+  "is_error": false
+ },
+ {
+  "tool": "Bash",
+  "kind": "shell",
+  "command": "grep -n \"^def \" <F2>/sympy/series/gruntz.py",
+  "bytes": 414,
+  "is_error": false
+ }
+]

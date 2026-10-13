@@ -1,0 +1,7 @@
+[
+ [
+  "/bin/zsh -lc \"grep -n '_factorint_small' sympy/ntheory/factor_.py\"",
+  202,
+  0
+ ]
+]

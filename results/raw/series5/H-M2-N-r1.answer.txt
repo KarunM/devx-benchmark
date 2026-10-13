@@ -1,0 +1,1 @@
+`SqliteSessionStore.MarkSymbolExpandedAsync` ([SqliteSessionStore.cs:96](<F3>/src/DevX.Infrastructure/Storage/SQLite/SqliteSessionStore.cs:96)) and `SqliteSessionStore.MarkFileExpandedAsync` ([SqliteSessionStore.cs:102](<F3>/src/DevX.Infrastructure/Storage/SQLite/SqliteSessionStore.cs:102)).

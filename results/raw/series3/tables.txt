@@ -1,0 +1,93 @@
+| task | kind | arm | correct | calls (devx/shell) | in tok | out tok | bytes | wall s |
+|--|--|--|--|--|--|--|--|--|
+| L1 | locate | C | 1 | 1 (1/0) | 29336 | 123 | 383 | 5.6 |
+| L1 | locate | N | 1 | 1 (0/1) | 26163 | 116 | 105 | 5.7 |
+| L2 | locate | C | 1 | 1 (1/0) | 28278 | 121 | 287 | 9.4 |
+| L2 | locate | N | 1 | 1 (0/1) | 27269 | 87 | 4617 | 4.8 |
+| L3 | locate | C | 1 | 1 (1/0) | 28466 | 119 | 1023 | 7.1 |
+| L3 | locate | N | 1 | 1 (0/1) | 26139 | 117 | 53 | 5.1 |
+| M1 | multihop | C | 0 | 3 (3/0) | 59622 | 274 | 6644 | 12.6 |
+| M1 | multihop | N | 1 | 2 (0/2) | 40014 | 242 | 1155 | 8.4 |
+| M2 | multihop | C | 1 | 4 (4/0) | 79190 | 420 | 7557 | 28.1 |
+| M2 | multihop | N | 0 | 1 (0/1) | 26705 | 177 | 1810 | 5.7 |
+| R1 | read | C | 1 | 1 (1/0) | 28393 | 176 | 628 | 6.3 |
+| R1 | read | N | 1 | 2 (0/2) | 46647 | 146 | 17322 | 7.1 |
+| R2 | read | C | 1 | 1 (1/0) | 28442 | 167 | 867 | 16.6 |
+| R2 | read | N | 1 | 1 (0/1) | 26447 | 153 | 1164 | 35.6 |
+| R3 | read | C | 1 | 1 (1/0) | 28343 | 151 | 349 | 6.1 |
+| R3 | read | N | 1 | 1 (0/1) | 29438 | 134 | 8351 | 7.0 |
+| S1 | structure | C | 1 | 1 (1/0) | 28625 | 255 | 1216 | 9.1 |
+| S1 | structure | N | 1 | 1 (0/1) | 26572 | 201 | 1490 | 6.6 |
+| S2 | structure | C | 1 | 1 (1/0) | 28472 | 212 | 728 | 6.4 |
+| S2 | structure | N | 1 | 1 (0/1) | 26303 | 320 | 502 | 6.5 |
+| X1 | crossref | C | 1 | 1 (1/0) | 28356 | 157 | 384 | 6.3 |
+| X1 | crossref | N | 0 | 1 (0/1) | 26184 | 184 | 202 | 8.4 |
+| X2 | crossref | C | 1 | 2 (2/0) | 43945 | 297 | 5351 | 9.3 |
+| X2 | crossref | N | 1 | 1 (0/1) | 26486 | 103 | 1332 | 6.7 |
+
+| kind | C/N calls S3/S2/S1 | C/N in tok S3/S2/S1 | C/N bytes S3/S2/S1 | correct C N (S3) | (S2) | (S1) |
+|--|--|--|--|--|--|--|
+| locate | 100% / 100% / 100% | 108% / 104% / 103% | 35% / 35% / 35% | 1.00 / 1.00 | 1.00 / 1.00 | 1.00 / 1.00 |
+| read | 75% / 150% / 60% | 83% / 124% / 76% | 7% / 23% / 17% | 1.00 / 1.00 | 1.00 / 0.67 | 1.00 / 1.00 |
+| structure | 100% / 100% / 133% | 108% / 113% / 126% | 98% / 591% / 253% | 1.00 / 1.00 | 1.00 / 1.00 | 1.00 / 1.00 |
+| crossref | 150% / 200% / 175% | 137% / 180% / 159% | 374% / 150% / 129% | 1.00 / 0.50 | 1.00 / 1.00 | 0.50 / 1.00 |
+| multihop | 233% / 233% / 225% | 208% / 199% / 200% | 479% / 151% / 227% | 0.50 / 0.50 | 1.00 / 0.50 | 1.00 / 0.50 |
+
+series3 N: correct 10/12 calls 1.17 in 29531 bytes 3175 wall 9.0
+series3 C: correct 11/12 calls 1.50 in 36622 bytes 2118 wall 10.2
+series3 C%N all12: calls/in/bytes 129% / 124% / 67%
+series3 both-correct n=9 (L1,L2,L3,R1,R2,R3,S1,S2,X2): calls/in/bytes 100% / 104% / 31%
+series2 N: correct 10/12 calls 1.17 in 29480 bytes 2237 wall 7.2
+series2 C: correct 12/12 calls 1.92 in 42830 bytes 2788 wall 11.8
+series2 C%N all12: calls/in/bytes 164% / 145% / 125%
+series2 both-correct n=10 (L1,L2,L3,M1,R2,R3,S1,S2,X1,X2): calls/in/bytes 131% / 124% / 97%
+series1 N: correct 11/12 calls 1.58 in 34783 bytes 2340 wall 7.4
+series1 C: correct 11/12 calls 2.17 in 45066 bytes 2308 wall 9.5
+series1 C%N all12: calls/in/bytes 137% / 130% / 99%
+series1 both-correct n=10 (L1,L2,L3,M1,R1,R2,R3,S1,S2,X1): calls/in/bytes 94% / 99% / 48%
+
+per-task calls/bytes C vs N, series3 (and S2, S1 C calls)
+L1 locate C 1c/383B  N 1c/105B  | S2 C 1c/383B N 1c/105B | S1 C 1c N 1c FLAG
+L2 locate C 1c/287B  N 1c/4617B  | S2 C 1c/287B N 1c/4617B | S1 C 1c N 1c 
+L3 locate C 1c/1023B  N 1c/53B  | S2 C 1c/1023B N 1c/53B | S1 C 1c N 1c FLAG
+M1 multihop C 3c/6644B  N 2c/1155B  | S2 C 2c/1955B N 2c/5178B | S1 C 4c N 2c FLAG
+M2 multihop C 4c/7557B  N 1c/1810B  | S2 C 5c/8588B N 1c/1810B | S1 C 5c N 2c FLAG
+R1 read C 1c/628B  N 2c/17322B  | S2 C 1c/628B N 0c/0B | S1 C 1c N 2c 
+R2 read C 1c/867B  N 1c/1164B  | S2 C 1c/796B N 1c/1396B | S1 C 1c N 2c 
+R3 read C 1c/349B  N 1c/8351B  | S2 C 1c/416B N 1c/6618B | S1 C 1c N 1c 
+S1 structure C 1c/1216B  N 1c/1490B  | S2 C 1c/1216B N 1c/1490B | S1 C 2c N 2c 
+S2 structure C 1c/728B  N 1c/502B  | S2 C 1c/10564B N 1c/502B | S1 C 2c N 1c FLAG
+X1 crossref C 1c/384B  N 1c/202B  | S2 C 4c/958B N 3c/3741B | S1 C 1c N 3c FLAG
+X2 crossref C 2c/5351B  N 1c/1332B  | S2 C 4c/6639B N 1c/1332B | S1 C 6c N 1c FLAG
+
+commands arm C
+## L1
+- 'devx search symbol "factorint" ' | 383 B | rc=0
+## L2
+- 'devx search symbol "uniquely_named_symbol" ' | 287 B | rc=0
+## L3
+- 'devx search symbol "Rational" ' | 1023 B | rc=0
+## M1
+- 'devx read type "Symbol" ' | 1216 B | rc=0
+- 'devx search symbol "Boolean" ' | 1155 B | rc=0
+- 'devx read type "Boolean" --full ' | 4273 B | rc=0
+## M2
+- 'devx read type Integer --session <SESSION-F2> ' | 2410 B | rc=0
+- 'devx read type Rational --session <SESSION-F2> ' | 2424 B | rc=0
+- 'devx read type Number --session <SESSION-F2> ' | 1985 B | rc=0
+- 'devx read type AtomicExpr --session <SESSION-F2> ' | 738 B | rc=0
+## R1
+- "devx read method 'sympy.core.symbol.Dummy.__new__' --session <SESSION-F2> " | 628 B | rc=0
+## R2
+- 'devx search symbol "Symbol._sanitize" ' | 867 B | rc=0
+## R3
+- 'devx read method "sympy.core.symbol.Wild.__new__" ' | 349 B | rc=0
+## S1
+- 'devx read type "Symbol" ' | 1216 B | rc=0
+## S2
+- 'devx read type "Sieve" ' | 728 B | rc=0
+## X1
+- 'devx callers "_factorint_small" ' | 384 B | rc=0
+## X2
+- 'devx callers "_symbol" ' | 428 B | rc=2
+- 'devx callers "sympy.core.symbol.<module>._symbol" ' | 4923 B | rc=0

@@ -1,0 +1,16 @@
+[
+ {
+  "tool": "Grep",
+  "kind": "other",
+  "command": "{\"pattern\": \"ConfiguredPath\", \"output_mode\": \"content\", \"-n\": true}",
+  "bytes": 1149,
+  "is_error": false
+ },
+ {
+  "tool": "Bash",
+  "kind": "shell",
+  "command": "sed -n 95,150p src/DevX.Infrastructure/Storage/SQLite/RipgrepLocator.cs",
+  "bytes": 2642,
+  "is_error": false
+ }
+]

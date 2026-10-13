@@ -1,0 +1,12 @@
+[
+ [
+  "/bin/zsh -lc 'devx read type \"Symbol\" --session \"<SESSION-F2>\" --agent codex'",
+  1302,
+  0
+ ],
+ [
+  "/bin/zsh -lc 'devx search symbol \"to_nnf\" --session \"<SESSION-F2>\" --agent codex'",
+  778,
+  0
+ ]
+]

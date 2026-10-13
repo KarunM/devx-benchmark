@@ -1,0 +1,22 @@
+[
+ [
+  "/bin/zsh -lc 'devx references \"_symbol\" --session \"<SESSION-F2>\" --agent codex'",
+  0,
+  1
+ ],
+ [
+  "/bin/zsh -lc 'devx search symbol \"_symbol\" --session \"<SESSION-F2>\" --agent codex'",
+  1156,
+  0
+ ],
+ [
+  "/bin/zsh -lc 'devx search text \"_symbol(\" --session \"<SESSION-F2>\" --agent codex'",
+  1301,
+  0
+ ],
+ [
+  "/bin/zsh -lc 'devx read file sympy/core/symbol.py --range 120:260 --session \"<SESSION-F2>\" --agent codex'",
+  4182,
+  0
+ ]
+]

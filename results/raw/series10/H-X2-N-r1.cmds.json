@@ -1,0 +1,16 @@
+[
+ {
+  "tool": "Bash",
+  "kind": "shell",
+  "command": "grep -rn \"Locate\\b\\|Locate(\" src | grep -v -i test",
+  "bytes": 721,
+  "is_error": false
+ },
+ {
+  "tool": "Bash",
+  "kind": "shell",
+  "command": "sed -n 30,42p src/DevX.Infrastructure/Storage/SQLite/RipgrepContentSearcher.cs; echo ----; awk 'NR>=1200 && NR<=1272' src/DevX.Cli/Program.cs | grep -nE '^\\s*(static|private|public|internal|async).*\\(' ; grep -rn \"using static.*RipgrepLocator\\|Locate(\" src --include=*.cs | grep -v \"RipgrepLocator\\.\\(cs\\|Locate\\)\" | grep -v -i test",
+  "bytes": 1214,
+  "is_error": false
+ }
+]

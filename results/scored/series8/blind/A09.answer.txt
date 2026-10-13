@@ -1,0 +1,3 @@
+In `DevX.Cli.SearchReplaceBlockParser.Parse` (`src/DevX.Cli/SearchReplaceBlockParser.cs`):
+- **Markdown code fence (```):** line 22 returns `ErrorMessage` `"markdown_fence_outside_blocks"`, with `Success=false` and no blocks. The check at line 20 runs on the normalized response.
+- **Empty or whitespace response:** line 16 returns `"zero_blocks"`. The `string.IsNullOrWhiteSpace(response)` check is at line 14. Line 110 returns the same message when parsing finds no blocks.

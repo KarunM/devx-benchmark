@@ -1,0 +1,16 @@
+[
+ {
+  "tool": "Bash",
+  "kind": "shell",
+  "command": "f=$(find . -path '*sympy/series/gruntz.py' | head -1); echo $f; grep -n \"^class \\|^    def \" $f | sed -n '/class SubsSet/,/^[0-9]*:class /p'",
+  "bytes": 264,
+  "is_error": false
+ },
+ {
+  "tool": "Bash",
+  "kind": "shell",
+  "command": "sed -n '236,250p' sympy/series/gruntz.py",
+  "bytes": 384,
+  "is_error": false
+ }
+]

@@ -1,0 +1,1 @@
+The callers are `DevX.Infrastructure.Storage.SQLite.SqliteSessionStore.MarkFileExpandedAsync` and `DevX.Infrastructure.Storage.SQLite.SqliteSessionStore.MarkSymbolExpandedAsync`.

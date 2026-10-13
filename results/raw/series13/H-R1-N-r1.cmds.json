@@ -1,0 +1,9 @@
+[
+ {
+  "tool": "Bash",
+  "kind": "shell",
+  "command": "f=$(find <F2> -path '*sympy/series/limits.py' | head -1); echo \"$f\"; grep -n -A4 \"not in\" \"$f\" | grep -n -B2 -A4 \"dir\" | head -40",
+  "bytes": 299,
+  "is_error": false
+ }
+]

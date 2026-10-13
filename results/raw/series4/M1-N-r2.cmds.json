@@ -1,0 +1,7 @@
+[
+ [
+  "/bin/zsh -lc 'rg -n \"class Symbol|to_nnf\" sympy/core/symbol.py sympy/logic'",
+  4233,
+  0
+ ]
+]

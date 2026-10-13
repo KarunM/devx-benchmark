@@ -1,0 +1,27 @@
+[
+ [
+  "/bin/zsh -lc 'cd <F3> && ls && find . -name \"RipgrepLocator*\" -not -path \"*/.git/*\"'",
+  269,
+  0
+ ],
+ [
+  "/bin/zsh -lc 'cd <F3> && grep -rn \"Locate\" src --include=*.cs'",
+  40,
+  1
+ ],
+ [
+  "/bin/zsh -lc \"cd <F3> && grep -rn \\\"Locate\\\" src --include='*.cs'\"",
+  722,
+  0
+ ],
+ [
+  "/bin/zsh -lc \"cd <F3> && sed -n '35,45p' src/DevX.Infrastructure/Storage/SQLite/RipgrepContentSearcher.cs && echo '---' && awk 'NR>=1250 && NR<=1275' src/DevX.Cli/Program.cs && echo '--- enclosing method ---' && awk 'NR<=1272 && /\"'^[A-Za-z].*'\"\\\\(/ {l=NR\\\": \\\"\"'$0} END{}'\"' src/DevX.Cli/Program.cs | tail -1\"",
+  2144,
+  0
+ ],
+ [
+  "/bin/zsh -lc \"cd <F3> && grep -rn \\\"RipgrepLocator\\\" src --include='*.cs'\"",
+  716,
+  0
+ ]
+]

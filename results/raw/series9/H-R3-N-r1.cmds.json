@@ -1,0 +1,23 @@
+[
+ {
+  "tool": "Grep",
+  "kind": "other",
+  "command": "{\"pattern\": \"ConfiguredPath\", \"path\": \"<F3>\", \"-n\": true}",
+  "bytes": 167,
+  "is_error": false
+ },
+ {
+  "tool": "Grep",
+  "kind": "other",
+  "command": "{\"pattern\": \"ConfiguredPath|catch\", \"path\": \"<F3>/src/DevX.Infrastructure/Storage/SQLite/RipgrepLocator.cs\", \"-n\": true, \"-A\": 3}",
+  "bytes": 69,
+  "is_error": false
+ },
+ {
+  "tool": "Bash",
+  "kind": "shell",
+  "command": "grep -n \"ConfiguredPath\" -A 30 <F3>/src/DevX.Infrastructure/Storage/SQLite/RipgrepLocator.cs | head -60",
+  "bytes": 2683,
+  "is_error": false
+ }
+]

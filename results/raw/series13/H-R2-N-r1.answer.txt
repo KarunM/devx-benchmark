@@ -1,0 +1,6 @@
+In `src/DevX.Cli/SearchReplaceBlockParser.cs`, `DevX.Cli.SearchReplaceBlockParser.Parse`:
+
+- Markdown fence (```) in the response → `"markdown_fence_outside_blocks"` (`src/DevX.Cli/SearchReplaceBlockParser.cs:20-22`)
+- Empty or whitespace response → `"zero_blocks"` (`src/DevX.Cli/SearchReplaceBlockParser.cs:14-16`)
+
+Both are returned as the `ErrorMessage` of a failed `SearchReplaceParseResult`.

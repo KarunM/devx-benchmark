@@ -1,0 +1,1 @@
+`MarkSymbolExpandedAsync` (src/DevX.Infrastructure/Storage/SQLite/SqliteSessionStore.cs:101) and `MarkFileExpandedAsync` (line 107) — both call the private `RequireSessionAsync` helper (line 181-182).

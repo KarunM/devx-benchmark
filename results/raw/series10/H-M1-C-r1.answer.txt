@@ -1,0 +1,4 @@
+The class is `sympy.printing.c.C89CodePrinter`, defined at `sympy/printing/c.py:147` (it spans lines 147–635).
+
+- `C99CodePrinter(C89CodePrinter)` is at `sympy/printing/c.py:637`.
+- `C89CodePrinter(CodePrinter)` gets its own base, `CodePrinter`, from `sympy/printing/codeprinter.py:53`.

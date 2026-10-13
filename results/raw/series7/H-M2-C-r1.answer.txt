@@ -1,0 +1,5 @@
+The helper is `SqliteSessionStore.RequireSessionAsync` (`src/DevX.Infrastructure/Storage/SQLite/SqliteSessionStore.cs:182`), throwing `InvalidOperationException("Session not found.")`.
+
+Callers whose name starts with `Mark`:
+- `DevX.Infrastructure.Storage.SQLite.SqliteSessionStore.MarkFileExpandedAsync` — `src/DevX.Infrastructure/Storage/SQLite/SqliteSessionStore.cs:107`
+- `DevX.Infrastructure.Storage.SQLite.SqliteSessionStore.MarkSymbolExpandedAsync` — `src/DevX.Infrastructure/Storage/SQLite/SqliteSessionStore.cs:101`

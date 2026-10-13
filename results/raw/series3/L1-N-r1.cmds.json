@@ -1,0 +1,7 @@
+[
+ [
+  "/bin/zsh -lc \"rg -n \\\"def factorint\\\\b|factorint\\\\s*=\\\\s*\\\" . --glob '\"'!**/test*'\"' --glob '\"'!**/*test*'\"'\"",
+  105,
+  0
+ ]
+]

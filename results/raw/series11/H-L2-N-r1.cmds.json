@@ -1,0 +1,7 @@
+[
+ [
+  "/bin/zsh -lc \"rg -n '\"'^class C99CodePrinter'\"\\\\b' .\"",
+  64,
+  0
+ ]
+]

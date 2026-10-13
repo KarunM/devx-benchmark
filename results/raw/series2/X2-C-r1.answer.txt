@@ -1,0 +1,1 @@
+`sympy/core/symbol.py:133` — `uniquely_named_symbol` calls the module-level `_symbol`.

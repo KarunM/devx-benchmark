@@ -1,0 +1,25 @@
+task,arm,verdict,reason
+H-S1,N,correct,Commits to reference answer; no wrong elements
+H-L2,C,correct,Commits to reference answer; no wrong elements
+H-R3,C,correct,Commits to reference answer; no wrong elements
+H-M2,C,correct,Commits to reference answer; no wrong elements
+H-L2,N,correct,Commits to reference answer; no wrong elements
+H-X2,N,correct,Commits to reference answer; no wrong elements
+H-L3,C,correct,Commits to reference answer; no wrong elements
+H-S1,C,correct,Commits to reference answer; no wrong elements
+H-R3,N,correct,Commits to reference answer; no wrong elements
+H-L3,N,correct,Commits to reference answer; no wrong elements
+H-X2,C,correct,Commits to reference answer; no wrong elements
+H-S2,C,correct,Commits to reference answer; no wrong elements
+H-L1,N,correct,Commits to reference answer; no wrong elements
+H-X1,N,incorrect,"Swaps attribution: says limitinf at 421 and sign at 449-453; self-contradictory, reference has sign=421, limitinf=449-453"
+H-R2,N,incorrect,"Status message, not an answer"
+H-M2,N,correct,Commits to reference answer; no wrong elements
+H-M1,C,correct,Commits to reference answer; no wrong elements
+H-L1,C,correct,Commits to reference answer; no wrong elements
+H-R1,N,correct,Commits to reference answer; no wrong elements
+H-R1,C,correct,Commits to reference answer; no wrong elements
+H-X1,C,correct,Commits to reference answer; no wrong elements
+H-M1,N,correct,"OVERRIDDEN by maintainer: asked elements (CodePrinter, codeprinter.py:53) right; wrong line for unasked C89CodePrinter immaterial"
+H-S2,N,correct,Commits to reference answer; no wrong elements
+H-R2,C,correct,Commits to reference answer; no wrong elements

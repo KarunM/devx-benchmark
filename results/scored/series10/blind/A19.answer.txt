@@ -1,0 +1,1 @@
+`limitinf` is defined at `sympy/series/gruntz.py:428` (it runs through line 470), as `sympy.series.gruntz.limitinf(e, x)`. It is a module-level function that computes the limit of `e(x)` as x → ∞.

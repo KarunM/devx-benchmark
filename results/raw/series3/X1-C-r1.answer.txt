@@ -1,0 +1,4 @@
+Two functions in `sympy/ntheory/factor_.py` call `_factorint_small`:
+
+- `_perfect_power` — line 330
+- `factorint` — line 1318

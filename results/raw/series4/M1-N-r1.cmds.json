@@ -1,0 +1,7 @@
+[
+ [
+  "/bin/zsh -lc \"grep -n -E '\"'^class Symbol|logic'\"' sympy/core/symbol.py; grep -R -n 'def to_nnf' sympy/logic\"",
+  628,
+  0
+ ]
+]

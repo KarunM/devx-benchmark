@@ -1,0 +1,12 @@
+[
+ [
+  "/bin/zsh -lc \"grep -n -B3 -A3 'mrv_leadterm' sympy/series/gruntz.py\"",
+  1731,
+  0
+ ],
+ [
+  "/bin/zsh -lc \"sed -n '380,470p' sympy/series/gruntz.py && sed -n '510,575p' sympy/series/gruntz.py\"",
+  4817,
+  0
+ ]
+]

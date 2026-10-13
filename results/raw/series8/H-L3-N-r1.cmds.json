@@ -1,0 +1,9 @@
+[
+ {
+  "tool": "Grep",
+  "kind": "other",
+  "command": "{\"pattern\": \"LooksLikeShellCommandLine\", \"output_mode\": \"content\"}",
+  "bytes": 299,
+  "is_error": false
+ }
+]

@@ -1,0 +1,7 @@
+task,arm,rep,correct,tool_calls_total,tool_calls_shell,tool_calls_mcp,tool_calls_other,input_tokens,output_tokens,cached_tokens,result_bytes,wall_seconds,exit_code,timed_out
+L1,D,1,1,1,0,1,0,58142,159,36096,382,9.7,0,0
+L1,N,1,1,1,1,0,0,26166,114,22016,105,8.4,0,0
+R1,N,1,1,1,1,0,0,26998,118,15872,2674,5.0,0,0
+R1,D,1,1,1,0,1,0,58707,186,36096,627,9.6,0,0
+M1,D,1,1,5,0,5,0,105795,517,70912,13298,23.8,0,0
+M1,N,1,1,2,2,0,0,41134,311,35072,3923,8.4,0,0

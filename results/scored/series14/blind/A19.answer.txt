@@ -1,0 +1,7 @@
+
+
+The non-test callers in `sympy/series/gruntz.py` are:
+
+- **`sympy.series.gruntz.limit`** — module-level calls at lines 78, 102, 108, 111
+- **`sympy.series.gruntz.limitinf`** — lines 449, 451, 453
+- **`sympy.series.gruntz.sign`** — line 421

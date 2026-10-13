@@ -1,0 +1,9 @@
+[
+ {
+  "tool": "Bash",
+  "kind": "devx",
+  "command": "devx search symbol \"C99CodePrinter\" --session <SESSION-F2> --agent claude",
+  "bytes": 903,
+  "is_error": false
+ }
+]

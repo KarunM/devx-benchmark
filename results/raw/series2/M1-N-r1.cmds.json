@@ -1,0 +1,12 @@
+[
+ [
+  "/bin/zsh -lc \"grep -n -A8 -B4 '\"'^class Symbol'\"' sympy/core/symbol.py; find sympy/logic -type f -name '*.py' -print\"",
+  1088,
+  0
+ ],
+ [
+  "/bin/zsh -lc \"grep -n -B5 -A8 'def to_nnf' sympy/logic/boolalg.py; grep -n '\"'^class Boolean'\"' sympy/logic/boolalg.py\"",
+  4090,
+  0
+ ]
+]

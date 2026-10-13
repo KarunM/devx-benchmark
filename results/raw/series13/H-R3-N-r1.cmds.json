@@ -1,0 +1,30 @@
+[
+ {
+  "tool": "Bash",
+  "kind": "shell",
+  "command": "f=$(grep -rl \"class RipgrepLocator\" <F3> --include=*.cs); echo \"$f\"; grep -n \"ConfiguredPath\" $f | head; awk '/ConfiguredPath\\(/{p=1} p{print NR\": \"$0} p&&/^    }/{exit}' $f",
+  "bytes": 42,
+  "is_error": false
+ },
+ {
+  "tool": "Bash",
+  "kind": "shell",
+  "command": "f=$(grep -rl \"class RipgrepLocator\" . --include='*.cs'); echo \"$f\"; for x in $f; do grep -n \"ConfiguredPath\" \"$x\"; done",
+  "bytes": 260,
+  "is_error": true
+ },
+ {
+  "tool": "Bash",
+  "kind": "shell",
+  "command": "grep -n \"ConfiguredPath\\|catch\" src/DevX.Infrastructure/Storage/SQLite/RipgrepLocator.cs",
+  "bytes": 483,
+  "is_error": false
+ },
+ {
+  "tool": "Bash",
+  "kind": "shell",
+  "command": "sed -n '99,120p' src/DevX.Infrastructure/Storage/SQLite/RipgrepLocator.cs",
+  "bytes": 1252,
+  "is_error": false
+ }
+]

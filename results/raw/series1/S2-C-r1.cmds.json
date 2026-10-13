@@ -1,0 +1,12 @@
+[
+ [
+  "/bin/zsh -lc 'devx search symbol \"Sieve\" --session <SESSION-F2> --format agent'",
+  877,
+  0
+ ],
+ [
+  "/bin/zsh -lc 'devx read type \"sympy.ntheory.generate.Sieve\" --session <SESSION-F2> --format agent'",
+  728,
+  0
+ ]
+]

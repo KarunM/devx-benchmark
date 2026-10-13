@@ -1,0 +1,2 @@
+- Markdown fence: `"markdown_fence_outside_blocks"` — `DevX.Cli.SearchReplaceBlockParser.Parse` at `src/DevX.Cli/SearchReplaceBlockParser.cs:16` (fence branch).
+- Empty/whitespace: `"zero_blocks"` — same method, `src/DevX.Cli/SearchReplaceBlockParser.cs:12-16`.

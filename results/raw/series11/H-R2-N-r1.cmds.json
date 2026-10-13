@@ -1,0 +1,12 @@
+[
+ [
+  "/bin/zsh -lc \"rg -n 'class SearchReplaceBlockParser|SearchReplaceBlockParser|\"'```'\"' .\"",
+  18107,
+  0
+ ],
+ [
+  "/bin/zsh -lc \"sed -n '1,45p' src/DevX.Cli/SearchReplaceBlockParser.cs\"",
+  1557,
+  0
+ ]
+]

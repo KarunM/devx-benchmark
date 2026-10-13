@@ -1,0 +1,7 @@
+[
+ [
+  "/bin/zsh -lc 'devx search symbol \"Rational\" --session <SESSION-F2> --format agent'",
+  1023,
+  0
+ ]
+]

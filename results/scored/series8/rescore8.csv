@@ -1,0 +1,25 @@
+task,arm,verdict,reason
+H-R3,N,correct,Commits to answer matching reference on all asked elements; no wrong extras.
+H-X1,N,correct,Commits to answer matching reference on all asked elements; no wrong extras.
+H-R3,C,correct,Commits to answer matching reference on all asked elements; no wrong extras.
+H-S2,C,correct,Commits to answer matching reference on all asked elements; no wrong extras.
+H-R1,N,correct,Commits to answer matching reference on all asked elements; no wrong extras.
+H-M2,C,correct,Commits to answer matching reference on all asked elements; no wrong extras.
+H-R2,C,correct,Commits to answer matching reference on all asked elements; no wrong extras.
+H-L3,N,correct,Commits to answer matching reference on all asked elements; no wrong extras.
+H-R2,N,correct,Commits to answer matching reference on all asked elements; no wrong extras.
+H-L1,C,correct,Commits to answer matching reference on all asked elements; no wrong extras.
+H-M1,C,correct,Commits to answer matching reference on all asked elements; no wrong extras.
+H-S2,N,correct,Commits to answer matching reference on all asked elements; no wrong extras.
+H-L2,N,correct,Commits to answer matching reference on all asked elements; no wrong extras.
+H-X1,C,correct,Commits to answer matching reference on all asked elements; no wrong extras.
+H-X2,N,correct,Commits to answer matching reference on all asked elements; no wrong extras.
+H-M2,N,correct,Commits to answer matching reference on all asked elements; no wrong extras.
+H-X2,C,correct,Commits to answer matching reference on all asked elements; no wrong extras.
+H-L2,C,correct,Commits to answer matching reference on all asked elements; no wrong extras.
+H-L1,N,correct,Commits to answer matching reference on all asked elements; no wrong extras.
+H-S1,C,correct,Commits to answer matching reference on all asked elements; no wrong extras.
+H-R1,C,correct,Commits to answer matching reference on all asked elements; no wrong extras.
+H-L3,C,correct,Commits to answer matching reference on all asked elements; no wrong extras.
+H-M1,N,incorrect,Commits to C89CodePrinter:147 as the answer; reference is CodePrinter at codeprinter.py:53 (mentioned only as chain end).
+H-S1,N,correct,Commits to answer matching reference on all asked elements; no wrong extras.

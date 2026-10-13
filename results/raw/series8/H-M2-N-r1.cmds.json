@@ -1,0 +1,23 @@
+[
+ {
+  "tool": "Grep",
+  "kind": "other",
+  "command": "{\"pattern\": \"Session not found\", \"output_mode\": \"content\"}",
+  "bytes": 1651,
+  "is_error": false
+ },
+ {
+  "tool": "Bash",
+  "kind": "shell",
+  "command": "cd src/DevX.Infrastructure/Storage/SQLite; sed -n 178,184p SqliteSessionStore.cs; grep -n \"GetRequiredAsync\\|GetOrThrow\" SqliteSessionStore.cs",
+  "bytes": 356,
+  "is_error": false
+ },
+ {
+  "tool": "Bash",
+  "kind": "shell",
+  "command": "cd src/DevX.Infrastructure/Storage/SQLite; awk '/^    (public|private|internal|protected).*\\(/{name=$0; ln=NR} /RequireSessionAsync\\(/ && NR!=181{print NR\": \"$0\" || in \"ln\": \"name}' SqliteSessionStore.cs",
+  "bytes": 1337,
+  "is_error": false
+ }
+]

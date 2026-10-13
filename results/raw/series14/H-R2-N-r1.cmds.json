@@ -1,0 +1,17 @@
+[
+ [
+  "/bin/zsh -lc 'find <F3> -name \"*.cs\" | xargs grep -l \"SearchReplaceBlockParser\" 2>/dev/null | head -20'",
+  301,
+  0
+ ],
+ [
+  "/bin/zsh -lc 'cat <F3>/src/DevX.Cli/SearchReplaceBlockParser.cs'",
+  4049,
+  0
+ ],
+ [
+  "/bin/zsh -lc 'cat <F3>/tests/DevX.Tests/Cli/SearchReplaceBlockParserTests.cs'",
+  2140,
+  0
+ ]
+]

@@ -1,0 +1,1 @@
+`sympy.core.symbol.symbols` in `sympy/core/symbol.py` calls `_symbol`.

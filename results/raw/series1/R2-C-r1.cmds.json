@@ -1,0 +1,7 @@
+[
+ [
+  "/bin/zsh -lc 'devx read method \"sympy.core.symbol.Symbol._sanitize\" --session <SESSION-F2> --format agent'",
+  796,
+  0
+ ]
+]

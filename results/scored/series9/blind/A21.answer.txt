@@ -1,0 +1,4 @@
+Ignoring tests and the module-level docstring calls, the functions in sympy/series/gruntz.py that call `mrv_leadterm` are:
+
+- `limitinf` — sympy/series/gruntz.py:449,451,453
+- `sign` — sympy/series/gruntz.py:421

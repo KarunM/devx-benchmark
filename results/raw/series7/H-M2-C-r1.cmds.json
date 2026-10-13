@@ -1,0 +1,22 @@
+[
+ [
+  "/bin/zsh -lc 'devx search text \"Session not found.\" --session <SESSION-F3> --agent codex'",
+  1748,
+  0
+ ],
+ [
+  "/bin/zsh -lc 'devx callers \"DevX.Infrastructure.Storage.SQLite.SqliteSessionStore.RequireSessionAsync\" --session <SESSION-F3> --agent codex'",
+  2127,
+  0
+ ],
+ [
+  "/bin/zsh -lc 'devx search symbol \"MarkFileExpandedAsync\" --session <SESSION-F3> --agent codex'",
+  595,
+  0
+ ],
+ [
+  "/bin/zsh -lc 'devx search symbol \"MarkSymbolExpandedAsync\" --session <SESSION-F3> --agent codex'",
+  603,
+  0
+ ]
+]

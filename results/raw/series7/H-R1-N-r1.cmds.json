@@ -1,0 +1,17 @@
+[
+ [
+  "/bin/zsh -lc 'ls <F2>'",
+  272,
+  0
+ ],
+ [
+  "/bin/zsh -lc \"grep -n \\\"dir\\\" sympy/series/limits.py | sed -n '1,120p'\"",
+  2742,
+  0
+ ],
+ [
+  "/bin/zsh -lc \"grep -n \\\"raise\\\\|ValueError\\\\|NotImplementedError\\\" sympy/series/limits.py | head -40\"",
+  792,
+  0
+ ]
+]

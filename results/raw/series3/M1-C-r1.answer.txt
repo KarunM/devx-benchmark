@@ -1,0 +1,2 @@
+`Symbol` inherits `Boolean`, defined in `sympy/logic/boolalg.py:65`.  
+`Boolean.to_nnf` is defined at `sympy/logic/boolalg.py:118`.

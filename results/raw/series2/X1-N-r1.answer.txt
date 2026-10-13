@@ -1,0 +1,1 @@
+`_perfect_power` (line 330) and `factorint` (line 1318).

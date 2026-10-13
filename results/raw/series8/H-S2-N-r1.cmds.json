@@ -1,0 +1,9 @@
+[
+ {
+  "tool": "Bash",
+  "kind": "shell",
+  "command": "grep -nE '^\\s*(public|internal|private|protected)|class ' src/DevX.Cli/SandboxManager.cs",
+  "bytes": 674,
+  "is_error": false
+ }
+]

@@ -1,0 +1,7 @@
+[
+ [
+  "/bin/zsh -lc \"rg -n 'class\\\\s+Rational\\\\b' .\"",
+  53,
+  0
+ ]
+]

@@ -1,0 +1,12 @@
+[
+ [
+  "/bin/zsh -lc \"rg -n '\"'^class SubsSet|''^    def '\"' sympy/series/gruntz.py\"",
+  240,
+  0
+ ],
+ [
+  "/bin/zsh -lc \"sed -n '155,250p' sympy/series/gruntz.py\"",
+  3183,
+  0
+ ]
+]

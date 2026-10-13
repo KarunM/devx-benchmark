@@ -1,0 +1,1 @@
+`LooksLikeShellCommandLine` is defined at `src/DevX.Indexer/DevXCommandConfig.cs:153` as `public static bool LooksLikeShellCommandLine(string command)`, so its qualified name is `DevXCommandConfig.LooksLikeShellCommandLine`. Line 69 of the same file calls it.

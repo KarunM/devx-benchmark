@@ -1,0 +1,1 @@
+`sympy/core/symbol.py:604` applies `sympify` to each element of `exclude`; `sympy/core/symbol.py:607` finally calls `Wild.__xnew__` to build the object.

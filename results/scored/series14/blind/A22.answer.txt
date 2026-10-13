@@ -1,0 +1,6 @@
+
+
+Two methods in `src` call `RipgrepLocator.Locate` (excluding RipgrepLocator itself):
+
+1. **`Program.DoctorAsync`** — [`src/DevX.Cli/Program.cs:1272`](src/DevX.Cli/Program.cs:1272)
+2. **`RipgrepContentSearcher.TrySearch`** — [`src/DevX.Infrastructure/Storage/SQLite/RipgrepContentSearcher.cs:42`](src/DevX.Infrastructure/Storage/SQLite/RipgrepContentSearcher.cs:42)

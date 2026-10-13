@@ -1,0 +1,22 @@
+[
+ [
+  "/bin/zsh -lc 'devx references \"RipgrepLocator.Locate\" --session \"<SESSION-F3>\" --agent codex'",
+  11883,
+  0
+ ],
+ [
+  "/bin/zsh -lc 'devx callers \"DevX.Infrastructure.Storage.SQLite.RipgrepLocator.Locate\" --full --session \"<SESSION-F3>\" --agent codex'",
+  185,
+  1
+ ],
+ [
+  "/bin/zsh -lc 'devx search symbol \"RipgrepLocator.Locate\" --session \"<SESSION-F3>\" --agent codex'",
+  332,
+  0
+ ],
+ [
+  "/bin/zsh -lc 'devx search text \"RipgrepLocator.Locate(\" --session \"<SESSION-F3>\" --agent codex'",
+  1839,
+  0
+ ]
+]

@@ -1,0 +1,12 @@
+[
+ [
+  "/bin/zsh -lc 'grep -R -n \"def _sanitize\" sympy/core/symbol.py'",
+  67,
+  0
+ ],
+ [
+  "/bin/zsh -lc \"sed -n '289,345p' sympy/core/symbol.py\"",
+  2163,
+  0
+ ]
+]

@@ -1,0 +1,4 @@
+`limitinf` calls it twice: sympy/series/gruntz.py:421 and 449/451/453 (inside a comparison and assignment). `sign` calls it once: sympy/series/gruntz.py:449-453 — wait, let me clarify: both calls at 449–453 are inside `sign`, not `limitinf`.
+
+- `limitinf` — sympy/series/gruntz.py:421
+- `sign` — sympy/series/gruntz.py:449, 451, 453

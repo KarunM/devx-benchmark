@@ -1,0 +1,17 @@
+[
+ [
+  "/bin/zsh -lc \"rg -n 'mrv_leadterm' sympy/series/gruntz.py\"",
+  432,
+  0
+ ],
+ [
+  "/bin/zsh -lc \"sed -n '380,465p' sympy/series/gruntz.py\"",
+  2476,
+  0
+ ],
+ [
+  "/bin/zsh -lc \"rg -n '\"'^def (sign|limitinf)'\"\\\\(' sympy/series/gruntz.py\"",
+  44,
+  0
+ ]
+]

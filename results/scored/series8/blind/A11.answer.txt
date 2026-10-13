@@ -1,0 +1,3 @@
+The class is `CodePrinter`, defined at `sympy/printing/codeprinter.py:53` (the class spans lines 53-614).
+
+The chain is `C99CodePrinter` (`sympy/printing/c.py:637`), then `C89CodePrinter` (`sympy/printing/c.py:147`), then `CodePrinter`.

@@ -1,0 +1,7 @@
+[
+ [
+  "/bin/zsh -lc \"rg -n --glob '\"'!test*'\"' --glob '\"'!tests/**'\"' 'class C99CodePrinter' .\"",
+  64,
+  0
+ ]
+]

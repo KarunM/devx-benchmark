@@ -1,0 +1,27 @@
+[
+ [
+  "/bin/zsh -lc 'devx search symbol \"Integer\" --session <SESSION-F2> --format agent'",
+  1031,
+  0
+ ],
+ [
+  "/bin/zsh -lc 'devx read type \"sympy.core.numbers.Integer\" --session <SESSION-F2> --format agent'",
+  2410,
+  0
+ ],
+ [
+  "/bin/zsh -lc 'devx read type \"sympy.core.numbers.Rational\" --session <SESSION-F2> --format agent'",
+  2424,
+  0
+ ],
+ [
+  "/bin/zsh -lc 'devx read type \"sympy.core.numbers.Number\" --session <SESSION-F2> --format agent'",
+  1985,
+  0
+ ],
+ [
+  "/bin/zsh -lc 'devx search symbol \"AtomicExpr\" --session <SESSION-F2> --format agent'",
+  844,
+  0
+ ]
+]

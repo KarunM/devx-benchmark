@@ -1,0 +1,7 @@
+[
+ [
+  "/bin/zsh -lc \"rg -n -C 2 'uniquely_named_symbol' .\"",
+  18679,
+  0
+ ]
+]

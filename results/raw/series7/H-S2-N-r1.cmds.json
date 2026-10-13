@@ -1,0 +1,12 @@
+[
+ [
+  "/bin/zsh -lc 'grep -n \"class SandboxManager\" -A 200 src/DevX.Cli/SandboxManager.cs | grep -nE \"public|private|protected|internal\" | head -50'",
+  714,
+  0
+ ],
+ [
+  "/bin/zsh -lc 'cat -n src/DevX.Cli/SandboxManager.cs'",
+  7150,
+  0
+ ]
+]

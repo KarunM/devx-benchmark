@@ -1,0 +1,17 @@
+[
+ [
+  "/bin/zsh -lc 'devx read type Integer --session <SESSION-F2> --agent codex'",
+  2458,
+  0
+ ],
+ [
+  "/bin/zsh -lc 'devx read type Rational --session <SESSION-F2> --agent codex'",
+  2468,
+  0
+ ],
+ [
+  "/bin/zsh -lc 'devx read type Number --session <SESSION-F2> --agent codex'",
+  2032,
+  0
+ ]
+]

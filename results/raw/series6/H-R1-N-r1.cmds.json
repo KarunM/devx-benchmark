@@ -1,0 +1,17 @@
+[
+ [
+  "/bin/zsh -lc 'rg -n -C 5 \"class Limit|def __new__|allowed|dir\" .'",
+  1048607,
+  0
+ ],
+ [
+  "/bin/zsh -lc \"find sympy -path '*series*limits.py' -print\"",
+  57,
+  0
+ ],
+ [
+  "/bin/zsh -lc \"rg -n -C 12 \\\"class Limit|def __new__|dir.*\\\\[|dir.*allowed|direction\\\" sympy/series/limits.py | head -160\"",
+  2964,
+  0
+ ]
+]

@@ -1,0 +1,12 @@
+[
+ [
+  "/bin/zsh -lc 'rg -n -C 5 \"SearchReplaceBlockParser|markdown|code fence|whitespace|empty\" .'",
+  63076,
+  0
+ ],
+ [
+  "/bin/zsh -lc \"sed -n '1,55p' src/DevX.Cli/SearchReplaceBlockParser.cs && sed -n '88,103p' tests/DevX.Tests/Cli/SearchReplaceBlockParserTests.cs\"",
+  2286,
+  0
+ ]
+]

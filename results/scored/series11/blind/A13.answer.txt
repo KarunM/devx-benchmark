@@ -1,0 +1,1 @@
+`LooksLikeShellCommandLine` is defined at [src/DevX.Indexer/DevXCommandConfig.cs:153](<F3>/src/DevX.Indexer/DevXCommandConfig.cs:153) as `DevX.Indexer.DevXCommandConfig.LooksLikeShellCommandLine`.

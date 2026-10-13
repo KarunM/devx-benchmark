@@ -1,0 +1,7 @@
+[
+ [
+  "/bin/zsh -lc \"grep -n '_symbol' sympy/core/symbol.py\"",
+  1332,
+  0
+ ]
+]

@@ -1,0 +1,16 @@
+[
+ {
+  "tool": "Bash",
+  "kind": "shell",
+  "command": "grep -rn \"^class C99CodePrinter\" --include=*.py . | grep -v /tests/",
+  "bytes": 42,
+  "is_error": false
+ },
+ {
+  "tool": "Bash",
+  "kind": "shell",
+  "command": "grep -rn \"^class C99CodePrinter\" --include='*.py' . | grep -v /tests/",
+  "bytes": 63,
+  "is_error": false
+ }
+]

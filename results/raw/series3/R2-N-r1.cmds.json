@@ -1,0 +1,7 @@
+[
+ [
+  "/bin/zsh -lc \"rg -n -A24 -B4 'def _sanitize' sympy/core/symbol.py\"",
+  1164,
+  0
+ ]
+]

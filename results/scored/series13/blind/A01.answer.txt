@@ -1,0 +1,4 @@
+Three exception types are caught in `RipgrepLocator.ConfiguredPath` (src/DevX.Infrastructure/Storage/SQLite/RipgrepLocator.cs:115-117), each returning null:
+- `System.Text.Json.JsonException` (line 115)
+- `System.IO.IOException` (line 116)
+- `System.UnauthorizedAccessException` (line 117)

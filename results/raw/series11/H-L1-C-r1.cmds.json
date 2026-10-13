@@ -1,0 +1,7 @@
+[
+ [
+  "/bin/zsh -lc 'devx search symbol \"limitinf\" --session <SESSION-F2> --agent codex'",
+  1762,
+  0
+ ]
+]

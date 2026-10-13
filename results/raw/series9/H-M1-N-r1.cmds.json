@@ -1,0 +1,23 @@
+[
+ {
+  "tool": "Bash",
+  "kind": "shell",
+  "command": "grep -n \"class C99CodePrinter\" -A2 <F2>/sympy/printing/c.py",
+  "bytes": 132,
+  "is_error": false
+ },
+ {
+  "tool": "Bash",
+  "kind": "shell",
+  "command": "grep -n \"class C89CodePrinter\" -A2 <F2>/sympy/printing/c.py",
+  "bytes": 144,
+  "is_error": false
+ },
+ {
+  "tool": "Bash",
+  "kind": "shell",
+  "command": "grep -n \"^class CodePrinter\" <F2>/sympy/printing/codeprinter.py",
+  "bytes": 33,
+  "is_error": false
+ }
+]

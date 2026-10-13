@@ -1,0 +1,23 @@
+[
+ {
+  "tool": "Bash",
+  "kind": "shell",
+  "command": "grep -rn \"class SqliteSessionStore\" . 2>/dev/null",
+  "bytes": 219,
+  "is_error": false
+ },
+ {
+  "tool": "Bash",
+  "kind": "shell",
+  "command": "grep -n \"Session not found\\|private.*(\" src/DevX.Infrastructure/Storage/SQLite/SqliteSessionStore.cs 2>/dev/null || grep -n \"Session not found\\|private.*(\" ./src/DevX.Infrastructure/Storage/SQLite/SqliteSessionStore.cs",
+  "bytes": 578,
+  "is_error": false
+ },
+ {
+  "tool": "Bash",
+  "kind": "shell",
+  "command": "grep -n \"RequireSessionAsync\\|public.*Task.*Mark\" ./src/DevX.Infrastructure/Storage/SQLite/SqliteSessionStore.cs",
+  "bytes": 922,
+  "is_error": false
+ }
+]

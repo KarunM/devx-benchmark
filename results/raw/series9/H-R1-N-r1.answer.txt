@@ -1,0 +1,1 @@
+`ValueError` is raised, at sympy/series/limits.py:163-165. Message begins: `"direction must be one of '+', '-' or '+-', not %s"`.

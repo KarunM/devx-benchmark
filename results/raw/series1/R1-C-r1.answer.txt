@@ -1,0 +1,1 @@
+`AssertionError` is raised at `sympy/core/symbol.py:482` in `sympy.core.symbol.Dummy.__new__`.

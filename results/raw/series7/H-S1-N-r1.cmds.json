@@ -1,0 +1,17 @@
+[
+ [
+  "/bin/zsh -lc 'grep -n \"class SubsSet\" -A 60 sympy/series/gruntz.py'",
+  2340,
+  0
+ ],
+ [
+  "/bin/zsh -lc \"awk 'NR>=155 && NR<=420' sympy/series/gruntz.py | grep -n \\\"    def \\\" \"",
+  208,
+  0
+ ],
+ [
+  "/bin/zsh -lc \"grep -n \\\"    def do_subs\\\\|    def meets\\\\|    def union\\\\|    def copy\\\" sympy/series/gruntz.py\"",
+  123,
+  0
+ ]
+]

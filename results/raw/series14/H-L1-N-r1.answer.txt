@@ -1,0 +1,5 @@
+
+
+`limitinf` is defined at:
+
+- **`sympy/series/gruntz.py:428`** — `def limitinf(e, x):`

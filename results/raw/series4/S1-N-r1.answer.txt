@@ -1,0 +1,6 @@
+`sympy/core/symbol.py:269` — `kind`  
+`sympy/core/symbol.py:408` — `assumptions0`  
+`sympy/core/symbol.py:412` — `sort_key`  
+`sympy/core/symbol.py:415` — `as_dummy`  
+`sympy/core/symbol.py:420` — `as_real_imag`  
+`sympy/core/symbol.py:427` — `is_constant`; `sympy/core/symbol.py:433` — `free_symbols`; `sympy/core/symbol.py:438` — `as_set`

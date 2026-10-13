@@ -1,0 +1,1 @@
+I couldn’t retrieve the indexed source: both `devx read method` and `devx search text` failed because the session database is read-only.

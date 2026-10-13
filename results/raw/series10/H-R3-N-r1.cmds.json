@@ -1,0 +1,30 @@
+[
+ {
+  "tool": "Bash",
+  "kind": "shell",
+  "command": "grep -rn \"ConfiguredPath\" --include=*.cs . | head",
+  "bytes": 42,
+  "is_error": false
+ },
+ {
+  "tool": "Bash",
+  "kind": "shell",
+  "command": "grep -rn \"ConfiguredPath\" . | head",
+  "bytes": 1078,
+  "is_error": false
+ },
+ {
+  "tool": "Bash",
+  "kind": "shell",
+  "command": "grep -n \"ConfiguredPath\\|catch\" src/DevX.Infrastructure/Storage/SQLite/RipgrepLocator.cs",
+  "bytes": 483,
+  "is_error": false
+ },
+ {
+  "tool": "Bash",
+  "kind": "shell",
+  "command": "sed -n 99,120p src/DevX.Infrastructure/Storage/SQLite/RipgrepLocator.cs",
+  "bytes": 1252,
+  "is_error": false
+ }
+]

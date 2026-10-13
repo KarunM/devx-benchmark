@@ -1,0 +1,2 @@
+In [sympy/core/symbol.py:604](<F2>/sympy/core/symbol.py:604), each `exclude` element is passed to `sympify`.
+The object is built by calling `Wild.__xnew__` at [sympy/core/symbol.py:607](<F2>/sympy/core/symbol.py:607).

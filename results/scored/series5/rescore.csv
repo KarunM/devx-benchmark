@@ -1,0 +1,25 @@
+task,arm,verdict,reason
+H-L1,C,correct,gruntz.py:428 matches fixture
+H-L1,N,correct,gruntz.py:428 matches fixture
+H-L2,C,correct,printing/c.py:637 matches fixture
+H-L2,N,correct,printing/c.py:637 matches fixture
+H-L3,C,correct,DevXCommandConfig.cs:153 matches fixture
+H-L3,N,correct,DevXCommandConfig.cs:153 matches fixture
+H-M1,C,incorrect,names CCodePrinter at codeprinter.py:24; real class is CodePrinter at :53
+H-M1,N,correct,C89CodePrinter then CodePrinter at codeprinter.py:53 verified
+H-M2,C,correct,MarkFileExpandedAsync and MarkSymbolExpandedAsync both callers of RequireSessionAsync
+H-M2,N,correct,Both Mark names right; link lines 96/102 are off (real 101/107) but lines not asked
+H-R1,C,correct,ValueError; direction must be one of '+'; '-' or '+-'; not
+H-R1,N,correct,ValueError; direction must be one of '+'; '-' or '+-'
+H-R2,C,correct,markdown_fence_outside_blocks and zero_blocks mapped correctly
+H-R2,N,correct,markdown_fence_outside_blocks and zero_blocks mapped correctly
+H-R3,C,correct,JsonException; IOException; UnauthorizedAccessException all null
+H-R3,N,correct,JsonException; IOException; UnauthorizedAccessException lines 115-117 region
+H-S1,C,incorrect,lists __init__; __repr__; __getitem__ violating underscore constraint
+H-S1,N,incorrect,refusal; no committed answer
+H-S2,C,correct,all five public methods with right lines
+H-S2,N,correct,all five public methods with right lines
+H-X1,C,correct,sign (421) and limitinf (449-453) call sites verified
+H-X1,N,correct,sign and limitinf
+H-X2,C,correct,DoctorAsync and TrySearch
+H-X2,N,incorrect,Program.cs:1272 labelled top-level code; it is inside DoctorAsync which is not named

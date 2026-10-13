@@ -1,0 +1,7 @@
+[
+ [
+  "/bin/zsh -lc \"grep -R -n --include='*.py' 'def factorint' .\"",
+  105,
+  0
+ ]
+]

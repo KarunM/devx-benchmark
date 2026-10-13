@@ -1,0 +1,3 @@
+Public methods defined directly in `Symbol` (`sympy/core/symbol.py`):
+
+`kind` (line 269), `assumptions0` (line 408), `sort_key` (line 412), `as_dummy` (line 415), `as_real_imag` (line 420), `is_constant` (line 427), `free_symbols` (line 433), `as_set` (line 438).

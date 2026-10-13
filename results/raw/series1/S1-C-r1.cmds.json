@@ -1,0 +1,12 @@
+[
+ [
+  "/bin/zsh -lc 'devx search symbol \"Symbol\" --session <SESSION-F2> --format agent'",
+  1161,
+  0
+ ],
+ [
+  "/bin/zsh -lc 'devx read type \"sympy.core.symbol.Symbol\" --session <SESSION-F2> --format agent'",
+  1216,
+  0
+ ]
+]

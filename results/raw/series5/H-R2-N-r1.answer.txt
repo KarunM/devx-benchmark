@@ -1,0 +1,2 @@
+- `DevX.Cli.SearchReplaceBlockParser.Parse`, [SearchReplaceBlockParser.cs:20-22](<F3>/src/DevX.Cli/SearchReplaceBlockParser.cs:20): ```markdown_fence_outside_blocks```
+- Empty or whitespace response, [SearchReplaceBlockParser.cs:14-16](<F3>/src/DevX.Cli/SearchReplaceBlockParser.cs:14): ```zero_blocks```

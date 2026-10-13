@@ -1,0 +1,17 @@
+[
+ [
+  "/bin/zsh -lc 'devx search symbol C99CodePrinter --session <SESSION-F2> --agent codex'",
+  982,
+  0
+ ],
+ [
+  "/bin/zsh -lc 'devx read type C99CodePrinter --session <SESSION-F2> --agent codex'",
+  845,
+  0
+ ],
+ [
+  "/bin/zsh -lc 'devx read type C89CodePrinter --session <SESSION-F2> --agent codex'",
+  4019,
+  0
+ ]
+]

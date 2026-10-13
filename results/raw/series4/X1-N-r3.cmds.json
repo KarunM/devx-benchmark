@@ -1,0 +1,27 @@
+[
+ [
+  "/bin/zsh -lc \"grep -n '_factorint_small' sympy/ntheory/factor_.py\"",
+  202,
+  0
+ ],
+ [
+  "/bin/zsh -lc \"sed -n '300,338p' sympy/ntheory/factor_.py; sed -n '1295,1324p' sympy/ntheory/factor_.py\"",
+  1973,
+  0
+ ],
+ [
+  "/bin/zsh -lc \"grep -n '\"'^def '\"' sympy/ntheory/factor_.py | awk -F: '\"'$1<=330 || ($1>=1250 && $1<=1320)'\"'\"",
+  180,
+  0
+ ],
+ [
+  "/bin/zsh -lc \"grep -n '\"'^def '\"' sympy/ntheory/factor_.py | tail -12\"",
+  343,
+  0
+ ],
+ [
+  "/bin/zsh -lc \"grep -n '\"'^def factorint'\"' sympy/ntheory/factor_.py\"",
+  78,
+  0
+ ]
+]

@@ -1,0 +1,9 @@
+[
+ {
+  "tool": "Bash",
+  "kind": "shell",
+  "command": "grep -rn \"^class C99CodePrinter\" <F2> --include=\"*.py\" | grep -v test",
+  "bytes": 119,
+  "is_error": false
+ }
+]

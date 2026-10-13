@@ -1,0 +1,7 @@
+[
+ [
+  "/bin/zsh -lc 'devx read method \"Symbol._sanitize\" --session <SESSION-F2> --agent codex'",
+  796,
+  0
+ ]
+]

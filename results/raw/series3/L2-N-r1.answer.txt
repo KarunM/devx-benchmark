@@ -1,0 +1,1 @@
+`sympy/core/symbol.py:130` defines `uniquely_named_symbol`.

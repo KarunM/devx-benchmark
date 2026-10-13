@@ -1,0 +1,1 @@
+`Integer` inherits transitively from `AtomicExpr`, defined at `sympy/core/expr.py:3958`.

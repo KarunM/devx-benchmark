@@ -1,0 +1,25 @@
+blind_id,task,verdict,reason
+A01,H-R3,correct,matches expected
+A02,H-L3,correct,matches expected
+A03,H-R2,correct,matches expected
+A04,H-M2,correct,matches expected
+A05,H-M1,correct,matches expected
+A06,H-R3,correct,matches expected
+A07,H-L3,correct,matches expected
+A08,H-L2,correct,matches expected
+A09,H-S1,correct,matches expected
+A10,H-L1,correct,matches expected
+A11,H-R2,correct,matches expected
+A12,H-M1,correct,matches expected
+A13,H-L2,correct,matches expected
+A14,H-M2,correct,matches expected
+A15,H-L1,correct,matches expected
+A16,H-S2,correct,matches expected
+A17,H-X2,correct,matches expected
+A18,H-S2,correct,matches expected
+A19,H-R1,correct,matches expected
+A20,H-S1,correct,matches expected
+A21,H-R1,correct,matches expected
+A22,H-X2,correct,matches expected
+A23,H-X1,correct,matches expected
+A24,H-X1,correct,matches expected

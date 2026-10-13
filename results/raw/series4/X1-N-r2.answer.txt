@@ -1,0 +1,1 @@
+`factorint` calls `_factorint_small` at `sympy/ntheory/factor_.py:330` and `sympy/ntheory/factor_.py:1318`.

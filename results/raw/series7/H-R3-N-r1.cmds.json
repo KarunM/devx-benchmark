@@ -1,0 +1,12 @@
+[
+ [
+  "/bin/zsh -lc \"rg -n \\\"ConfiguredPath\\\" -g '*.cs' . | head -50\"",
+  1170,
+  0
+ ],
+ [
+  "/bin/zsh -lc \"sed -n '95,130p' src/DevX.Infrastructure/Storage/SQLite/RipgrepLocator.cs\"",
+  1927,
+  0
+ ]
+]

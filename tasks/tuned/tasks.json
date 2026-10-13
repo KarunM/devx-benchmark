@@ -1,0 +1,125 @@
+[
+ {
+  "id": "L1",
+  "kind": "locate",
+  "prompt": "Which file and line defines the function `factorint` (not the tests)?",
+  "expected": [
+   "ntheory/factor_.py:1052"
+  ],
+  "trial": true
+ },
+ {
+  "id": "L2",
+  "kind": "locate",
+  "prompt": "Which file and line defines the function `uniquely_named_symbol`?",
+  "expected": [
+   "core/symbol.py:130"
+  ],
+  "trial": false
+ },
+ {
+  "id": "L3",
+  "kind": "locate",
+  "prompt": "Which file and line defines the class `Rational`?",
+  "expected": [
+   "core/numbers.py:1202"
+  ],
+  "trial": false
+ },
+ {
+  "id": "R1",
+  "kind": "read",
+  "prompt": "In sympy.core.symbol.Dummy.__new__, what exception type is raised when dummy_index is given but name is None?",
+  "expected": [
+   "AssertionError"
+  ],
+  "trial": true
+ },
+ {
+  "id": "R2",
+  "kind": "read",
+  "prompt": "In sympy.core.symbol.Symbol._sanitize, which exception type is raised when the 'commutative' assumption is neither True nor False, and what does its message say?",
+  "expected": [
+   "ValueError",
+   "commutativity must be True or False"
+  ],
+  "trial": false
+ },
+ {
+  "id": "R3",
+  "kind": "read",
+  "prompt": "In sympy.core.symbol.Wild.__new__, which function is applied to each element of `exclude`, and which method is finally called to build the object?",
+  "expected": [
+   "sympify",
+   "__xnew__"
+  ],
+  "trial": false
+ },
+ {
+  "id": "S1",
+  "kind": "structure",
+  "prompt": "List the public methods (names not starting with an underscore) defined directly in class Symbol in sympy/core/symbol.py.",
+  "expected": [
+   "as_dummy",
+   "as_real_imag",
+   "as_set",
+   "is_constant",
+   "sort_key",
+   "assumptions0"
+  ],
+  "trial": false
+ },
+ {
+  "id": "S2",
+  "kind": "structure",
+  "prompt": "List the public methods (names not starting with an underscore) defined directly in class Sieve in sympy/ntheory/generate.py.",
+  "expected": [
+   "extend",
+   "extend_to_no",
+   "primerange",
+   "totientrange",
+   "mobiusrange",
+   "search"
+  ],
+  "trial": false
+ },
+ {
+  "id": "X1",
+  "kind": "crossref",
+  "prompt": "Which functions in sympy/ntheory/factor_.py call `_factorint_small`?",
+  "expected": [
+   "_perfect_power",
+   "factorint"
+  ],
+  "trial": false
+ },
+ {
+  "id": "X2",
+  "kind": "crossref",
+  "prompt": "Which function in sympy/core/symbol.py calls the module-level function `_symbol`?",
+  "expected": [
+   "uniquely_named_symbol"
+  ],
+  "trial": false
+ },
+ {
+  "id": "M1",
+  "kind": "multihop",
+  "prompt": "Class Symbol (sympy/core/symbol.py) inherits from two classes. Which one is defined under sympy/logic, and at which file:line does that class define `to_nnf`?",
+  "expected": [
+   "Boolean",
+   "sympy/logic/boolalg.py:131"
+  ],
+  "trial": true
+ },
+ {
+  "id": "M2",
+  "kind": "multihop",
+  "prompt": "Class Integer in sympy/core/numbers.py inherits (transitively) from a class defined in sympy/core/expr.py. Name that class and give its definition file:line.",
+  "expected": [
+   "AtomicExpr",
+   "sympy/core/expr.py:3958"
+  ],
+  "trial": false
+ }
+]

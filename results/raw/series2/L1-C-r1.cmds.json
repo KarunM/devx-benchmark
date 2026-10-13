@@ -1,0 +1,7 @@
+[
+ [
+  "/bin/zsh -lc 'devx search symbol \"factorint\" --session \"<SESSION-F2>\" --agent codex'",
+  383,
+  0
+ ]
+]

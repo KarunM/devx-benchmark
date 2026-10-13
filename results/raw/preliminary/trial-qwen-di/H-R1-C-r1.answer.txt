@@ -1,0 +1,6 @@
+
+
+**File:** `sympy/series/limits.py:166–168`
+
+- **Exception type:** `ValueError`
+- **Message begins with:** `"direction must be one of '+', '-' or '+-', not %s"`

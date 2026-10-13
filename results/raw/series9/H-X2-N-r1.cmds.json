@@ -1,0 +1,30 @@
+[
+ {
+  "tool": "Bash",
+  "kind": "shell",
+  "command": "grep -rn \"RipgrepLocator\" --include=*.cs src | grep -v \"/tests/\" ",
+  "bytes": 42,
+  "is_error": false
+ },
+ {
+  "tool": "Grep",
+  "kind": "other",
+  "command": "{\"pattern\": \"RipgrepLocator\\\\.Locate\", \"path\": \"src\", \"output_mode\": \"content\", \"-n\": true}",
+  "bytes": 321,
+  "is_error": false
+ },
+ {
+  "tool": "Grep",
+  "kind": "other",
+  "command": "{\"pattern\": \"static|void |IEnumerable|Task|bool |public |private \", \"path\": \"src/DevX.Cli/Program.cs\", \"output_mode\": \"content\", \"-n\": true, \"-B\": 0, \"head_limit\": 0}",
+  "bytes": 7176,
+  "is_error": false
+ },
+ {
+  "tool": "Read",
+  "kind": "other",
+  "command": "{\"file_path\": \"<F3>/src/DevX.Infrastructure/Storage/SQLite/RipgrepContentSearcher.cs\", \"offset\": 30, \"limit\": 15}",
+  "bytes": 1177,
+  "is_error": false
+ }
+]

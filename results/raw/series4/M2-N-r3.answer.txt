@@ -1,0 +1,1 @@
+`Integer` inherits from `Rational` ([sympy/core/numbers.py:1739](sympy/core/numbers.py:1739)), which inherits from `Number`; `Number` inherits from `AtomicExpr`, defined at [sympy/core/expr.py:3958](sympy/core/expr.py:3958).

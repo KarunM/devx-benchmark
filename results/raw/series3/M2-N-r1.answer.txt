@@ -1,0 +1,3 @@
+`Integer` inherits from `Rational` → `Number` → `AtomicExpr` → `Expr`.
+
+The class defined in `sympy/core/expr.py` is `Expr`, at `sympy/core/expr.py:44`.

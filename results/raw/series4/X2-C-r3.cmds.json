@@ -1,0 +1,12 @@
+[
+ [
+  "/bin/zsh -lc 'devx callers \"_symbol\" --session \"<SESSION-F2>\" --agent codex --full'",
+  428,
+  2
+ ],
+ [
+  "/bin/zsh -lc 'devx callers \"sympy.core.symbol.<module>._symbol\" --session \"<SESSION-F2>\" --agent codex --full'",
+  4923,
+  0
+ ]
+]

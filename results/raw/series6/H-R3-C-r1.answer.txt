@@ -1,0 +1,7 @@
+`src/DevX.Infrastructure/Storage/SQLite/RipgrepLocator.cs:99-118` — `ConfiguredPath`
+
+Caught exception types:
+
+- `JsonException`
+- `IOException`
+- `UnauthorizedAccessException`

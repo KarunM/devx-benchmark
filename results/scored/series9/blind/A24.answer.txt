@@ -1,0 +1,2 @@
+Markdown code fence → `"markdown_fence_outside_blocks"` (src/DevX.Cli/SearchReplaceBlockParser.cs:19)
+Empty/whitespace response → `"zero_blocks"` (src/DevX.Cli/SearchReplaceBlockParser.cs:15)

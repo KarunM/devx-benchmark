@@ -1,0 +1,4 @@
+task,arm,rep,correct,tool_calls_total,tool_calls_devx,tool_calls_shell,tool_calls_mcp,tool_calls_other,input_tokens,output_tokens,cached_tokens,result_bytes,wall_seconds,exit_code,timed_out
+L1,C,1,1,1,1,0,0,0,28066,151,9984,383,5.5,0,0
+R1,C,1,1,1,1,0,0,0,27120,179,23040,628,6.4,0,0
+M1,C,1,1,3,3,0,0,0,59447,427,51200,9596,10.9,0,0

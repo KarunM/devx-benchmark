@@ -1,0 +1,7 @@
+[
+ [
+  "/bin/zsh -lc \"grep -R -n --exclude-dir=.git --exclude='*test*' 'function limitinf\\\\|limitinf[[:space:]]*(' .\"",
+  813,
+  0
+ ]
+]

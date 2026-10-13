@@ -1,0 +1,1 @@
+`C99CodePrinter` → `C89CodePrinter` (sympy/printing/c.py:637) → base class `CodePrinter`, defined at sympy/printing/codeprinter.py:53.

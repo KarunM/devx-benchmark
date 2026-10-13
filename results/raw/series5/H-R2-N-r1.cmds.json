@@ -1,0 +1,17 @@
+[
+ [
+  "/bin/zsh -lc \"rg -n -C 5 'SearchReplaceBlockParser|\"'```|IsNullOrWhiteSpace'\"' .\"",
+  353181,
+  0
+ ],
+ [
+  "/bin/zsh -lc \"rg -n 'class SearchReplaceBlockParser|SearchReplaceBlockParser' src\"",
+  409,
+  0
+ ],
+ [
+  "/bin/zsh -lc \"nl -ba src/DevX.Cli/SearchReplaceBlockParser.cs | sed -n '1,110p'\"",
+  4531,
+  0
+ ]
+]
